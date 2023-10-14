@@ -42,8 +42,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -66,7 +66,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'IoT_Gateway_with_Applications',
+            docId: 'IoT_Gateway_Hardware',
             position: 'left',
             label: 'IoT Gateway Hardware',
             className: 'navbar_doc_items',
@@ -80,9 +80,9 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'IoT_Gateway_with_Applications',
+            docId: 'System_on_Modules',
             position: 'left',
-            label: 'SoM System on Module',
+            label: 'System on Modules',
             className: 'navbar_doc_items',
           },
           {
@@ -103,46 +103,71 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Navigation',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'IoT Gateway Hardware',
+                to: '/IoT_Gateway_Hardware',
+              },
+              {
+                label: 'IoT Gateway with Applications',
+                to: '/IoT_Gateway_with_Applications',
+              },
+              {
+                label: 'System on Modules',
+                to: '/System_on_Modules',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Ecosystem',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Forum',
+                href: 'https://community.dusuniot.com/',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://discord.com/invite/d5b2Y2rUsv',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Guick Guide',
             items: [
-              // {
-              //   label: 'Blog',
-              //   to: '/blog',
-              // },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Dusun IoT Website',
+                href: 'https://www.dusuniot.com/',
+              },
+              {
+                label: 'Shop',
+                href: 'https://www.dusuniot.com/shop/',
+              },
+              {
+                label: 'Technical Help',
+                href: 'https://community.dusuniot.com/',
+              },
+              {
+                label: 'Tutorials',
+                href: 'https://www.dusuniot.com/resources/iot-resources-library/',
+              },
+            ],
+          },
+          {
+            title: 'Company',
+            items: [
+              {
+                label: 'Company',
+                href: 'https://www.dusuniot.com/about-us/',
+              },
+              {
+                label: 'Company News',
+                href: 'https://www.dusuniot.com/news/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} DusunIoT.`,
       },
       prism: {
         theme: lightCodeTheme,

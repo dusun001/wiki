@@ -18,10 +18,17 @@ const sidebars = {
 
   // But you can create a sidebar manually
   tutorialSidebar: [
-    "Getting_Started",
+    {
+      type: "doc",
+      id: "Getting_Started",
+      label: "Getting Started",
+      className:'bolder',
+    },
     {
       type: "category",
       label: "IoT Gateway Hardware",
+      className:'bolder',
+      collapsed: false,
       link: {
         type: "doc",
         id: "IoT_Gateway_Hardware",
@@ -37,6 +44,10 @@ const sidebars = {
         {
           type: "category",
           label: "DSGW-290 RK3568 Gateway",
+          link: {
+            type: "doc",
+            id: "IoT_Gateway_Hardware/DSGW-290 RK3568 Gateway/Overview",
+          },
           items: [
             {
               type: "doc",
@@ -73,6 +84,10 @@ const sidebars = {
         {
           type: "category",
           label: "DSGW-210 RK3328 Gateway",
+          link: {
+            type: "doc",
+            id: "IoT_Gateway_Hardware/DSGW-210 RK3328 Gateway/Overview",
+          },
           items: [
             {
               type: "doc",
@@ -109,6 +124,10 @@ const sidebars = {
         {
           type: "category",
           label: "DSGW-211 PX30 Gateway",
+          link: {
+            type: "doc",
+            id: "IoT_Gateway_Hardware/DSGW-211 PX30 Gateway/Overview",
+          },
           items: [
             {
               type: "doc",
@@ -145,6 +164,10 @@ const sidebars = {
         {
           type: "category",
           label: "DSGW-230 RK3328 Gateway",
+          link: {
+            type: "doc",
+            id: "IoT_Gateway_Hardware/DSGW-230 RK3328 Gateway/Overview",
+          },
           items: [
             {
               type: "doc",
@@ -181,6 +204,10 @@ const sidebars = {
         {
           type: "category",
           label: "DSGW-120 PX30 Gateway",
+          link: {
+            type: "doc",
+            id: "IoT_Gateway_Hardware/DSGW-120 PX30 Gateway/Overview",
+          },
           items: [
             {
               type: "doc",
@@ -217,6 +244,10 @@ const sidebars = {
         {
           type: "category",
           label: "DSGW-030 MTK7688 Gateway",
+          link: {
+            type: "doc",
+            id: "IoT_Gateway_Hardware/DSGW-030 MTK7688 Gateway/Overview",
+          },
           items: [
             {
               type: "doc",
@@ -253,6 +284,10 @@ const sidebars = {
         {
           type: "category",
           label: "DSGW-090 MTK7628 Gateway",
+          link: {
+            type: "doc",
+            id: "IoT_Gateway_Hardware/DSGW-090 MTK7628 Gateway/Overview",
+          },
           items: [
             {
               type: "doc",
@@ -289,6 +324,10 @@ const sidebars = {
         {
           type: "category",
           label: "DSGW-092 ESP32 Gateway",
+          link: {
+            type: "doc",
+            id: "IoT_Gateway_Hardware/DSGW-092 ESP32 Gateway/Overview",
+          },
           items: [
             {
               type: "doc",
@@ -325,6 +364,10 @@ const sidebars = {
         {
           type: "category",
           label: "DSGW-201 MT7621A Gateway",
+          link: {
+            type: "doc",
+            id: "IoT_Gateway_Hardware/DSGW-201 MT7621A Gateway/Overview",
+          },
           items: [
             {
               type: "doc",
@@ -368,6 +411,10 @@ const sidebars = {
         {
           type: "category",
           label: "DSGW-081 i.MX6 ULL Gateway",
+          link: {
+            type: "doc",
+            id: "IoT_Gateway_Hardware/DSGW-081 i.MX6 ULL Gateway/Overview",
+          },
           items: [
             {
               type: "doc",
@@ -404,6 +451,10 @@ const sidebars = {
         {
           type: "category",
           label: "DSGW-006 MT7628AN Gateway",
+          link: {
+            type: "doc",
+            id: "IoT_Gateway_Hardware/DSGW-006 MT7628AN Gateway/Overview",
+          },
           items: [
             {
               type: "doc",
@@ -439,7 +490,11 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "DSGW-211 PX30 Gateway",
+          label: "DSGW-014 PX30K Gateway",
+          link: {
+            type: "doc",
+            id: "IoT_Gateway_Hardware/DSGW-014 PX30K Gateway/Overview",
+          },
           items: [
             {
               type: "doc",
@@ -476,6 +531,10 @@ const sidebars = {
         {
           type: "category",
           label: "DSGW-380 RK3588 Gateway",
+          link: {
+            type: "doc",
+            id: "IoT_Gateway_Hardware/DSGW-380 RK3588 Gateway/Overview",
+          },
           items: [
             {
               type: "doc",
@@ -514,6 +573,7 @@ const sidebars = {
     {
       type: "category",
       label: "IoT Gateway with Applications",
+      className:'bolder',
       link: {
         type: "doc",
         id: "IoT_Gateway_with_Applications",
@@ -522,6 +582,10 @@ const sidebars = {
         {
           type: "category",
           label: "DSGW-210 RK3328 Home Assistant Gateway",
+          link: {
+            type: "doc",
+            id: "IoT_Gateway_with_Applications/DSGW-210 RK3328 Home Assistant Gateway/Overview",
+          },
           items: [
             {
               type: "doc",
@@ -553,6 +617,10 @@ const sidebars = {
         {
           type: "category",
           label: "DSGW-040 MT7620 Router Gateway",
+          link: {
+            type: "doc",
+            id: "IoT_Gateway_with_Applications/DSGW-040 MT7620 Router Gateway/Overview",
+          },
           items: [
             {
               type: "doc",
@@ -584,6 +652,10 @@ const sidebars = {
         {
           type: "category",
           label: "DSGW-021 MT7628AN Router Gateway",
+          link: {
+            type: "doc",
+            id: "IoT_Gateway_with_Applications/DSGW-021 MT7628AN Router Gateway/Overview",
+          },
           items: [
             {
               type: "doc",
@@ -617,6 +689,7 @@ const sidebars = {
     {
       type: "category",
       label: "System on Modules",
+      className:'bolder',
       link: {
         type: "doc",
         id: "System_on_Modules",
@@ -625,6 +698,10 @@ const sidebars = {
         {
           type: "category",
           label: "PX30 SoM",
+          link: {
+            type: "doc",
+            id: "System_on_Modules/PX30 SoM/Overview",
+          },
           items: [
             {
               type: "doc",
@@ -644,17 +721,17 @@ const sidebars = {
             {
               type: "doc",
               id: "System_on_Modules/PX30 SoM/Hardware Development Guide",
-              label: "Quick Start Guide",
+              label: "Hardware Development Guide",
             },
             {
               type: "doc",
               id: "System_on_Modules/PX30 SoM/Chip Guidance",
-              label: "Quick Start Guide",
+              label: "Chip Guidance",
             },
             {
               type: "doc",
               id: "System_on_Modules/PX30 SoM/Deployment Guide",
-              label: "Quick Start Guide",
+              label: "Deployment Guide",
             },
             {
               type: "doc",
@@ -667,7 +744,207 @@ const sidebars = {
               label: "Release Note",
             },
           ]
-        }
+        },
+        {
+          type: "category",
+          label: "RK3328 SoM",
+          link: {
+            type: "doc",
+            id: "System_on_Modules/RK3328 SoM/Overview",
+          },
+          items: [
+            {
+              type: "doc",
+              id: "System_on_Modules/RK3328 SoM/Specification",
+              label: "Specification",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/RK3328 SoM/User Manual",
+              label: "User Manual",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/RK3328 SoM/Quick Start Guide",
+              label: "Quick Start Guide",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/RK3328 SoM/Hardware Development Guide",
+              label: "Hardware Development Guide",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/RK3328 SoM/Chip Guidance",
+              label: "Chip Guidance",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/RK3328 SoM/Deployment Guide",
+              label: "Deployment Guide",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/RK3328 SoM/FAQs",
+              label: "FAQs",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/RK3328 SoM/Release Note",
+              label: "Release Note",
+            },
+          ]
+        },
+        {
+          type: "category",
+          label: "RK3308 SoM",
+          link: {
+            type: "doc",
+            id: "System_on_Modules/RK3308 SoM/Overview",
+          },
+          items: [
+            {
+              type: "doc",
+              id: "System_on_Modules/RK3308 SoM/Specification",
+              label: "Specification",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/RK3308 SoM/User Manual",
+              label: "User Manual",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/RK3308 SoM/Quick Start Guide",
+              label: "Quick Start Guide",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/RK3308 SoM/Hardware Development Guide",
+              label: "Hardware Development Guide",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/RK3308 SoM/Chip Guidance",
+              label: "Chip Guidance",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/RK3308 SoM/Deployment Guide",
+              label: "Deployment Guide",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/RK3308 SoM/FAQs",
+              label: "FAQs",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/RK3308 SoM/Release Note",
+              label: "Release Note",
+            },
+          ]
+        },
+        {
+          type: "category",
+          label: "MT7621 SoM",
+          link: {
+            type: "doc",
+            id: "System_on_Modules/MT7621 SoM/Overview",
+          },
+          items: [
+            {
+              type: "doc",
+              id: "System_on_Modules/MT7621 SoM/Specification",
+              label: "Specification",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/MT7621 SoM/User Manual",
+              label: "User Manual",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/MT7621 SoM/Quick Start Guide",
+              label: "Quick Start Guide",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/MT7621 SoM/Hardware Development Guide",
+              label: "Hardware Development Guide",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/MT7621 SoM/Chip Guidance",
+              label: "Chip Guidance",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/MT7621 SoM/Deployment Guide",
+              label: "Deployment Guide",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/MT7621 SoM/FAQs",
+              label: "FAQs",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/MT7621 SoM/Release Note",
+              label: "Release Note",
+            },
+          ]
+        },
+        {
+          type: "category",
+          label: "MT7628 SoM",
+          link: {
+            type: "doc",
+            id: "System_on_Modules/MT7628 SoM/Overview",
+          },
+          items: [
+            {
+              type: "doc",
+              id: "System_on_Modules/MT7628 SoM/Specification",
+              label: "Specification",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/MT7628 SoM/User Manual",
+              label: "User Manual",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/MT7628 SoM/Quick Start Guide",
+              label: "Quick Start Guide",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/MT7628 SoM/Hardware Development Guide",
+              label: "Hardware Development Guide",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/MT7628 SoM/Chip Guidance",
+              label: "Chip Guidance",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/MT7628 SoM/Deployment Guide",
+              label: "Deployment Guide",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/MT7628 SoM/FAQs",
+              label: "FAQs",
+            },
+            {
+              type: "doc",
+              id: "System_on_Modules/MT7628 SoM/Release Note",
+              label: "Release Note",
+            },
+          ]
+        },
       ]
     }
   ],

@@ -88,3 +88,25 @@
   font-size: 0.85rem;
   font-weight: bold;
 }
+
+.bolder>.menu__list-item-collapsible>a {
+  font-weight: bold;
+  color: #000;
+}
+
+.bolder>.menu__link {
+  font-weight: bold;
+  color: #000;
+}
+[data-theme='dark'] .bolder>.menu__list-item-collapsible>a {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+[data-theme='dark'] .bolder>.menu__link {
+  font-weight: bold;
+  color: #ffffff;
+}
+.navbar__logo img {
+  height: 80%;
+}
