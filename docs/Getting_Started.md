@@ -1,5 +1,6 @@
 ---
 description: Dudun Wiki Platform
+id: getting_started
 title: Getting_Started
 keywords:
 - Dudun wiki
