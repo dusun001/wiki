@@ -7,19 +7,19 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Dusun wiki',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
-
+  tagline: 'Dusun wiki',
+  favicon: 'img/favicon.png',
+  noIndex: true,
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://wiki.dusuniot.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'dusun001', // Usually your GitHub org/user name.
+  projectName: 'wiki', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -55,6 +55,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+      },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
@@ -174,9 +177,9 @@ const config = {
         darkTheme: darkCodeTheme,
       },
       algolia: {
-        appId: 'AKPIWVFYW0',
-        apiKey: 'dd2e490797af4d0ef1afdd73f66e3174',
-        indexName: 'wiki_update',
+        appId: 'ANUSD2X02Y',
+        apiKey: '47b490fe9a55f1c8d34d2dec4aea653d',
+        indexName: 'dusuniot',
         contextualSearch: false,
         searchParameters: {},
         searchPagePath: 'search',

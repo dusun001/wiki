@@ -20,10 +20,16 @@ const sidebars = {
   tutorialSidebar: [
     {
       type: "doc",
-      id: "Getting_Started",
+      id: "getting_started",
       label: "Getting Started",
       className:'bolder',
     },
+    // {
+    //   type: "doc",
+    //   id: "dsgw-210-home-assistant-gateway",
+    //   label: "dsgw-210-home-assistant-gateway",
+    //   className:'bolder',
+    // },
     {
       type: "category",
       label: "IoT Gateway Hardware",
@@ -584,7 +590,8 @@ const sidebars = {
           label: "DSGW-210 RK3328 Home Assistant Gateway",
           link: {
             type: "doc",
-            id: "IoT_Gateway_with_Applications/DSGW-210 RK3328 Home Assistant Gateway/Overview",
+            // id: "IoT_Gateway_with_Applications/DSGW-210 RK3328 Home Assistant Gateway/Overview",
+            id: "dsgw-210-home-assistant-gateway"
           },
           items: [
             {

@@ -39,5 +39,5 @@ export default function Home() {
   //     </main>
   //   </Layout>
   // );
-  return <Redirect to="/Getting_Started" />;
+  return <Redirect to="/getting_started" />;
 }
