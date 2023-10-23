@@ -69,21 +69,21 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'IoT_Gateway_Hardware',
+            docId: 'iot-gateway-hardware',
             position: 'left',
             label: 'IoT Gateway Hardware',
             className: 'navbar_doc_items',
           },
           {
             type: 'doc',
-            docId: 'IoT_Gateway_with_Applications',
+            docId: 'iot_gateway_with_applications',
             position: 'left',
             label: 'IoT Gateway with Applications',
             className: 'navbar_doc_items',
           },
           {
             type: 'doc',
-            docId: 'System_on_Modules',
+            docId: 'system_on_modules',
             position: 'left',
             label: 'System on Modules',
             className: 'navbar_doc_items',
@@ -110,15 +110,15 @@ const config = {
             items: [
               {
                 label: 'IoT Gateway Hardware',
-                to: '/IoT_Gateway_Hardware',
+                to: '/iot-gateway-hardware',
               },
               {
                 label: 'IoT Gateway with Applications',
-                to: '/IoT_Gateway_with_Applications',
+                to: '/iot_gateway_with_applications',
               },
               {
                 label: 'System on Modules',
-                to: '/System_on_Modules',
+                to: '/system_on_modules',
               },
             ],
           },
