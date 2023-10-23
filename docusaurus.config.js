@@ -76,14 +76,14 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'iot_gateway_with_applications',
+            docId: 'iot-gateway-with-applications',
             position: 'left',
             label: 'IoT Gateway with Applications',
             className: 'navbar_doc_items',
           },
           {
             type: 'doc',
-            docId: 'system_on_modules',
+            docId: 'system-on-modules',
             position: 'left',
             label: 'System on Modules',
             className: 'navbar_doc_items',
@@ -114,11 +114,11 @@ const config = {
               },
               {
                 label: 'IoT Gateway with Applications',
-                to: '/iot_gateway_with_applications',
+                to: '/iot-gateway-with-applications',
               },
               {
                 label: 'System on Modules',
-                to: '/system_on_modules',
+                to: '/system-on-modules',
               },
             ],
           },

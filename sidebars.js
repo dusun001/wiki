@@ -20,7 +20,7 @@ const sidebars = {
   tutorialSidebar: [
     {
       type: "doc",
-      id: "getting_started",
+      id: "getting-started",
       label: "Getting Started",
       className:'bolder',
     },
@@ -542,7 +542,7 @@ const sidebars = {
       className:'bolder',
       link: {
         type: "doc",
-        id: "iot_gateway_with_applications",
+        id: "iot-gateway-with-applications",
       },
       items: [
         {
@@ -694,7 +694,7 @@ const sidebars = {
       className:'bolder',
       link: {
         type: "doc",
-        id: "system_on_modules",
+        id: "system-on-modules",
       },
       items: [
         {
