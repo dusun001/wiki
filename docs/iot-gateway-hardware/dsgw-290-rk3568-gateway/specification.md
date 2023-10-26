@@ -1,14 +1,8 @@
-# Specification.md
+# **DSGW-290 Multi Protocol Host Gateway**
 
 | **Rev.** | **Date**   | **Update Description** | **By**                       |      |
 | -------- | ---------- | ---------------------- | ---------------------------- | ---- |
-| 1.0      | 2022-07-08 |                        | New version release          | Li   |
-| 1.1      | 2022-07-13 |                        | Add hardware block           | Li   |
-| 1.2      | 2022-7-19  |                        | Change coreboard into RK3568 | Li   |
-| 1.3      | 2022-7-29  |                        | Adjust interface             | Li   |
-| 1.4      | 2023-03-02 |                        | Add resource list            | WX   |
-| 1.5      | 2023-04-03 |                        | Adjust resource list         | Li   |
-| 2.0      | 2023-08-10 | New version release    | New version release          | Xu   |
+| 1.0      | 2023-08-10 | New version release    | New version release          | Xu   |
 
 ## **Model List**
 
@@ -190,14 +184,14 @@ Otherwise, DSGW-290 supports rich video and audio interfaces, HMDI output and MI
 - Default Frequency: 916MHz(Different country with different frequency)
 
 
-### **3.2.5 Lte Cat4**
+### **3.2.5 Lte Cat4 Performance**
 
 - LTE-FDD: B1/B2/B3/B4/B5/B7/B8/B12/B13/B18/B19/B20/B25/B26/B28
 - LTE-TDD: B38/B39/B40/B41
 - WCDMA: B1/B2/B4/B5/B6/B8/B19
 - GSM: B2/B3/B5/B8
 
-### **3.2.6 Sub-G**
+### **3.2.6 Sub-G Performance**
 
 - TX Power: 14dBm
 - Range: 100 meters minimum, open filed 
