@@ -1,8 +1,5 @@
 # **DSGW-290 Multi Protocol Host Gateway**
 
-| **Rev.** | **Date**   | **Update Description** | **By**                       |      |
-| -------- | ---------- | ---------------------- | ---------------------------- | ---- |
-| 1.0      | 2023-08-10 | New version release    | New version release          | Xu   |
 
 ## **Model List**
 
@@ -32,13 +29,13 @@
 
 # **1. Product Introduction**
 
-## **1.1 Purpose and Description**
+## 1.1 Purpose and Description
 
 DSGW-290 is an IoT gateway featuring multiple protocols and edge computing capabilities(up to 1 TOPS). It ensures reliable connectivity for a broad array of wireless IoT devices. With its modular architecture, the gateway offers the flexibility to customize various features, delivering an off-the-shelf solution tailored to your specific requirements. Available options include `cellular`, `Bluetooth5.2`, `Wi-Fi 2.4G/5G`, `Ethernet`, `Zigbee3.0`, `Z-Wave`, `Sub-G`.
 
 Otherwise, DSGW-290 supports rich video and audio interfaces, HMDI output and MIC output/input.Supports user scenarios with screen display.
 
-## **1.2 Purpose and Description**
+## 1.2 Purpose and Description
 
 - Rich interface, highly expansion capacity
 - Support multiple IoT wireless protocol: ZigBee 3.0, Bluetooth 5.2, Z-Wave, Sub-G
@@ -49,15 +46,38 @@ Otherwise, DSGW-290 supports rich video and audio interfaces, HMDI output and MI
 
 # **2. Product Detail**
 
-## **2.1 Interface and Dimension**
+## 2.1 Interface and Dimension
+
+![image-20231026104042334](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20231026104042334.png)
 
 
+![image-20231026104104054](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20231026104104054.png)
+
+
+
+![image-20231026104125747](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20231026104125747.png)
+
+
+
+![image-20231026104139761](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20231026104139761.png)
 
 
 
 ## 2.2 Hardware Block Diagram
 
+![image-20231026104209545](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20231026104209545.png)
 
+
+
+![image-20231027115013687](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20231027115013687.png)
+
+
+
+![image-20231027115038915](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20231027115038915.png)
+
+
+
+![image-20231027115049234](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20231027115049234.png)
 
 
 ---
@@ -66,7 +86,7 @@ Otherwise, DSGW-290 supports rich video and audio interfaces, HMDI output and MI
 
 # **3. Specification**
 
-## **3.1 Technical Specification**
+## 3.1 Technical Specification
 
 
 
@@ -106,7 +126,7 @@ Otherwise, DSGW-290 supports rich video and audio interfaces, HMDI output and MI
 
 ## **3.2 Communication Performance**
 
-### **3.2.1 Wi-Fi Performance**
+### 3.2.1 Wi-Fi Performance
 
 - IEEE wireless LAN standard: 
   - IEEE802.11ac
@@ -149,7 +169,7 @@ Otherwise, DSGW-290 supports rich video and audio interfaces, HMDI output and MI
 
 
 
-### **3.2.2 Bluetooth Performance**
+### 3.2.2 Bluetooth Performance
 
 - TX Power: 19.5dBm
 - Range: 150 meters minimum, open filed
@@ -162,7 +182,7 @@ Otherwise, DSGW-290 supports rich video and audio interfaces, HMDI output and MI
 - Bandwidth (MHz):2MHz Modulation: GFSK
 
 
-### **3.2.3 ZigBee Performance**
+### 3.2.3 ZigBee Performance
 
 - TX Power: 17.5dBm
 - Range: 100 meters maximum, open filed
@@ -176,7 +196,7 @@ Otherwise, DSGW-290 supports rich video and audio interfaces, HMDI output and MI
 - Modulation: OQPSK
 
 
-### **3.2.4 Z-Wave Performance**
+### 3.2.4 Z-Wave Performance
 
 - TX power up to13dBm(20mW)
 - RX sensitivity: @100kbps-97.5dBm
@@ -184,14 +204,14 @@ Otherwise, DSGW-290 supports rich video and audio interfaces, HMDI output and MI
 - Default Frequency: 916MHz(Different country with different frequency)
 
 
-### **3.2.5 Lte Cat4 Performance**
+### 3.2.5 Lte Cat4 Performance
 
 - LTE-FDD: B1/B2/B3/B4/B5/B7/B8/B12/B13/B18/B19/B20/B25/B26/B28
 - LTE-TDD: B38/B39/B40/B41
 - WCDMA: B1/B2/B4/B5/B6/B8/B19
 - GSM: B2/B3/B5/B8
 
-### **3.2.6 Sub-G Performance**
+### 3.2.6 Sub-G Performance
 
 - TX Power: 14dBm
 - Range: 100 meters minimum, open filed 
@@ -213,7 +233,7 @@ Otherwise, DSGW-290 supports rich video and audio interfaces, HMDI output and MI
 
 # **5. Package Information**
 
-## **5.1. BOM List**
+## 5.1. BOM List
 
 | **Accessory**   | **Quantity** |
 | --------------- | ------------ |
@@ -228,7 +248,7 @@ Otherwise, DSGW-290 supports rich video and audio interfaces, HMDI output and MI
 | Lining          | 1            |
 | Accessory Box   | 1            |
 
-## **5.2 Package**
+## 5.2 Package
 
 | Packing Quantity | 1 Box（24 pcs）    |
 | ---------------- | ------------------ |
