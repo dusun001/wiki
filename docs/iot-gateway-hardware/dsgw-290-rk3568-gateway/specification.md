@@ -1,6 +1,6 @@
 # **DSGW-290 Multi Protocol Host Gateway**
 
-<div style="text-align: center;">
+<div style={{textAlign: 'center'}}>
 <style>
 .print-button {
   background-color: orange;
