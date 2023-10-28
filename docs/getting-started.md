@@ -1,82 +1,155 @@
 ---
-description: Dudun Wiki Platform
-id: getting-started
-title: Getting_Started
+description: Dusun IoT Wiki Platform is a resource hub for IoT developers to search for development resources they need. There we have product spec, user manual, quick start guide, SDK, firmware, etc., to read and download.
+title: Dusun IoT Wiki Platform - Getting Started
 keywords:
-- Dudun wiki
-- keyword2
-- keyword3
+- Dusun IoT wiki center
+- IoT hardware development
+- Embedded system hardware
 tags:
 - Getting Started
-- test
 ---
 
-# DusunIoT 简介
-
-![DusunIoT](https://www.dusuniot.com/wp-content/uploads/2022/06/Dusuniot-logo-R-400-e1669108867399.png)
-
-[DusunIoT](https://www.dusuniot.com/) 是一个物联网（IoT）解决方案提供商。他们提供各种硬件和软件产品，帮助企业和开发者构建智能设备和物联网应用。
-
-## 主要产品
-
-### 1. IoT 网关
-
-DusunIoT 提供多种类型的 IoT 网关，用于连接智能设备和云平台。这些网关具备**高性能**和**稳定性**，支持多种通信协议，如 Wi-Fi、蓝牙、LoRa 等。
-
-### 2. 传感器
-
-他们的传感器产品系列包括**温度传感器**、**湿度传感器**、**光照传感器**等。这些传感器可以用于监测环境数据，并将数据传输到云平台进行分析和处理。
-
-### 3. 云平台
-
-DusunIoT 的云平台提供了数据存储、设备管理、远程监控等功能。用户可以通过云平台管理和控制他们的智能设备，同时可以利用平台提供的 API 进行数据分析和开发自定义应用。
-
-## 重点说明
-
-在这个示例中，我们需要关注以下几点：
-
-- DusunIoT 提供多种类型的 IoT 网关，用于连接智能设备和云平台。
-- 他们的传感器产品系列包括**温度传感器**、**湿度传感器**、**光照传感器**等。
-- DusunIoT 的云平台提供了**数据存储**、**设备管理**、**远程监控**等功能。
-
-## 数据示例
-
-以下是一些传感器数据的示例：
-
-| 传感器 | 温度（摄氏度） | 湿度（%） | 光照强度（流明） |
-| ------ | -------------- | --------- | ---------------- |
-| 传感器A | 25             | 60        | 1000             |
-| 传感器B | 22             | 55        | 800              |
-| 传感器C | 27             | 65        | 1200             |
 
 
-## 示例代码
+# Dusun IoT Wiki Center  
+Greetings! You've stepping into the Dusun IoT Wiki Center, and we're here to guide you through our comprehensive resources hub for development! Here, you'll find essential materials such as product specifications, user manuals, quick start guides (QSG), and more, tailored to all of Dusun IoT's embedded hardware products.
+<div style="text-align:center">
+    <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-wiki-center.jpg" alt="Dusun IoT Wiki Center" />
+</div>
+ 
 
-以下是一个使用 Python 编写的简单示例，演示如何使用 DusunIoT 的 API 连接到他们的云平台并获取传感器数据：
+## Dusun IoT's Embedded System Hardware Portfolio
 
-```python
-import requests
+[Dusun IoT](https://www.dusuniot.com/) is committed to delivering a diverse range of embedded hardware solutions, spanning from SoMs to pure IoT gateway hardware, and IoT gateways with integrated applications. Our extensive product portfolio is designed to cater to businesses of all types, diverse development capabilities, and varying levels of technical expertise.
+![Dusun IoT embedded system hardware](https://www.dusuniot.com/wp-content/uploads/2023/10/dusuniot-embedded-system-hardware.jpg)
 
-API_URL = "https://api.dusuniot.com"
-API_KEY = "YOUR_API_KEY"
+### 1. [IoT Gateway Hardware](https://wiki.dusuniot.com/iot-gateway-hardware)
 
-def get_sensor_data(sensor_id):
-    headers = {"Authorization": f"Bearer {API_KEY}"}
-    response = requests.get(f"{API_URL}/sensors/{sensor_id}/data", headers=headers)
-    if response.status_code == 200:
-        data = response.json()
-        return data
-    else:
-        return None
+Dusun IoT gateway hardware offers customers a complete set of **ready-made platforms** to streamline the development process and expedite the deployment of applications. Once development is complete, these gateway hardware will facilitate device access, data management, and connections to cloud platforms, enabling remote monitoring and viewing, among other functionalities. 
 
-sensor_id = "YOUR_SENSOR_ID"
-data = get_sensor_data(sensor_id)
-if data:
-    print("Sensor data:", data)
-else:
-    print("Failed to retrieve sensor data.")
-```
+<p align="center">
+  <a href="https://wiki.dusuniot.com/iot-gateway-hardware"><b>Get Started NOW!</b></a>
+</p>
 
-## 总结
+[![IoT gateway Development](https://www.dusuniot.com/wp-content/uploads/2023/08/image-2-1024x573.png)](https://wiki.dusuniot.com/iot-gateway-hardware)
+***
 
-DusunIoT 是一个提供物联网解决方案的公司，他们的产品包括 IoT 网关、传感器和云平台。通过他们的产品，用户可以构建智能设备和物联网应用。以上只是一个简单的示例，你可以访问 [DusunIoT 官方网站](https://www.dusuniot.com/) 了解更多详细信息。
+### 2. IoT Gateway with Applications
+
+ Dusun IoT also provides gateways with integrated applications for quick and user-friendly deployment. Some  have incorporated **built-in integration with well-known platforms like AWS, Azure, Thingsboard, etc.**, offering free-code integration. Some comes with **pre-installed applications like Home Assistant** for effortless plug-and-play home automation, eliminating the need for complex configuration or programming.  
+
+ <p align="center">
+  <a href="https://wiki.dusuniot.com/iot-gateway-with-applications"><b>Get Started NOW!</b></a>
+</p>
+
+ ***
+
+### 3. System on Module
+
+Dusun IoT offers a diverse selection of SoMs featuring **ARM-based CPUs known for their energy efficiency and high performance**. The **modular design** allows for flexible configuration, ideal for a broad spectrum of IoT projects. Users can also **develop their projects directly based on the existing BSP**, focusing more on application and function development, rather than the need to build an entire system from the ground up. **All SoMs undergo rigorous testing** to ensure outstanding reliability.  
+
+ <p align="center">
+  <a href="https://wiki.dusuniot.com/system-on-modules"><b>Get Started NOW!</b></a>
+</p>
+
+ ***
+
+## How to Get Started?
+
+Dusun IoT's embedded system hardware is developed based on a wide range of SoCs from different companies, including NXP, Rockchip, MediaTek, and more. You can **easily select the specific products you're interested in from the left sidebar**.
+
+Each product comes with essential **specifications, user manuals, and quick start guides**. Additional documents may also be also offered.   
+- **Specification**: provide details on the hardware, including CPU core parameters, physical attributes, wireless performance, mechanical design, internal and external interfaces, dimensions, quality testing criteria, and obtained certifications  
+- **User Manual**: thoughtfully designed to help users know what’s in the box, interpret what the LED lights on the device mean, comprehend the functions of each interface, and provide the using guidance. 
+- **Quick Start Guide**: provides step-by-step instructions for network setup, targeting device configuration, Linux SDK installation, and firmware image modification for advanced application development. 
+
+If you need any technical assistance or have ideas to exchange, do not hesitate to visit our **[online forum](https://community.dusuniot.com/)**. We have FAE engineers to answer your questions within 24 hours，and a group of gateway developers to share thoughts together.
+
+
+## Technical Support and Product Discussion
+
+Thank you for selecting our products! Our priority is to ensure that your experience with our products is hassle-free and enjoyable. We provide a range of communication options for developers to easily reach us. Do not hesitate to contact us!   
+
+<table>
+  <tr>
+    <td>
+      <a href="https://community.dusuniot.com/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-online-forum.png" alt="Dusun IoT online forum" style="max-width:100%; height:auto;"></a>
+    </td>
+    <td>
+      <a href="https://www.dusuniot.com/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-official-website.png" alt="Dusun IoT official website" style="max-width:100%; height:auto;"></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/dusun001/wiki"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-github.png" alt="Dusun IoT github" style="max-width:100%; height:auto;"></a>
+    </td>
+    <td>
+      <a href="https://www.hackster.io/dusun-iot/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-hackster.png" alt="Dusun IoT hackster" style="max-width:100%; height:auto;"></a>
+    </td>
+  </tr>
+</table>
+
+
+- **[Forum](https://community.dusuniot.com/)**: Innovate. Share. Elevate. Join our extensive product usage discussions, share your experiences, or seek assistance from our community and technical experts.
+- **[Github](https://github.com/dusun001/wiki)**: Download our demo code, SDK, firmware, and API files from our GitHub repository, and kickstart your journey into the world of gateway development.  
+- **[Hackster](https://www.hackster.io/dusun-iot)**: Showcase your IoT projects using Dusun IoT’ hardware. Engage with like-minded innovators, and inspire others with your creative solutions.  
+- **[Contact](https://www.dusuniot.com/contact-us/)**: Get expert suggestions by simply filling our forms or email us. Our team is readily available to provide the technical consultation you need for your projects. 
+
+## What's More
+If you're interested in **purchasing [IoT hardware products](https://www.dusuniot.com/shop/)**, we invite you to explore  [Dusun IoT official website](https://www.dusuniot.com/) for  pricing, and welcome to discover the solutions that suit your needs. 
+
+We also keep our **LinkedIn, YouTube, Facebook, and Twitter profiles** updated with the latest company news, product releases, case studies, and valuable industrial insights. Feel free to follow us for the most recent updates. 
+
+<style>
+.social-media-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.social-media-list-item {
+  text-align: center;
+  flex-basis: 25%;
+}
+
+.social-media-list-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.social-media-list-item a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  margin-top: 5px;
+}
+</style>
+
+<ul class="social-media-list">
+  <li class="social-media-list-item">
+    <a href="https://www.linkedin.com/company/dusun-electron-ltd/">
+      <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-linkedin.png" alt="LinkedIn">
+      LinkedIn
+    </a>
+  </li>
+  <li class="social-media-list-item">
+    <a href="https://www.youtube.com/channel/UCyb4PpqVgvKgC9KpkByZaaQ">
+      <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-youtube.png" alt="YouTube">
+      YouTube
+    </a>
+  </li>
+  <li class="social-media-list-item">
+    <a href="https://www.facebook.com/DUSUN-IoT-101398069457701">
+      <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-facebook.png" alt="Facebook">
+      Facebook
+    </a>
+  </li>
+  <li class="social-media-list-item">
+    <a href="https://twitter.com/Dusunelectron">
+      <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-twitter.png" alt="Twitter">
+      Twitter
+    </a>
+  </li>
+</ul>
