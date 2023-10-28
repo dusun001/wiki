@@ -1,19 +1,7 @@
 # **DSGW-290 Multi Protocol Host Gateway**
 
 <div style={{textAlign: 'center'}}>
-<style>
-.print-button {
-  background-color: orange;
-  color: black;
-  border: none;
-  padding: 10px 40px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-}
-</style>
+
 
 <button class="print-button" onclick="window.print()">Print</button>
 
