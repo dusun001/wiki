@@ -73,18 +73,18 @@ Thank you for selecting our products! Our priority is to ensure that your experi
 <table>
   <tr>
     <td>
-      <a href="https://community.dusuniot.com/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-online-forum.png" alt="Dusun IoT online forum" style="max-width:100%; height:auto;"></a>
+      <a href="https://community.dusuniot.com/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-online-forum.png" alt="Dusun IoT online forum" style="max-width:100%; height:auto;"/></a>
     </td>
     <td>
-      <a href="https://www.dusuniot.com/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-official-website.png" alt="Dusun IoT official website" style="max-width:100%; height:auto;"></a>
+      <a href="https://www.dusuniot.com/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-official-website.png" alt="Dusun IoT official website" style="max-width:100%; height:auto;"/></a>
     </td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/dusun001/wiki"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-github.png" alt="Dusun IoT github" style="max-width:100%; height:auto;"></a>
+      <a href="https://github.com/dusun001/wiki"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-github.png" alt="Dusun IoT github" style="max-width:100%; height:auto;"/></a>
     </td>
     <td>
-      <a href="https://www.hackster.io/dusun-iot/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-hackster.png" alt="Dusun IoT hackster" style="max-width:100%; height:auto;"></a>
+      <a href="https://www.hackster.io/dusun-iot/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-hackster.png" alt="Dusun IoT hackster" style="max-width:100%; height:auto;"/></a>
     </td>
   </tr>
 </table>
@@ -130,25 +130,25 @@ We also keep our **LinkedIn, YouTube, Facebook, and Twitter profiles** updated w
 <ul class="social-media-list">
   <li class="social-media-list-item">
     <a href="https://www.linkedin.com/company/dusun-electron-ltd/">
-      <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-linkedin.png" alt="LinkedIn">
+      <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-linkedin.png" alt="LinkedIn"/>
       LinkedIn
     </a>
   </li>
   <li class="social-media-list-item">
     <a href="https://www.youtube.com/channel/UCyb4PpqVgvKgC9KpkByZaaQ">
-      <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-youtube.png" alt="YouTube">
+      <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-youtube.png" alt="YouTube"/>
       YouTube
     </a>
   </li>
   <li class="social-media-list-item">
     <a href="https://www.facebook.com/DUSUN-IoT-101398069457701">
-      <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-facebook.png" alt="Facebook">
+      <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-facebook.png" alt="Facebook"/>
       Facebook
     </a>
   </li>
   <li class="social-media-list-item">
     <a href="https://twitter.com/Dusunelectron">
-      <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-twitter.png" alt="Twitter">
+      <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-twitter.png" alt="Twitter"/>
       Twitter
     </a>
   </li>

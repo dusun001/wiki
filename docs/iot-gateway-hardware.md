@@ -26,7 +26,7 @@ Our IoT gateway hardware, built based on different SoCs, caters to diverse appli
 
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%;">
-        <img src="https://www.dusuniot.com/wp-content/uploads/2023/02/DSGW-290-New-1.png" alt="DSGW-290 RK3568 Gateway" style="max-width: 280px;">
+        <img src="https://www.dusuniot.com/wp-content/uploads/2023/02/DSGW-290-New-1.png" alt="DSGW-290 RK3568 Gateway" style="max-width: 280px;"/>
     </div>
     <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%; padding: 2%;">
         <h4>DSGW-290 RK3568 Gateway</h4>
@@ -54,7 +54,7 @@ Our IoT gateway hardware, built based on different SoCs, caters to diverse appli
         <p>DSGW-210 RK3328 Gateway is a versatile gateway hub platform with rich connectivity options including Wi-Fi 2.4G/5G, Zigbee 3.0, Bluetooth 5.2, Z-Wave, LoRa, LTE Cat M1, LTE Cat 1, LTE Cat 4, Matter & Thread, and GPS, and ECC hardware encryption and a Li Battery power backup.</p>
     </div>
     <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%;">
-        <img src="https://www.dusuniot.com/wp-content/uploads/2023/05/DSGW-211.jpg.webp" alt="DSGW-210 RK3328 Gateway" style="max-width: 280px;">
+        <img src="https://www.dusuniot.com/wp-content/uploads/2023/05/DSGW-211.jpg.webp" alt="DSGW-210 RK3328 Gateway" style="max-width: 280px;"/>
     </div> 
 </div>
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
@@ -74,7 +74,7 @@ Our IoT gateway hardware, built based on different SoCs, caters to diverse appli
 
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%;">
-        <img src="https://www.dusuniot.com/wp-content/uploads/2023/08/DSGW-230-front.jpg" alt="DSGW-230 RK3328 Gateway" style="max-width: 280px;">
+        <img src="https://www.dusuniot.com/wp-content/uploads/2023/08/DSGW-230-front.jpg" alt="DSGW-230 RK3328 Gateway" style="max-width: 280px;"/>
     </div>
     <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%; padding: 2%;">
         <h4>DSGW-230 RK3328 Gateway</h4>
@@ -102,7 +102,7 @@ Our IoT gateway hardware, built based on different SoCs, caters to diverse appli
         <p>DSGW-120V2 PX30 Gateway is a smart home control panel with IoT gateway functions. It is also an all-in-one hub designed for smart home automation featuring a touch screen, multiple wireless protocol support, as well as voice intercom function.</p>
     </div>
     <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%;">
-        <img src="https://www.dusuniot.com/wp-content/uploads/2023/06/DSGW-120-1.jpg.webp" alt="DSGW-120 PX30 Gateway" style="max-width: 280px;">
+        <img src="https://www.dusuniot.com/wp-content/uploads/2023/06/DSGW-120-1.jpg.webp" alt="DSGW-120 PX30 Gateway" style="max-width: 280px;"/>
     </div> 
 </div>
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
@@ -122,7 +122,7 @@ Our IoT gateway hardware, built based on different SoCs, caters to diverse appli
 
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%;">
-        <img src="https://www.dusuniot.com/wp-content/uploads/2023/09/dsgw-380-interface.jpg" alt="DSGW-380 RK3588 Gateway" style="max-width: 280px;">
+        <img src="https://www.dusuniot.com/wp-content/uploads/2023/09/dsgw-380-interface.jpg" alt="DSGW-380 RK3588 Gateway" style="max-width: 280px;"/>
     </div>
     <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%; padding: 2%;">
         <h4>DSGW-380 RK3588 Gateway</h4>
@@ -150,7 +150,7 @@ Our IoT gateway hardware, built based on different SoCs, caters to diverse appli
         <p>DSGW-014 PX30K Gateway is a versatile outdoor LoRaWAN gateway with fully industrial design of IP66, high strength aluminum alloy housing and wide operating temperature range. It supports PoE (power over ethernet) and  is designed for flat /pole/hoop-mounting for easy deployment.</p>
     </div>
     <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%;">
-        <img src="https://www.dusuniot.com/wp-content/uploads/2023/03/DSGW-014-4.jpg.webp" alt="DSGW-014 PX30K Gateway" style="max-width: 280px;">
+        <img src="https://www.dusuniot.com/wp-content/uploads/2023/03/DSGW-014-4.jpg.webp" alt="DSGW-014 PX30K Gateway" style="max-width: 280px;"/>
     </div> 
 </div>
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
@@ -172,7 +172,7 @@ Our IoT gateway hardware, built based on different SoCs, caters to diverse appli
 
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%;">
-        <img src="https://www.dusuniot.com/wp-content/uploads/2023/07/dsgw-090-gray-front.png.webp" alt="DSGW-090 MTK7628 Gateway" style="max-width: 280px;">
+        <img src="https://www.dusuniot.com/wp-content/uploads/2023/07/dsgw-090-gray-front.png.webp" alt="DSGW-090 MTK7628 Gateway" style="max-width: 280px;"/>
     </div>
     <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%; padding: 2%;">
         <h4>DSGW-090 MTK7628 Gateway</h4>
@@ -200,7 +200,7 @@ Our IoT gateway hardware, built based on different SoCs, caters to diverse appli
         <p>DSGW-201 is a ceiling-mounted gateway supporting various IoT protocols (BLE mesh, Zigbee 3.0, Z-Wave, dual-band Wi-Fi, 4G LTE, Gigabit Ethernet) and has PoE power supply support. It is suitable for IoT solutions in residential and SMB scenarios with the easy-to-install feature.</p>
     </div>
     <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%;">
-        <img src="https://www.dusuniot.com/wp-content/uploads/2023/07/DSGW-201-front.jpg.webp" alt="DSGW-201 MT7621A Gateway" style="max-width: 280px;">
+        <img src="https://www.dusuniot.com/wp-content/uploads/2023/07/DSGW-201-front.jpg.webp" alt="DSGW-201 MT7621A Gateway" style="max-width: 280px;"/>
     </div> 
 </div>
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
@@ -220,7 +220,7 @@ Our IoT gateway hardware, built based on different SoCs, caters to diverse appli
 
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%;">
-        <img src="https://www.dusuniot.com/wp-content/uploads/2023/07/dsgw-030-front.png.webp" alt="DSGW-030 MTK7688 Gateway" style="max-width: 280px;">
+        <img src="https://www.dusuniot.com/wp-content/uploads/2023/07/dsgw-030-front.png.webp" alt="DSGW-030 MTK7688 Gateway" style="max-width: 280px;"/>
     </div>
     <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%; padding: 2%;">
         <h4>DSGW-030 MTK7688 Gateway</h4>
@@ -248,7 +248,7 @@ Our IoT gateway hardware, built based on different SoCs, caters to diverse appli
         <p>CDGW-006 MT7628AN Gateway is an industrial gateway two COM RS485 ports. User can use them to connect industrial detectors. Meanwhile, DSGW-006 supports the development of industrial protocol conversion, applicable to a wide variety of industrial IoT scenarios.</p>
     </div>
     <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%;">
-        <img src="https://www.dusuniot.com/wp-content/uploads/2023/05/CDGW-006.jpg.webp" alt="CDGW-006 MT7628AN Gateway" style="max-width: 280px;">
+        <img src="https://www.dusuniot.com/wp-content/uploads/2023/05/CDGW-006.jpg.webp" alt="CDGW-006 MT7628AN Gateway" style="max-width: 280px;"/>
     </div> 
 </div>
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
@@ -270,7 +270,7 @@ Our IoT gateway hardware, built based on different SoCs, caters to diverse appli
 
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
     <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%;">
-        <img src="https://www.dusuniot.com/wp-content/uploads/2023/07/DSGW-092-front.jpg.webp" alt="DSGW-092 ESP32 Gateway" style="max-width: 280px;">
+        <img src="https://www.dusuniot.com/wp-content/uploads/2023/07/DSGW-092-front.jpg.webp" alt="DSGW-092 ESP32 Gateway" style="max-width: 280px;"/>
     </div>
     <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%; padding: 2%;">
         <h4>DSGW-092 ESP32 Gateway</h4>
@@ -300,7 +300,7 @@ Our IoT gateway hardware, built based on different SoCs, caters to diverse appli
         <p>DSGW-081 i.MX6 ULL Gateway is an industrial gateway that has rich interfaces (one RS485 port, one RS232 port, one CAN port, four AIO/DIOs) and can be used for customized development of various industrial protocols.</p>
     </div>
     <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%;">
-        <img src="https://www.dusuniot.com/wp-content/uploads/2022/09/DSGW-081-New-2.png" alt="DSGW-081 i.MX6 ULL Gateway" style="max-width: 280px;">
+        <img src="https://www.dusuniot.com/wp-content/uploads/2022/09/DSGW-081-New-2.png" alt="DSGW-081 i.MX6 ULL Gateway" style="max-width: 280px;"/>
     </div> 
 </div>
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
@@ -336,18 +336,18 @@ Thank you for selecting our products! To ensure that your experience with our pr
 <table>
   <tr>
     <td>
-      <a href="https://community.dusuniot.com/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-online-forum.png" alt="Dusun IoT online forum" style="max-width:100%; height:auto;"></a>
+      <a href="https://community.dusuniot.com/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-online-forum.png" alt="Dusun IoT online forum" style="max-width:100%; height:auto;"/></a>
     </td>
     <td>
-      <a href="https://www.dusuniot.com/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-official-website.png" alt="Dusun IoT official website" style="max-width:100%; height:auto;"></a>
+      <a href="https://www.dusuniot.com/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-official-website.png" alt="Dusun IoT official website" style="max-width:100%; height:auto;"/></a>
     </td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/dusun001/wiki"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-github.png" alt="Dusun IoT github" style="max-width:100%; height:auto;"></a>
+      <a href="https://github.com/dusun001/wiki"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-github.png" alt="Dusun IoT github" style="max-width:100%; height:auto;"/></a>
     </td>
     <td>
-      <a href="https://www.hackster.io/dusun-iot/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-hackster.png" alt="Dusun IoT hackster" style="max-width:100%; height:auto;"></a>
+      <a href="https://www.hackster.io/dusun-iot/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-hackster.png" alt="Dusun IoT hackster" style="max-width:100%; height:auto;"/></a>
     </td>
   </tr>
 </table>
@@ -385,25 +385,25 @@ Purchase **[IoT hardware products](https://www.dusuniot.com/shop/)** at [Dusun I
 <ul class="social-media-list">
   <li class="social-media-list-item">
     <a href="https://www.linkedin.com/company/dusun-electron-ltd/">
-      <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-linkedin.png" alt="LinkedIn">
+      <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-linkedin.png" alt="LinkedIn"/>
       LinkedIn
     </a>
   </li>
   <li class="social-media-list-item">
     <a href="https://www.youtube.com/channel/UCyb4PpqVgvKgC9KpkByZaaQ">
-      <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-youtube.png" alt="YouTube">
+      <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-youtube.png" alt="YouTube"/>
       YouTube
     </a>
   </li>
   <li class="social-media-list-item">
     <a href="https://www.facebook.com/DUSUN-IoT-101398069457701">
-      <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-facebook.png" alt="Facebook">
+      <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-facebook.png" alt="Facebook"/>
       Facebook
     </a>
   </li>
   <li class="social-media-list-item">
     <a href="https://twitter.com/Dusunelectron">
-      <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-twitter.png" alt="Twitter">
+      <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-twitter.png" alt="Twitter"/>
       Twitter
     </a>
   </li>
