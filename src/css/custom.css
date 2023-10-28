@@ -137,3 +137,29 @@
 .pagination-nav__label {
   color:#ed6c00;
 }
+
+.social-media-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.social-media-list-item {
+  text-align: center;
+  flex-basis: 25%;
+}
+
+.social-media-list-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.social-media-list-item a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  margin-top: 5px;
+}
+

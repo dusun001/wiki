@@ -355,32 +355,6 @@ Thank you for selecting our products! To ensure that your experience with our pr
 ## What's More
 Purchase **[IoT hardware products](https://www.dusuniot.com/shop/)** at [Dusun IoT official website](https://www.dusuniot.com/), or get the latest info from our **[LinkedIn](https://www.linkedin.com/company/dusun-electron-ltd/), [YouTube](https://www.youtube.com/channel/UCyb4PpqVgvKgC9KpkByZaaQ), [Facebook](https://www.facebook.com/DUSUN-IoT-101398069457701), and [Twitter](https://twitter.com/Dusunelectron) profiles**. 
 
-<style>
-.social-media-list {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  padding: 0;
-  margin: 0;
-}
-
-.social-media-list-item {
-  text-align: center;
-  flex-basis: 25%;
-}
-
-.social-media-list-item img {
-  max-width: 100%;
-  height: auto;
-}
-
-.social-media-list-item a {
-  display: block;
-  text-decoration: none;
-  color: #333;
-  margin-top: 5px;
-}
-</style>
 
 <ul class="social-media-list">
   <li class="social-media-list-item">

@@ -13,7 +13,7 @@ tags:
 
 # Dusun IoT Wiki Center  
 Greetings! You've stepping into the Dusun IoT Wiki Center, and we're here to guide you through our comprehensive resources hub for development! Here, you'll find essential materials such as product specifications, user manuals, quick start guides (QSG), and more, tailored to all of Dusun IoT's embedded hardware products.
-<div style="text-align:center">
+<div style={{textAlign:'center'}}>
     <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-wiki-center.jpg" alt="Dusun IoT Wiki Center" />
 </div>
  
@@ -73,18 +73,18 @@ Thank you for selecting our products! Our priority is to ensure that your experi
 <table>
   <tr>
     <td>
-      <a href="https://community.dusuniot.com/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-online-forum.png" alt="Dusun IoT online forum" style="max-width:100%; height:auto;"/></a>
+      <a href="https://community.dusuniot.com/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-online-forum.png" alt="Dusun IoT online forum" style={{maxWidth:'100%', height:'auto'}}/></a>
     </td>
     <td>
-      <a href="https://www.dusuniot.com/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-official-website.png" alt="Dusun IoT official website" style="max-width:100%; height:auto;"/></a>
+      <a href="https://www.dusuniot.com/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-official-website.png" alt="Dusun IoT official website" style={{maxWidth:'100%', height:'auto'}}/></a>
     </td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/dusun001/wiki"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-github.png" alt="Dusun IoT github" style="max-width:100%; height:auto;"/></a>
+      <a href="https://github.com/dusun001/wiki"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-github.png" alt="Dusun IoT github" style={{maxWidth:'100%', height:'auto'}}/></a>
     </td>
     <td>
-      <a href="https://www.hackster.io/dusun-iot/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-hackster.png" alt="Dusun IoT hackster" style="max-width:100%; height:auto;"/></a>
+      <a href="https://www.hackster.io/dusun-iot/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-hackster.png" alt="Dusun IoT hackster" style={{maxWidth:'100%' ,height:'auto'}}/></a>
     </td>
   </tr>
 </table>
@@ -100,32 +100,7 @@ If you're interested in **purchasing [IoT hardware products](https://www.dusunio
 
 We also keep our **LinkedIn, YouTube, Facebook, and Twitter profiles** updated with the latest company news, product releases, case studies, and valuable industrial insights. Feel free to follow us for the most recent updates. 
 
-<style>
-.social-media-list {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  padding: 0;
-  margin: 0;
-}
 
-.social-media-list-item {
-  text-align: center;
-  flex-basis: 25%;
-}
-
-.social-media-list-item img {
-  max-width: 100%;
-  height: auto;
-}
-
-.social-media-list-item a {
-  display: block;
-  text-decoration: none;
-  color: #333;
-  margin-top: 5px;
-}
-</style>
 
 <ul class="social-media-list">
   <li class="social-media-list-item">
