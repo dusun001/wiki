@@ -163,3 +163,14 @@
   margin-top: 5px;
 }
 
+.print-button {
+  background-color: orange;
+  color: black;
+  border: none;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
