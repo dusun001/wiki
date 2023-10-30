@@ -68,23 +68,23 @@ If you need any technical assistance or have ideas to exchange, do not hesitate 
 
 ## Technical Support and Product Discussion
 
-Thank you for selecting our products! Our priority is to ensure that your experience with our products is hassle-free and enjoyable. We provide a range of communication options for developers to easily reach us. Do not hesitate to contact us!   
+Thank you for selecting our products! Our priority is to ensure that your experience with our products is hassle-free and enjoyableMore. We provide a range of communication options for developers to easily reach us. Do not hesitate to contact us!   
 
 <table>
   <tr>
     <td>
-      <a href="https://community.dusuniot.com/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-online-forum.png" alt="Dusun IoT online forum" style={{maxWidth:'100%', height:'auto'}}/></a>
+      <a href="https://community.dusuniot.com/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-online-forum.png" alt="Dusun IoT online forum" style={{maxWidth:'100%', height: 'auto'}}/></a>
     </td>
     <td>
-      <a href="https://www.dusuniot.com/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-official-website.png" alt="Dusun IoT official website" style={{maxWidth:'100%', height:'auto'}}/></a>
+      <a href="https://www.dusuniot.com/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-official-website.png" alt="Dusun IoT official website" style={{maxWidth:'100%', height: 'auto'}}/></a>
     </td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/dusun001/wiki"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-github.png" alt="Dusun IoT github" style={{maxWidth:'100%', height:'auto'}}/></a>
+      <a href="https://github.com/dusun001/wiki"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-github.png" alt="Dusun IoT github" style={{maxWidth:'100%', height: 'auto'}}/></a>
     </td>
     <td>
-      <a href="https://www.hackster.io/dusun-iot/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-hackster.png" alt="Dusun IoT hackster" style={{maxWidth:'100%' ,height:'auto'}}/></a>
+      <a href="https://www.hackster.io/dusun-iot/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-hackster.png" alt="Dusun IoT hackster" style={{maxWidth:'100%', height: 'auto'}}/></a>
     </td>
   </tr>
 </table>
@@ -99,8 +99,6 @@ Thank you for selecting our products! Our priority is to ensure that your experi
 If you're interested in **purchasing [IoT hardware products](https://www.dusuniot.com/shop/)**, we invite you to explore  [Dusun IoT official website](https://www.dusuniot.com/) for  pricing, and welcome to discover the solutions that suit your needs. 
 
 We also keep our **LinkedIn, YouTube, Facebook, and Twitter profiles** updated with the latest company news, product releases, case studies, and valuable industrial insights. Feel free to follow us for the most recent updates. 
-
-
 
 <ul class="social-media-list">
   <li class="social-media-list-item">
