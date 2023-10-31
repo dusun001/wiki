@@ -9,13 +9,13 @@ tags:
 - Getting Started
 ---
 
-
 # Dusun IoT Wiki Center  
 Greetings! You've stepping into the Dusun IoT Wiki Center, and we're here to guide you through our comprehensive resources hub for development! Here, you'll find essential materials such as product specifications, user manuals, quick start guides (QSG), and more, tailored to all of Dusun IoT's embedded hardware products.
-<div style={{textAlign:'center'}}>
+
+<div class="center">
     <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-wiki-center.jpg" alt="Dusun IoT Wiki Center" />
 </div>
- 
+
 
 ## Dusun IoT's Embedded System Hardware Portfolio
 
@@ -26,7 +26,7 @@ Greetings! You've stepping into the Dusun IoT Wiki Center, and we're here to gui
 
 Dusun IoT gateway hardware offers customers a complete set of **ready-made platforms** to streamline the development process and expedite the deployment of applications. Once development is complete, these gateway hardware will facilitate device access, data management, and connections to cloud platforms, enabling remote monitoring and viewing, among other functionalities. 
 
-<p align="center">
+<p class="center">
   <a href="https://wiki.dusuniot.com/iot-gateway-hardware"><b>Get Started NOW!</b></a>
 </p>
 
@@ -37,7 +37,7 @@ Dusun IoT gateway hardware offers customers a complete set of **ready-made platf
 
  Dusun IoT also provides gateways with integrated applications for quick and user-friendly deployment. Some  have incorporated **built-in integration with well-known platforms like AWS, Azure, Thingsboard, etc.**, offering free-code integration. Some comes with **pre-installed applications like Home Assistant** for effortless plug-and-play home automation, eliminating the need for complex configuration or programming.  
 
- <p align="center">
+ <p class="center">
   <a href="https://wiki.dusuniot.com/iot-gateway-with-applications"><b>Get Started NOW!</b></a>
 </p>
 
@@ -47,7 +47,7 @@ Dusun IoT gateway hardware offers customers a complete set of **ready-made platf
 
 Dusun IoT offers a diverse selection of SoMs featuring **ARM-based CPUs known for their energy efficiency and high performance**. The **modular design** allows for flexible configuration, ideal for a broad spectrum of IoT projects. Users can also **develop their projects directly based on the existing BSP**, focusing more on application and function development, rather than the need to build an entire system from the ground up. **All SoMs undergo rigorous testing** to ensure outstanding reliability.  
 
- <p align="center">
+ <p class="center">
   <a href="https://wiki.dusuniot.com/system-on-modules"><b>Get Started NOW!</b></a>
 </p>
 
@@ -103,25 +103,21 @@ We also keep our **LinkedIn, YouTube, Facebook, and Twitter profiles** updated w
   <li class="social-media-list-item">
     <a href="https://www.linkedin.com/company/dusun-electron-ltd/">
       <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-linkedin.png" alt="LinkedIn"/>
-      LinkedIn
     </a>
   </li>
   <li class="social-media-list-item">
     <a href="https://www.youtube.com/channel/UCyb4PpqVgvKgC9KpkByZaaQ">
       <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-youtube.png" alt="YouTube"/>
-      YouTube
     </a>
   </li>
   <li class="social-media-list-item">
     <a href="https://www.facebook.com/DUSUN-IoT-101398069457701">
-      <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-facebook.png" alt="Facebook"/>
-      Facebook
+      <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-facebook.png"alt="Facebook"/>
     </a>
   </li>
   <li class="social-media-list-item">
     <a href="https://twitter.com/Dusunelectron">
       <img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-twitter.png" alt="Twitter"/>
-      Twitter
     </a>
   </li>
 </ul>

@@ -11,6 +11,7 @@ tags:
 - embedded IoT gateways
 ---
 
+<link rel='stylesheet'  href='../src/css/custom.css' />
 
 # IoT Gateway Hardware  
 Dusun IoT Gateway Hardware is dedicated to supporting IoT developers by offering a ready-made hardware platform complete with ready certification and shell.   
@@ -24,7 +25,7 @@ Our IoT gateway hardware, built based on different SoCs, caters to diverse appli
 
 ### Rockchip Series  
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+<div class="iot-list">
     <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%;">
         <img src="https://www.dusuniot.com/wp-content/uploads/2023/02/DSGW-290-New-1.png" alt="DSGW-290 RK3568 Gateway" style="max-width: 280px;"/>
     </div>
@@ -33,7 +34,7 @@ Our IoT gateway hardware, built based on different SoCs, caters to diverse appli
         <p>DSGW-290 is a smart home controller with IoT gateway function. It features a RK3568 64-bit Quad-Core ARM Cortex-A55 SoC, up to 2.0GHz, which is also a more powerful Raspberry Pi 4 equivalent. 1TOPS of arithmetic power for smart home edge computing tasks.</p>
     </div>
 </div>
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+<div class="iot-list">
     <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%;">
         <div style="display: flex; flex-direction: column; align-items: center; margin-top: auto;">
             <a href="https://www.dusuniot.com/product/dsgw-290-industrial-edge-computing-gateway-raspberry-pi-4-alternative/" style="display: inline-block; background-color: #F6940B; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 4px; margin-right: 10px;">Buy It Now</a>

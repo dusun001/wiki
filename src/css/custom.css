@@ -174,3 +174,11 @@
   font-size: 16px;
   cursor: pointer;
 }
+
+.iot-list  {
+  display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;
+}
+
+.center {
+  text-align: center;
+}
