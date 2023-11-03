@@ -42,9 +42,7 @@ DSGW-230 RK3328 Gateway is an upgraded version of the **[DSGW-210 RK3328 Gateway
 
 ## Hardware Block Digram   
 
-<div style={{ textAlign: 'center' }}>
-    <img src="https://www.dusuniot.com/wp-content/uploads/2022/08/DSGW-230-2-600x342.png.webp" alt="DSGW-014 PX30K Gateway" />
-</div>
+![Hardware Block Diagram of DSGW-239 RK3328 Gateway Hub](https://www.dusuniot.com/wp-content/uploads/2022/08/DSGW-230-2-600x342.png.webp)  
 
 ## Resources of DSGW-230 RK3328 Gateway Hub  
 ### Basic Documents  
