@@ -102,7 +102,7 @@ const config = {
             to: 'https://community.dusuniot.com/',
           },
           {
-            href: 'https://github.com/Seeed-Studio/wiki-documents',
+            href: 'https://github.com/dusun001/wiki',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
