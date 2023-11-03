@@ -10,7 +10,6 @@ tags:
 - DSGW-081 IIoT Edge Computer Gatewayy
 - DSGW-081 PLC IoT Gateway
 ---
-<link rel='stylesheet'  href='../../../src/css/custom.css' />
 
 # DSGW-081 i.MX6 ULL Gateway  
 

@@ -8,7 +8,6 @@ keywords:
 tags:
 - DSGW-201 MT7621A Gateway
 ---
-<link rel='stylesheet'  href='../../../src/css/custom.css' />
 
 
 # DSGW-201 MT7621A Gateway Intro  
