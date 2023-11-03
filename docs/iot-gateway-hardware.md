@@ -11,7 +11,6 @@ tags:
 - embedded IoT gateways
 ---
 
-<link rel='stylesheet'  href='../src/css/custom.css' />
 
 # IoT Gateway Hardware  
 Dusun IoT Gateway Hardware is dedicated to supporting IoT developers by offering a ready-made hardware platform complete with ready certification and shell.   

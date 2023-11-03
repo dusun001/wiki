@@ -9,7 +9,6 @@ tags:
 - Getting Started
 ---
 
-<link rel='stylesheet'  href='../src/css/custom.css' />
 
 # Dusun IoT Wiki Center  
 Greetings! You've stepping into the Dusun IoT Wiki Center, and we're here to guide you through our comprehensive resources hub for development! Here, you'll find essential materials such as product specifications, user manuals, quick start guides (QSG), and more, tailored to all of Dusun IoT's embedded hardware products.

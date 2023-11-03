@@ -37,8 +37,8 @@ DSGW-210 Home Assistant Hubs & Controllers is pre-installed Home Assistant and c
 
 ## Dimension and Packaging List  
 <div style="display: flex; justify-content: center;">
-  <img src="https://www.dusuniot.com/wp-content/uploads/2022/07/dsgw-210-Dimension-1024x429.png.webp" alt="Sizes of DSGW-210 Home Assistant Hub & Controller" style="max-width: 50%; height: auto; margin-right: 10px;">
-  <img src="https://www.dusuniot.com/wp-content/uploads/2023/03/Package-List.jpg.webp" alt="Packages of DSGW-210 Home Assistant Hub & Controller" style="max-width: 50%; height: auto; margin-left: 10px;">
+  <img src="https://www.dusuniot.com/wp-content/uploads/2022/07/dsgw-210-Dimension-1024x429.png.webp" alt="Sizes of DSGW-210 Home Assistant Hub & Controller" style={{ maxWidth: '50%', height: 'auto', marginRight: '10px' }} />
+  <img src="https://www.dusuniot.com/wp-content/uploads/2023/03/Package-List.jpg.webp" alt="Packages of DSGW-210 Home Assistant Hub & Controller" style={{ maxWidth: '50%', height: 'auto', marginLeft: '10px' }} />
 </div>
 
 <div style={{ display: 'flex', justifyContent: 'center' }}>
