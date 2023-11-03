@@ -35,7 +35,7 @@ DSGW-081 i.MX6 ULL Gateway is an industrial gateway that offers a wide range of 
   <img src="https://www.dusuniot.com/wp-content/uploads/2023/03/081-positively-1024x713.jpg.webp" alt="Top of DSGW-081 i.MX6 ULL Gateway board" style={{ maxWidth: '50%', height: 'auto', marginRight: '10px' }} />
   <img src="https://www.dusuniot.com/wp-content/uploads/2023/03/081-back-1024x713.jpg.webp" alt="Bottom of DSGW-081 i.MX6 ULL Gateway board" style={{ maxWidth: '50%', height: 'auto', marginLeft: '10px' }} />
 </div>
- 
+
 ## Hardware Block Diagram  
 ![Hardware Block Diagram of DSGW-081 i.MX6 ULL Gateway](https://www.dusuniot.com/wp-content/uploads/2022/09/DSGW-081-1-1024x707.png.webp)  
 
