@@ -118,9 +118,9 @@ With Dusun IoT, setting up your smart home automation system is a breeze. Our sm
 ## Seamless Integration with Pre-certified IoT Cloud Platforms  
 To ensure seamless connectivity, our IoT gateways are designed to integrate effortlessly with popular cloud platforms such as AWS, Azure, and Thingsboard. These platforms have pre-certified our gateways, guaranteeing smooth and reliable free-code integration. Now you can effortlessly connect and manage your devices across multiple platforms, enhancing the functionality of your smart home system.
 
-<div style="text-align: center;">
+<div style={{text-align: center;}}>
   <a href="https://www.dusuniot.com/landing-pages/iot-app-gateway/" style="text-decoration: none;">
-    <button style="background-color: #F6940B; color: #FFFFFF; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">Explore All IoT Cloud Gateways here </button>
+    <button style={{background-color: #F6940B; color: #FFFFFF; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;}}>Explore All IoT Cloud Gateways here </button>
   </a>
 </div>   
 
