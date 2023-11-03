@@ -182,3 +182,34 @@
 .center {
   text-align: center;
 }
+
+
+  .custom-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+  .custom-links a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #F6940B;
+    transition: color 0.3s;
+  }
+
+  .custom-links a:hover {
+    color: #F6940B;
+  }
+
+  .custom-links::before,
+  .custom-links::after {
+    content: "|";
+    margin: 0 5px;
+    color: #F6940B;
+    font-weight: bold;
+  }
+
+  .custom-links::before {
+    opacity: 0.5;
+  }

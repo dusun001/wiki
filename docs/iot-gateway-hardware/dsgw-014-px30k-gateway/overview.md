@@ -10,6 +10,7 @@ tags:
 - DSGW-014 Outdoor LoRaWAN Gateway
 - DSGW-014 LoRaWAN 4G Gateway
 ---
+<link rel='stylesheet'  href='../../../src/css/custom.css' />
 
 
 # DSGW-014 PX30K Gateway Intro  
@@ -50,37 +51,6 @@ DSGW-014 PX30K Gateway is a versatile outdoor LoRaWAN gateway based on the PX30K
 
 ## Resources of DSGW-014 PX30K Gateway  
 ### Basic Documents
-<style>
-  .custom-links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-  }
-
-  .custom-links a {
-    margin: 0 5px;
-    text-decoration: none;
-    color: #F6940B;
-    transition: color 0.3s;
-  }
-
-  .custom-links a:hover {
-    color: #F6940B;
-  }
-
-  .custom-links::before,
-  .custom-links::after {
-    content: "|";
-    margin: 0 5px;
-    color: #F6940B;
-    font-weight: bold;
-  }
-
-  .custom-links::before {
-    opacity: 0.5;
-  }
-</style>
 
 <div class="custom-links">
   <a href="https://wiki.dusuniot.com/iot-gateway-hardware/dsgw-014-px30k-gateway/specification">Specification</a>
