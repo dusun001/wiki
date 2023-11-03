@@ -9,7 +9,6 @@ tags:
 - DSGW-290 RK3568 Host Controller
 - DSGW-290 RK3568 Smart Home Controller
 ---
-<link rel='stylesheet'  href='../../../src/css/custom.css' />
 
 
 # DSGW-290 RK3568 Gateway Intro  
