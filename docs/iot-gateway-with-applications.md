@@ -43,72 +43,72 @@ With Dusun IoT, setting up your smart home automation system is a breeze. Our sm
 
 ***
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-    <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%; padding: 2%;">
+<div style={{display: 'flex',justifyContent: 'space-between',alignItems: 'center',marginBottom: '20px'}}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flexBasis: '50%', padding: '2%' }}>
         <h4>DSGW-211 EnOcean OpenHAB Gateway</h4>
         <p>DSGW-211 EnOcean OpenHAB Gateway is a gateway specially designed for energy-efficient building automation system. It integrates energy-harvesting EnOcean technology and pre-install OpenHAB to offer an out-of-the-box solution for managing a wide range of EnOcean devices in smart buildings.</p>
     </div>
-    <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%;">
-        <img src="https://www.dusuniot.com/wp-content/uploads/2023/05/dsgw-210b-pic.jpg.webp" alt="DSGW-211 EnOcean OpenHAB Gateway" style="max-width: 280px;">
+    <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', flexBasis: '50%'}}>
+        <img src="https://www.dusuniot.com/wp-content/uploads/2023/05/dsgw-210b-pic.jpg.webp" alt="DSGW-211 EnOcean OpenHAB Gateway" style={{maxWidth:'280px'}}/>
     </div> 
 </div>
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-    <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%;">
-        <div style="display: flex; flex-direction: column; align-items: center; margin-top: auto;">
-            <a href="https://www.dusuniot.com/product/dsgw-210e-enocean-gateway/" style="display: inline-block; background-color: #F6940B; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 4px; margin-right: 10px;">Buy It Now</a>
+<div style={{display: 'flex',justifyContent: 'space-between',alignItems: 'center',marginBottom: '20px'}}>
+    <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', flexBasis: '50%'}}>
+        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 'auto'}}>
+            <a href="https://www.dusuniot.com/product/dsgw-210e-enocean-gateway/" style={{ display: 'inline-block', backgroundColor: '#F6940B', color: '#ffffff', padding: '10px 20px', textDecoration: 'none', borderRadius: '4px', marginRight: '10px' }}>Buy It Now</a>
         </div>
     </div>
-    <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%;">
-        <div style="display: flex; flex-direction: column; align-items: center; margin-top: auto;">
-            <a href="https://wiki.dusuniot.com/iot_gateway_with_applications/dsgw-211-px30-enocean-openhab-gateway/overview" style="display: inline-block; background-color: #F6940B; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 4px;">Get Started</a>
+    <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', flexBasis: '50%'}}>
+        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 'auto'}}>
+            <a href="https://wiki.dusuniot.com/iot_gateway_with_applications/dsgw-211-px30-enocean-openhab-gateway/overview" style={{ display: 'inline-block', backgroundColor: '#F6940B', color: '#ffffff', padding: '10px 20px', textDecoration: 'none', borderRadius: '4px'}}>Get Started</a>
         </div>
     </div>
 </div>
 
 ***  
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-    <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%;">
-        <img src="https://www.dusuniot.com/wp-content/uploads/2023/07/dsgw-040-behind.png.webp" alt="DSGW-040 Router Gateway" style="max-width: 280px;">
+<div style={{display: 'flex',justifyContent: 'space-between',alignItems: 'center',marginBottom: '20px'}}>
+    <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', flexBasis: '50%'}}>
+        <img src="https://www.dusuniot.com/wp-content/uploads/2023/07/dsgw-040-behind.png.webp" alt="DSGW-040 Router Gateway" style={{maxWidth:'280px'}}/>
     </div>
-    <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%; padding: 2%;">
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flexBasis: '50%', padding: '2%' }}>
         <h4>DSGW-040 Router Gateway</h4>
         <p>DSGW-040 MT7620 Router Gateway is widely used as a multi-in-one network router for connecting various electronic products, as well as wireless IoT devices. It supports multi-mode router including LAN / Wi-Fi / 4G LTE, and has BLE and Zigbee function.</p>
     </div>
 </div>
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-    <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%;">
-        <div style="display: flex; flex-direction: column; align-items: center; margin-top: auto;">
-            <a href="https://www.dusuniot.com/product/dsgw-040-bluetooth-cellular-lte-gateway/" style="display: inline-block; background-color: #F6940B; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 4px; margin-right: 10px;">Buy It Now</a>
+<div style={{display: 'flex',justifyContent: 'space-between',alignItems: 'center',marginBottom: '20px'}}>
+    <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', flexBasis: '50%'}}>
+        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 'auto'}}>
+            <a href="https://www.dusuniot.com/product/dsgw-040-bluetooth-cellular-lte-gateway/" style={{ display: 'inline-block', backgroundColor: '#F6940B', color: '#ffffff', padding: '10px 20px', textDecoration: 'none', borderRadius: '4px', marginRight: '10px' }}>Buy It Now</a>
         </div>
     </div>
-    <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%;">
-        <div style="display: flex; flex-direction: column; align-items: center; margin-top: auto;">
-            <a href="https://wiki.dusuniot.com/iot_gateway_with_applications/dsgw-040-mt7620-router-gateway/overview" style="display: inline-block; background-color: #F6940B; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 4px;">Get Started</a>
+    <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', flexBasis: '50%'}}>
+        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 'auto'}}>
+            <a href="https://wiki.dusuniot.com/iot_gateway_with_applications/dsgw-040-mt7620-router-gateway/overview" style={{ display: 'inline-block', backgroundColor: '#F6940B', color: '#ffffff', padding: '10px 20px', textDecoration: 'none', borderRadius: '4px' }}>Get Started</a>
         </div>
     </div>
 </div>
 
 *** 
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-    <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%; padding: 2%;">
+<div style={{display: 'flex',justifyContent: 'space-between',alignItems: 'center',marginBottom: '20px'}}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flexBasis: '50%', padding: '2%' }}>
         <h4>DSGW-021 Router Gateway </h4>
         <p>DSGW-021 4G LTE Wi-Fi Router Gateway offers a dual-mode route, seamlessly switching between Wi-Fi and 4G networks, tailored to serve entry-level smart building, medium-size smart homes and smart healthcare facilities with increasing demand for high-speed Wi-Fi.</p>
     </div>
-    <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%;">
-        <img src="https://www.dusuniot.com/wp-content/uploads/2023/05/DSGW-021.jpg.webp" alt="DSGW-021 Router Gateway" style="max-width: 280px;">
+    <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', flexBasis: '50%'}}>
+        <img src="https://www.dusuniot.com/wp-content/uploads/2023/05/DSGW-021.jpg.webp" alt="DSGW-021 Router Gateway" style={{maxWidth:'280px'}}/>
     </div> 
 </div>
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-    <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%;">
-        <div style="display: flex; flex-direction: column; align-items: center; margin-top: auto;">
-            <a href="https://www.dusuniot.com/product/dsgw-021-4g-lte-wifi-router-gateway/" style="display: inline-block; background-color: #F6940B; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 4px; margin-right: 10px;">Buy It Now</a>
+<div style={{display: 'flex',justifyContent: 'space-between',alignItems: 'center',marginBottom: '20px'}}>
+    <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', flexBasis: '50%'}}>
+        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 'auto'}}>
+            <a href="https://www.dusuniot.com/product/dsgw-021-4g-lte-wifi-router-gateway/" style={{ display: 'inline-block', backgroundColor: '#F6940B', color: '#ffffff', padding: '10px 20px', textDecoration: 'none', borderRadius: '4px', marginRight: '10px' }}>Buy It Now</a>
         </div>
     </div>
-    <div style="display: flex; flex-direction: column; align-items: center; flex-basis: 50%;">
-        <div style="display: flex; flex-direction: column; align-items: center; margin-top: auto;">
-            <a href="https://wiki.dusuniot.com/iot_gateway_with_applications/dsgw-021-mt7628an-router-gateway/overview" style="display: inline-block; background-color: #F6940B; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 4px;">Get Started</a>
+    <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', flexBasis: '50%'}}>
+        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 'auto'}}>
+            <a href="https://wiki.dusuniot.com/iot_gateway_with_applications/dsgw-021-mt7628an-router-gateway/overview" style={{ display: 'inline-block', backgroundColor: '#F6940B', color: '#ffffff', padding: '10px 20px', textDecoration: 'none', borderRadius: '4px' }}>Get Started</a>
         </div>
     </div>
 </div>
@@ -131,18 +131,18 @@ Thank you for selecting our products! To ensure that your experience with our pr
 <table>
   <tr>
     <td>
-      <a href="https://community.dusuniot.com/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-online-forum.png" alt="Dusun IoT online forum" style="max-width:100%; height:auto;"></a>
+      <a href="https://community.dusuniot.com/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-online-forum.png" alt="Dusun IoT online forum" style={{ maxWidth: '100%', height: 'auto' }}/></a>
     </td>
     <td>
-      <a href="https://www.dusuniot.com/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-official-website.png" alt="Dusun IoT official website" style="max-width:100%; height:auto;"></a>
+      <a href="https://www.dusuniot.com/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-official-website.png" alt="Dusun IoT official website" style={{ maxWidth: '100%', height: 'auto' }}/></a>
     </td>
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/dusun001/wiki"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-github.png" alt="Dusun IoT github" style="max-width:100%; height:auto;"></a>
+      <a href="https://github.com/dusun001/wiki"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-github.png" alt="Dusun IoT github" style={{ maxWidth: '100%', height: 'auto' }}/></a>
     </td>
     <td>
-      <a href="https://www.hackster.io/dusun-iot/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-hackster.png" alt="Dusun IoT hackster" style="max-width:100%; height:auto;"></a>
+      <a href="https://www.hackster.io/dusun-iot/"><img src="https://www.dusuniot.com/wp-content/uploads/2023/10/dusun-iot-hackster.png" alt="Dusun IoT hackster" style={{ maxWidth: '100%', height: 'auto' }}/></a>
     </td>
   </tr>
 </table>
