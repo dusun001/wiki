@@ -9,7 +9,6 @@ tags:
 - DSGW-210-HA Home Assistant Hub
 - DSGW-210-HA Home Assistant Controller
 ---
-<link rel='stylesheet'  href='../../../src/css/custom.css' />
 
 # DSGW-210 Home Assistant Hub & Controller  
 
@@ -36,9 +35,9 @@ DSGW-210 Home Assistant Hubs & Controllers is pre-installed Home Assistant and c
 - **Local Control**: DSGW-210 can serve as a complete local Home Assistant Controller. It provides a user-friendly interface and allows for local control of smart home devices without relying on cloud connectivity. This local control offers enhanced security, increased reliability, and greater flexibility compared to many cloud-connected devices.   
 
 ## Dimension and Packaging List  
-<div style="display: flex; justify-content: center;">
-  <img src="https://www.dusuniot.com/wp-content/uploads/2022/07/dsgw-210-Dimension-1024x429.png.webp" alt="Sizes of DSGW-210 Home Assistant Hub & Controller" style="max-width: 50%; height: auto; margin-right: 10px;">
-  <img src="https://www.dusuniot.com/wp-content/uploads/2023/03/Package-List.jpg.webp" alt="Packages of DSGW-210 Home Assistant Hub & Controller" style="max-width: 50%; height: auto; margin-left: 10px;">
+<div style={{display: 'flex', justifyContent: 'center'}}>
+  <img src="https://www.dusuniot.com/wp-content/uploads/2022/07/dsgw-210-Dimension-1024x429.png.webp" alt="Sizes of DSGW-210 Home Assistant Hub & Controller" style={{ maxWidth: '50%', height: 'auto', marginRight: '10px' }} />
+  <img src="https://www.dusuniot.com/wp-content/uploads/2023/03/Package-List.jpg.webp" alt="Packages of DSGW-210 Home Assistant Hub & Controller" style={{ maxWidth: '50%', height: 'auto', marginLeft: '10px' }} />
 </div>
 
 <div style={{ display: 'flex', justifyContent: 'center' }}>

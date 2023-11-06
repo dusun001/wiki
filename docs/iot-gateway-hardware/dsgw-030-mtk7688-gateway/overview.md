@@ -8,7 +8,6 @@ keywords:
 tags:
 - DSGW-030 MTK7688 WiFi Gateway
 ---
-<link rel='stylesheet'  href='../../../src/css/custom.css' />
 
 # DSGW-030 MTK7688 Gateway Intro  
 <div style={{ display: 'flex', justifyContent: 'center' }}>

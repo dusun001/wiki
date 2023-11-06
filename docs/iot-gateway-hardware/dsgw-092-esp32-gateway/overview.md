@@ -10,7 +10,6 @@ tags:
 - DSGW-092 ESP32 Gateway
 - DSGW-092 IoT Gateway
 ---
-<link rel='stylesheet'  href='../../../src/css/custom.css' />
 
 
 # DSGW-092 ESP32 Gateway Intro  

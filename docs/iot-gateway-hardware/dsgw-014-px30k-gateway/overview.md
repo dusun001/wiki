@@ -10,7 +10,6 @@ tags:
 - DSGW-014 Outdoor LoRaWAN Gateway
 - DSGW-014 LoRaWAN 4G Gateway
 ---
-<link rel='stylesheet'  href='../../../src/css/custom.css' />
 
 
 # DSGW-014 PX30K Gateway Intro  

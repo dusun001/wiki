@@ -1,6 +1,5 @@
 ---
-description: DSGW-230 RK3328 Gateway is an advanced gateway hub with a Gigabit port, dual SIM card slots,
-ceiling-mountable bracket and PoE power supply support, as well as a LoRaWAN module. It is an upgraded version of DSGW-210 with enhanced features and capabilities. 
+description: DSGW-230 RK3328 Gateway is an advanced gateway hub with a Gigabit port, dual SIM card slots,ceiling-mountable bracket and PoE power supply support, as well as a LoRaWAN module. It is an upgraded version of DSGW-210 with enhanced features and capabilities. 
 title: DSGW-230 RK3328 Gateway Hub Platform (with Gigabit Port)  
 keywords:
 - Home Automation Hub
@@ -11,7 +10,6 @@ tags:
 - DSGW-230 Smart Home Hub with SIM Card Slot
 - DSGW-230 Local Home Automation Hub
 ---
-<link rel='stylesheet'  href='../../../src/css/custom.css' />
 
 
 # DSGW-230 RK3328 Gateway Hub Intro  

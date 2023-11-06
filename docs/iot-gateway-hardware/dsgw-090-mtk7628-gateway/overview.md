@@ -10,7 +10,6 @@ tags:
 - DSGW-090 WiFi Gateway with PoE Support
 - DSGW-090 WiFi Gateway with Zigbee & BLE & Z-Wave Connectivity
 ---
-<link rel='stylesheet'  href='../../../src/css/custom.css' />
 
 
 # DSGW-090 MTK7628 Gateway Intro  

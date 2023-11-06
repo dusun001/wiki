@@ -89,17 +89,24 @@ const config = {
             className: 'navbar_doc_items',
           },
           {
-            href: 'https://www.dusuniot.com/shop/',
+            to: 'https://www.dusuniot.com/shop/',
             position: 'right',
-            className: 'header-shop-link',
-            // label: 'Shop',
+            className: 'navbar_doc_right_items',
+            // className: 'header-shop-link',
+            label: 'Shop 👜',
+          },
+          {
+            label: 'Help 🙋',
+            position: 'right',
+            className: 'navbar_doc_right_items',
+            to: 'https://community.dusuniot.com/',
+          },
+          {
+            href: 'https://github.com/dusun001/wiki',
+            position: 'right',
+            className: 'header-github-link',
             'aria-label': 'GitHub repository',
           },
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
         ],
       },
       footer: {

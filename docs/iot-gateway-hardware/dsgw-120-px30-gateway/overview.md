@@ -10,7 +10,6 @@ tags:
 - DSGW-120V2 Touch Screen Controller
 - DSGW-120V2 Touch Panel Control
 ---  
-<link rel='stylesheet'  href='../../../src/css/custom.css' />
 
 
 # DSGW-120 PX30 Touch Screen Control Panel Gateway Intro  

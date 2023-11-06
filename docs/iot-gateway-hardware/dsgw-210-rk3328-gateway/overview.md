@@ -10,7 +10,6 @@ tags:
 - DSGW-210 IoT Hub Gateway
 - DSGW-210 Smart Hub Gateway
 ---  
-<link rel='stylesheet'  href='../../../src/css/custom.css' />
 
   
 # DSGW-210 RK3328 Gateway Hub Intro  
