@@ -1,9 +1,11 @@
 # **DSGW-290 Multi Protocol Host Gateway**
 
+
+
 <div style={{textAlign: 'center'}}>
 
 
-[Print](javascript:void(window.print()))
+<button onClick={() => window.print()} style={{ display: 'inline-block', backgroundColor: '#F6940B', color: '#ffffff', padding: '10px 25px',cursor:'pointer', textDecoration: 'none', borderRadius: '4px' }}>Print</button>
 
 </div>
 
