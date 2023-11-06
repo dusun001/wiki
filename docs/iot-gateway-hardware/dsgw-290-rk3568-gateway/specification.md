@@ -3,7 +3,7 @@
 <div style={{textAlign: 'center'}}>
 
 
-<button class="print-button" onclick="window.print()">Print</button>
+[Print](javascript:void(window.print()))
 
 </div>
 
