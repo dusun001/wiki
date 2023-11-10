@@ -53,8 +53,9 @@ In a word,  CDGW-006 is designed with a professional focus on industrial applica
   <a href="https://wiki.dusuniot.com/iot-gateway-hardware/dwgw-006-mt7628an-getaway/quick-start-guide">Quick Start Guide</a>
   <a href="https://wiki.dusuniot.com/iot-gateway-hardware/dwgw-006-mt7628an-getaway/faqs">FAQs</a> 
 </div>
-  
+
 ### Other Documents That May Help You  
+
 | Core Development | Resources |
 |-----|-----|
 | MT7628AN Firmware Image | [Download](https://drive.google.com/file/d/1dLSopwigjziljO8uSQDLNATKPxtExZOT/view) |
