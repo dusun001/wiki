@@ -16,7 +16,7 @@ DSOM-090M MediaTek MT7621A SoM(System on Module) is equipped a up to 880 MHz clo
 </div>
 
 ***
-
+ 
 ## Features  
 - DSOM-090M MediaTek MT7621A SoM has rich exploitable interfaces including 3 UART, 1 I2C, 1 I2S, 1 JTAG, 1 USB 2/0, 1 USB 3.0, 1 PCM, 1 DMC, 4 GEPHY, and 1 RGMII port. It can be widely used in AIoT equipment such as routers, NAS devices, home gateways, and dual-band concurrent band devices.
 
