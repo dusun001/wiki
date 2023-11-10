@@ -28,8 +28,8 @@ DSGW-210 RK3328 Gateway Hub stands as Dusun IoT's most popular gateway hub produ
 
 ## Features of DSGW-210 RK3328 Gateway Hub  
 
-<div style={{ textAlign: 'center' }}>
-    <img src="https://www.dusuniot.com/wp-content/uploads/2023/08/dsgw-210-module.jpg" alt="Connectivity Options of DSGW-210 RK3328 gateway hub" />
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+  <img src="https://www.dusuniot.com/wp-content/uploads/2023/08/dsgw-210-module.jpg" alt="Connectivity Options of DSGW-210 RK3328 gateway hub" width="600" height="600" style={{ marginBottom: '20px' }} />
 </div>
 
 - **Wide Connectivity Options**: With options including Wi-Fi 2.4G/5G, Zigbee 3.0, Bluetooth 5.2, Z-Wave, LoRa, LTE Cat M1, LTE Cat 1, LTE Cat 4, Matter & Thread, and GPS, it ensures comprehensive compatibility. Additionally, ECC hardware encryption and a Li Battery power backup enhance its security and reliability.  
