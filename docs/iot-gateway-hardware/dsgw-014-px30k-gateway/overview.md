@@ -31,10 +31,10 @@ DSGW-014 PX30K Gateway is a versatile outdoor LoRaWAN gateway based on the PX30K
     <img src="https://www.dusuniot.com/wp-content/uploads/2023/07/dsgw-014-Multi-Protocol-ip66.png.webp" alt="DSGW-014 PX30K Gateway" />
 </div>
 
-**Highly-efficient installation**: DSGW-014 supports **Power over Ethernet (PoE)**, allowing for convenient power supply and reducing the need for additional wiring. It is designed for easy deployment and offers multiple mounting options, including **flat, pole, and hoop mounting**, ensuring flexibility in installation. 
-**Easy Maintenance**: DSGW-014 also supports **remote OTA upgrading**, simplifying software updates and maintenance, especially in remote areas where physical access may be limited.  
-**LoRaWAN Performance**: DSGW-014 utilizes the Semtech **SX1302 chip** and supports multiple frequency bands, including **RU864, IN865, EU868, US915, AU915, KR920, AS923, and CN470**, catering to various regions and regulatory requirements. It's important to note that if integration with specific LoRaWAN platforms like AWS IoT, LORIOT, or ThingsStack is required, customization may be necessary.  
-**Outdoor GPS Positioning**: DSGW-014 gateway supports satellite positioning with compatibility for GPS, GLONASS, Galileo, and QZSS systems. This feature expands the gateway's functionality in remote areas by providing accurate positioning information, which can be beneficial for applications that require precise location data.
+- **Highly-efficient installation**: DSGW-014 supports **Power over Ethernet (PoE)**, allowing for convenient power supply and reducing the need for additional wiring. It is designed for easy deployment and offers multiple mounting options, including **flat, pole, and hoop mounting**, ensuring flexibility in installation. 
+- **Easy Maintenance**: DSGW-014 also supports **remote OTA upgrading**, simplifying software updates and maintenance, especially in remote areas where physical access may be limited.  
+- **LoRaWAN Performance**: DSGW-014 utilizes the Semtech **SX1302 chip** and supports multiple frequency bands, including **RU864, IN865, EU868, US915, AU915, KR920, AS923, and CN470**, catering to various regions and regulatory requirements. It's important to note that if integration with specific LoRaWAN platforms like AWS IoT, LORIOT, or ThingsStack is required, customization may be necessary.  
+- **Outdoor GPS Positioning**: DSGW-014 gateway supports satellite positioning with compatibility for GPS, GLONASS, Galileo, and QZSS systems. This feature expands the gateway's functionality in remote areas by providing accurate positioning information, which can be beneficial for applications that require precise location data.
 
 ***
 
