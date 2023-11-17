@@ -11,7 +11,7 @@ A: The gateway hardware support it, but the software need to be developed on cus
 Q: I want to install the Zigbee2MQTT service as in 
 https://www.zigbee2mqtt.io/guide/getting-started/ and
 I have gone through all steps in both guides without success. I was able to install the service but when starting the service I get this error:
-reset error: error: {"sequence":-1} after 10000ms at /root/zigbee2mqtt/zigbee2mqtt/node_modules/zigbeeherdsman/src/adapter/ezsp/driver/uart.ts:299:23%0d%0a
+reset error: error: {"sequence":-1} after 10000ms at /root/zigbee2mqtt/zigbee2mqtt/node_modules/zigbeeherdsman/src/adapter/ezsp/driver/uart.ts:299:23%0d%0a  
 A: For detailed analysis of specific problems, it is often recommended to use remote debugging. The following list outlines the most common causes and their corresponding solutions for reference:
 1. Log in gateway using ssh, username:root; password: root
 2. Run ps | grep Amber and record the usb port it's using, for example /dev/ttyUSB1
@@ -47,7 +47,7 @@ Q: can you recommend a gateway which support NVMe SSD?
 A: It is implementable on [DSGW-290](https://wiki.dusuniot.com/iot-gateway-hardware/dsgw-290-rk3568-gateway/overview).  
 
 ## Programmability  
-Q: how to redefine the button function of gateway?
+Q: how to redefine the button function of gateway?  
 A: You can refer to the SDK to get an example of it. Section 7.1.6
 https://drive.google.com/drive/folders/1Qt4hL3bwSXRkk3wZl98dXxkTCUWYT-pl
 
