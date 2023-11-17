@@ -1,7 +1,7 @@
 # FAQs of DSGW-210 RK3328 Gateway Hardware Development  
 ## BSP Support  
-### How you are supporting the device kernel development (like the BSP = Board Support Packages) for DSGW-210?  
-It is included in the [DSGW-210 SDK package](https://drive.google.com/file/d/1i_vDZ-LLWvsb8IMXVAE1BYTFEv45zVBv/view) we shared.
+Q: How you are supporting the device kernel development (like the BSP = Board Support Packages) for DSGW-210?  
+A: It is included in the [DSGW-210 SDK package](https://drive.google.com/file/d/1i_vDZ-LLWvsb8IMXVAE1BYTFEv45zVBv/view) we shared.
 
 ## OpenThread Related  
 Q: Does the DSGW-210-X-9 support openThread and its API?  
