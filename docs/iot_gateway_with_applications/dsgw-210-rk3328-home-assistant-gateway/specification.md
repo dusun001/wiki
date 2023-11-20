@@ -1,3 +1,1 @@
-# Specification.md
-
-## Introduction
+# Introduction
