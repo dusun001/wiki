@@ -254,6 +254,7 @@ Besides, the DSGW-014 offers local deployment with public LoRaWAN Network Servic
 </table>
 
 # 4. Solution
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-014-Solution.png)
 
 # 5. Third-Party Platform
 
@@ -261,10 +262,14 @@ Besides, the DSGW-014 offers local deployment with public LoRaWAN Network Servic
 ## 5.1. The Things Stack (DSGW-014-2-F-TTN)
 The Things Stack is an enterprise-grade LoRaWAN network server built on an open-source core. It enables you to create and oversee LoRaWAN networks on your hardware or in the cloud.
 
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/The-Things-Stack.png)
+
 Development reference links for The Things Stack: https://www.thethingsindustries.com/docs/
 
 ## 5.2. Chirpstack(DSGW-014-2-F-CS)
 The ChirpStack open-source LoRaWAN Network Server stack offers open-source components for LoRaWAN networks that can be used to create a complete solution. This includes a user-friendly web interface for device management and APIs for integration. The modular architecture allows for easy integration into existing infrastructures. All components are licensed under the MIT license and can be used commercially.
+
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/Chirpstack.png)
 
 Development reference links for Chirpstack: https://www.chirpstack.io/
 
