@@ -198,11 +198,22 @@ The CDGW-006 seamlessly integrates with popular public platforms like ThingsBoar
 | Operating Humidity    | 10%~90%                                                                                                                                                                                                                                                                                                                                                                                    |
 | IP Rating             | IP22                                                                                                                                                                                                                                                                                                                                                                                       |
 
-## 3.2. Performance
+## 3.2. Performance Requirement
+<table>
+<thead>
+  <tr>
+    <th> <br> <br> <br> <br> <br> <br> <br> <br> <br>Wi-Fi Performance</th>
+    <th>IEEE Wireless LAN standard:<br>IEEE802.11n, IEEE802.11g, IEEE 802.11b<br>Data Rate:<br>IEEE 802.11b Standard Mode:1,2,5.5,11Mbps<br>IEEE 802.11g Standard Mode:6,9,12,18,24,36,48,54 Mbps<br>IEEE 802.11n: MCS0~MCS7 @ HT20/ 2.4GHz band<br>MCS0~MCS7 @ HT40/ 2.4GHz band<br>Sensitivity:<br>HT40 MCS7: -70dBm@10% PER(MCS7) /2.4GHz band<br>HT20 MCS7 :-71dBm@10% PER(MCS7) /2.4GHz band<br>Transmit Power:<br>IEEE 802.11n: 16dBm @HT20/40 MCS7 /2.4GHzband<br>IEEE 802.11g: 16dBm @54MHz<br>IEEE 802.11b: 18dBm@11MHz<br>Wireless Security: WPA/WPA2, WEP, TKIP, and AES<br>Working mode: Bridge, AP Client<br>Range: 50 meters maximum, open field<br>Transmit Power:17dBm<br>Highest Transmission Rate: 300Mbps<br>Frequency offset: +/- 50KHZ<br>Frequency Range (MHz): 2412.0~2483.5<br>Low Frequency (MHz):2400<br>High Frequency (MHz):2483.5<br>E.i.r.p (Equivalent Isotopically Radiated power) (mW)&lt;100mW<br>Bandwidth (MHz):20MHz/40MHz<br>Modulation: BPSK/QPSK, FHSSCCK/DSSS, 64QAM/OFDM</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td> <br>LTE CAT4 EG25-G</td>
+    <td>LTE-FDD: B1/B2/B3/B4/B5/B7/B8/B12/B13/B18/B19/B20/B25/B26/B28<br>LTE-TDD: B38/B39/B40/B41<br>WCDMA: B1/B2/B4/B5/B6/B8/B19<br>GSM: B2/B3/B5/B8</td>
+  </tr>
+</tbody>
+</table>
 
-|                   Wi-Fi Performance | l  IEEE Wireless LAN standard: IEEE802.11n, IEEE802.11g, IEEE 802.11b l  Data Rate: IEEE 802.11b Standard Mode:1,2,5.5,11Mbps IEEE 802.11g Standard Mode:6,9,12,18,24,36,48,54 Mbps IEEE 802.11n: MCS0~MCS7 @ HT20/ 2.4GHz band MCS0~MCS7 @ HT40/ 2.4GHz band l  Sensitivity: HT40 MCS7: -70dBm@10% PER(MCS7) /2.4GHz band HT20 MCS7 :-71dBm@10% PER(MCS7) /2.4GHz band l  Transmit Power: IEEE 802.11n: 16dBm @HT20/40 MCS7 /2.4GHzband IEEE 802.11g: 16dBm @54MHz IEEE 802.11b: 18dBm@11MHz l  Wireless Security: WPA/WPA2, WEP, TKIP, and AES l  Working mode: Bridge, AP Client l  Range: 50 meters maximum, open field l  Transmit Power:17dBm l  Highest Transmission Rate: 300Mbps l  Frequency offset: +/- 50KHZ l  Frequency Range (MHz): 2412.0~2483.5 l  Low Frequency (MHz):2400 l  High Frequency (MHz):2483.5 l  E.i.r.p (Equivalent Isotopically Radiated power) (mW)<100mW l  Bandwidth (MHz):20MHz/40MHz l  Modulation: BPSK/QPSK, FHSSCCK/DSSS, 64QAM/OFDM |
-|-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   LTE CAT4 EG25-G                   | l  LTE-FDD: B1/B2/B3/B4/B5/B7/B8/B12/B13/B18/B19/B20/B25/B26/B28 l  LTE-TDD: B38/B39/B40/B41 l  WCDMA: B1/B2/B4/B5/B6/B8/B19 l  GSM: B2/B3/B5/B8                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
 # 4. QA Requirements
 |     Information Description    |     Standard(Yes)   custom(No)    |
 |--------------------------------|-----------------------------------|
