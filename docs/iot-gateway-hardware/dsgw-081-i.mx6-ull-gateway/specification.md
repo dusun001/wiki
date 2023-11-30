@@ -78,7 +78,7 @@ Moreover, the DSGW-081 is designed to support multiple wireless protocols, such 
 | Operating Temperature   | -40℃~70℃                                                                                                                                                                                                                                                 |
 | Ambient Humidity        | 5~95%                                                                                                                                                                                                                                                    |
 ## 3.2. Performance
-<table>
+<!--<table>
 <thead>
   <tr>
     <th colspan="2">Performance Requirement</th>
@@ -102,7 +102,7 @@ Moreover, the DSGW-081 is designed to support multiple wireless protocols, such 
     <td>l  LTE FDD: B1/B3/B7/B8/B20<br>l  WCDMA: B1/B8<br>l  GSM: 900/1800MHz<br>l  Cat M1/Cat NB1:<br>LTE FDD: B1/B2/B3/B4/B5/B8/B12/B13/B18/B19/B20/B25/B26*/B28<br>LTE TDD: B39 (For Cat M1 Only)<br>l  EGPRS:850/900/1800/1900 M</td>
   </tr>
 </tbody>
-</table>
+</table>-->
 
 # 4. QA Requirements
 | Information Description | Standard(Yes) Custom(No) |
