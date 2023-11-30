@@ -1,7 +1,8 @@
 # **DSGW-201 Ceiling Router Gateway**
 
-<div style="text-align: center;">
-    <a href="javascript:window.print()" style="background-color: orange; color: black; border: none; padding: 10px 40px; font-size: 16px; text-decoration: none; display: inline-block; cursor: pointer;">Print</a>
+<div style={{textAlign: 'center'}}>
+<button onClick={() => window.print()} style={{ display: 'inline-block', backgroundColor: '#F6940B', color: '#ffffff', padding: '10px 25px',cursor:'pointer', textDecoration: 'none', borderRadius: '4px' }}>Print</button>
+
 </div>
 
 # **Model List**
