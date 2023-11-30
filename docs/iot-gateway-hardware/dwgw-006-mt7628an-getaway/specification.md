@@ -2,7 +2,7 @@
 ## Model List
 
 **Category A ( In Stock, Lead Time: 1~2 Weeks )**
-<table>
+<!--<table>
 <thead>
   <tr>
     <th rowspan="3">&nbsp;&nbsp;&nbsp;<br> <br>&nbsp;&nbsp;&nbsp;<br>Feature<br>&nbsp;&nbsp;&nbsp;<br> <br>&nbsp;&nbsp;&nbsp;<br>Model&nbsp;&nbsp;&nbsp;</th>
@@ -137,7 +137,7 @@
     <td>&nbsp;&nbsp;&nbsp;<br>C&nbsp;&nbsp;&nbsp;</td>
   </tr>
 </tbody>
-</table>
+</table>-->
 
 # 1. Product Introduction
 
@@ -199,7 +199,7 @@ The CDGW-006 seamlessly integrates with popular public platforms like ThingsBoar
 | IP Rating             | IP22                                                                                                                                                                                                                                                                                                                                                                                       |
 
 ## 3.2. Performance Requirement
-<table>
+<!--<table>
 <thead>
   <tr>
     <th> <br> <br> <br> <br> <br> <br> <br> <br> <br>Wi-Fi Performance</th>
@@ -212,7 +212,7 @@ The CDGW-006 seamlessly integrates with popular public platforms like ThingsBoar
     <td>LTE-FDD: B1/B2/B3/B4/B5/B7/B8/B12/B13/B18/B19/B20/B25/B26/B28<br>LTE-TDD: B38/B39/B40/B41<br>WCDMA: B1/B2/B4/B5/B6/B8/B19<br>GSM: B2/B3/B5/B8</td>
   </tr>
 </tbody>
-</table>
+</table>-->
 
 # 4. QA Requirements
 |     Information Description    |     Standard(Yes)   custom(No)    |

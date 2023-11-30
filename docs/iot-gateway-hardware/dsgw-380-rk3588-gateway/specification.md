@@ -65,7 +65,7 @@ The rugged design with aluminum alloy structure, active fan cooling, rich I/O in
 |     Ambient   Humidity         |     5~95%                                                                                                                                                                                                                                      |
 
 ## 3.2. Performance Requirement
-<table>
+<!--<table>
 <thead>
   <tr>
     <th colspan="2">Performance Requirement</th>
@@ -85,7 +85,7 @@ The rugged design with aluminum alloy structure, active fan cooling, rich I/O in
     <td>•         5G SA Sub-6: Max. 2.1Gbps (DL)/ Max. 900Mbps (UL)<br>•         5G NSA Sub-6: Max. 2.5Gbps (DL)/Max. 525/550Mbps (UL)<br>•         5G SA Sub-6: Max. 2.1Gbps (DL)/Max. 450Mbps (UL)(RM500Q-AE/<br>RM505Q-AE); Max. 4.2Gbps (DL)/Max. 450Mbps (UL)(RM502Q-AE)<br>•         5G NSA Sub-6: Max. 2.5Gbps (DL)/Max. 650Mbps (UL)(RM500Q-AE/<br>RM505Q-AE); Max. 5.0Gbps (DL)/Max. 650Mbps (UL)(RM502Q-AE)<br>•         LTE-FDD: Max. 1Gbps (DL)/Max. 200Mbps (UL)<br>•         LTE-FDD: Max. 1Gbps (DL)/Max. 200Mbps (UL)<br>(RM500Q-AE/RM505Q-AE)<br>•         LTE-FDD: Max. 2Gbps (DL)/Max. 200Mbps (UL) (RM502Q-AE)<br>5G NR: n1/n28/n41/n78/n79<br>•         LTE-FDD: B1/B3/B5/B8<br>•         LTE-TDD: B34/B38/B39/B40/B41<br>•         WCDMA: B1/B8<br>•         5GNR:n1/n2/n3/n5/n7/n8/n12/n20/n25/n28/n38/n40/n41/n48/n66/n71/n77/n78/n79<br>•         LTE-FDD: B1/B2/B3/B4/B5/B7/B8/B12(B17)/B13/B14/B18/B19/B20/B25/B26/B28/B29/B30/B32/B66/B71<br>•         LTE-TDD: B34/B38/39/B40/B41/B42/B43/B4</td>
   </tr>
 </tbody>
-</table>
+</table>-->
 
 # 4. QA Requirements
 |     Information Description    |     Standard(Yes) Custom(No)    |
