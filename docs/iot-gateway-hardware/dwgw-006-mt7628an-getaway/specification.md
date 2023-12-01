@@ -5,6 +5,7 @@
 <button onClick={() => window.print()} style={{ display: 'inline-block', backgroundColor: '#F6940B', color: '#ffffff', padding: '10px 25px',cursor:'pointer', textDecoration: 'none', borderRadius: '4px' }}>Print</button>
 
 </div>
+
 ## Model List
 
 **Category A ( In Stock, Lead Time: 1~2 Weeks )**
