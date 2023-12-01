@@ -68,24 +68,24 @@ The DSGW-090 is a Ceiling-Mounted Gateway utilized in smart home systems, the in
 
 ## **3.1 Technical Specification**
 
-| Category              | Specifications                                               |      |
-| --------------------- | ------------------------------------------------------------ | ---- |
-| CPU                   | MT7628AN, MIPS24KEc, 580MHZ                                  |      |
-| System                | OpenWrt                                                      |      |
-| RAM                   | 128MB                                                        |      |
-| Storage               | 16MB SPI Flash                                               |      |
-| Power Supply          | USB Type-C 5V/2A, POE                                        |      |
-| Indicator   LEDs      | 1). Power LED 2). Wireless LED   3）LTE indicator            |      |
-| Antenna               | FPC Antenna                                                  |      |
-| Interface             | TF   Card Slot x 1, SIM Card Slot x 2                        |      |
-| Ethernet              | 1 * WAN/   LAN 10/100 Mbps variable port                     |      |
-| Reset                 | Factory   reset button. To reset the Gateway to its original factory settings, press   and hold it for more than 10 seconds |      |
-| Installation method   | Flat, Ceiling                                                |      |
-| Weight                | TBD                                                          |      |
-| Operating Temperature | -10℃~55℃                                                     |      |
-| Storage Temperature   | -20℃~65℃                                                     |      |
-| Operating humidity    | 10%~90%                                                      |      |
-| IP rating             | IP22                                                         |      |
+| Category              | Specifications                                               |
+| --------------------- | ------------------------------------------------------------ |
+| CPU                   | MT7628AN, MIPS24KEc, 580MHZ                                  |
+| System                | OpenWrt                                                      |
+| RAM                   | 128MB                                                        |
+| Storage               | 16MB SPI Flash                                               |
+| Power Supply          | USB Type-C 5V/2A, POE                                        |
+| Indicator   LEDs      | 1). Power LED 2). Wireless LED   3）LTE indicator            |
+| Antenna               | FPC Antenna                                                  |
+| Interface             | TF   Card Slot x 1, SIM Card Slot x 2                        |
+| Ethernet              | 1 * WAN/   LAN 10/100 Mbps variable port                     |
+| Reset                 | Factory   reset button. To reset the Gateway to its original factory settings, press   and hold it for more than 10 seconds |
+| Installation method   | Flat, Ceiling                                                |
+| Weight                | TBD                                                          |
+| Operating Temperature | -10℃~55℃                                                     |
+| Storage Temperature   | -20℃~65℃                                                     |
+| Operating humidity    | 10%~90%                                                      |
+| IP rating             | IP22                                                         |
 
 ## **3.2 Communication Performance**
 
