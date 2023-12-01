@@ -1,7 +1,7 @@
 # **DSGW-040 Smart Gateway L-Serial**
 
-<div style="text-align: center;">
-    <a href="javascript:window.print()" style="background-color: orange; color: black; border: none; padding: 10px 40px; font-size: 16px; text-decoration: none; display: inline-block; cursor: pointer;">Print</a>
+<div style={{textAlign:'center'}}>
+<img src="https://www.roombanker.com/wp-content/uploads/2023/11/smart-hub-roombanker-rbgw-big.png" style={{textAlign:'center',width:'50%'}} /> 
 </div>
 
 ## **Model List**
