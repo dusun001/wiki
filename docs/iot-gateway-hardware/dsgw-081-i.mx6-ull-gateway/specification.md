@@ -1,4 +1,4 @@
-<img width="1101" alt="image" src="https://github.com/dusun001/wiki/assets/149028888/a5dae567-8c94-4147-bfad-11890bdb9331"># DSGW-081 i.MX6ull Industry Edge Computing Gateway
+#**DSGW-081 Industry Edge Computing Gateway**
 
 <div style={{textAlign: 'center'}}>
 
