@@ -1,5 +1,11 @@
 # DSGW-380 Industrial AI Edge Computing Gateway
 
+<div style={{textAlign: 'center'}}>
+
+<button onClick={() => window.print()} style={{ display: 'inline-block', backgroundColor: '#F6940B', color: '#ffffff', padding: '10px 25px',cursor:'pointer', textDecoration: 'none', borderRadius: '4px' }}>Print</button>
+
+</div>
+
 ## Model List
 |     Feature     Model    |     Wi-Fi6    |     5G    |     RS232    |     RS485    |     LoRa    |     BLE5.2    |     Ethernet    |
 |--------------------------|---------------|-----------|--------------|--------------|-------------|---------------|-----------------|
