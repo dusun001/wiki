@@ -1,4 +1,4 @@
-# **DSGW-030 **Smart Gateway S Serial****
+# **DSGW-030 Smart Gateway S Serial**
 
 <div style={{textAlign: 'center'}}>
 
