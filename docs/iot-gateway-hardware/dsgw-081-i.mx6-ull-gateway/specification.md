@@ -1,4 +1,11 @@
-# DSGW-081 i.MX6ull Industry Edge Computing Gateway
+<img width="1101" alt="image" src="https://github.com/dusun001/wiki/assets/149028888/a5dae567-8c94-4147-bfad-11890bdb9331"># DSGW-081 i.MX6ull Industry Edge Computing Gateway
+
+<div style={{textAlign: 'center'}}>
+
+<button onClick={() => window.print()} style={{ display: 'inline-block', backgroundColor: '#F6940B', color: '#ffffff', padding: '10px 25px',cursor:'pointer', textDecoration: 'none', borderRadius: '4px' }}>Print</button>
+
+</div>
+
 ## Model List
 
 **Category A (In Stock, Lead Time: 1~2 Weeks)**
