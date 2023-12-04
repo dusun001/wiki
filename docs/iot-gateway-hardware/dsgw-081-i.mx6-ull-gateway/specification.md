@@ -1,4 +1,4 @@
-#**DSGW-081 Industry Edge Computing Gateway**
+# **DSGW-081 Industry Edge Computing Gateway**
 
 <div style={{textAlign: 'center'}}>
 
