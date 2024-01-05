@@ -62,7 +62,10 @@ The next step can be taken only after generating the MD5 value of the source com
 $ md5sum px30_linux-*.tar.gz
 ```
 
-
+```
+MD5.txt
+058e13da1e4212dba0faf5666c0303b2  px30_linux.tar.gz
+```
 
 ## 5.3 The Source Compression Package is Unzipped
 Copy the source code to the corresponding directory and unzip the source code compression package.
@@ -90,7 +93,9 @@ The build will take a long time, please wait patiently.
 After update.img is built, burn it to the board according to chapter 7.
 
 ### 6.1.2 Prepare the Root File System base
-You can build buildroot,  debian rootfs image.This section is for building  debian file system. If you want to build the buildroot  file system, skip this section.
+You can build buildroot,  debian rootfs image.This section is for building  debian file system. 
+
+If you want to build the buildroot  file system, skip this section.
 
 - Compile Debian
 
@@ -349,14 +354,14 @@ cat /dev/ttyUSB1
 
 ```
 
-### 7.1.3 Test LED
+### 7.1.4 Test LED
 
 ```
 # dsled b  on
 # dsled  g blink_fast
 ```
 
-### 7.1.4 Test I2C
+### 7.1.5 Test I2C
 
 ```
 # i2cdetect -y 0
@@ -470,6 +475,12 @@ echo 5000 > /dev/cpuctl/mygroup/cpu.cfs_period_us
 ## 8.1 Upgrade Tool
 Upgrade tool：AndroidTool_Release_v2.69
 
+Upgrade driver：DriverAssitant_v4.91
+
+use the upgrade tool, must first exe DriverInstall.exe in DriverAssitant_v4.91
+
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image002.jpg)
+
 ## 8.2 Go into Upgrade Mode by ADB Switch
 
 1. Connect the OTG port to the burning computer USB port, it's also act as POE power supply
@@ -501,11 +512,11 @@ Upgrade tool：AndroidTool_Release_v2.69
  ![DSGW-014-QSG-upgrade-3](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-014-QSG-upgrade-3.png)
 
 # 9.Read firmware image from gateway
-Steps for read firmware image from the gateway is shared below,
+Steps for read firmware image from the gateway by Serial is shared below.
 
 1. Restart to recovery mode bootm2recovery.sh
 
-2. Killall dsupdateimg
+2. killall dsupdateimg
 3. mount /dev/mmcblk1p9 /f
 4. dd if=/dev/mmcblk1p8 of=/f/rootfs.img bs=10M
 5. Restart to normal Debian mode again, copy /f/rootfs.img to the server and save.
