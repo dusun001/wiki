@@ -30,13 +30,7 @@ SDRAM: 2GB
 
 ## 2.2  Interface
 
- 
-
-|      |                                                              |
-| ---- | ------------------------------------------------------------ |
-|      | ![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image002.jpg) |
-
-
+ ![image-20240106094940310](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240106094940310.png)
 
 
 
@@ -57,9 +51,7 @@ This section describes how to connect the gateway into your host computer and ne
 
 ​	1） Connect one end of the USB cable to the USB port on the laptop or desktop 2） Connect the other end of USB cable to the USB port on the gateway.
 
-|      |                                                              |
-| ---- | ------------------------------------------------------------ |
-|      | ![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image004.jpg) |
+![image-20240106095018033](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240106095018033.png)
 
 Figure3-1. Connecting a gateway via USB port
 
@@ -69,9 +61,7 @@ If you want to debug the gateway, you can open the shell, Connect the PC to the 
 
 PIN in board for serial connection: TP1100: RX TP1101:TX
 
-|      |                                                              |
-| ---- | ------------------------------------------------------------ |
-|      | ![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image006.jpg) |
+![image-20240106095033064](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240106095033064.png)
 
 Figure3-2. Connecting a PCBA via Serial-USB tool
 
