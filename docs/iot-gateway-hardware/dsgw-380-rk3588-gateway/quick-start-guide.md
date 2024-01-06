@@ -33,7 +33,7 @@ Base on the 4.4 Linux kernel, and leveraging existing open source software, simp
 
 - One WAN/LAN variable network port
 
-## 2.2  **Interface**
+## 2.2  Interface
 
  ![image-20240106171425709](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240106171425709.png)
 
@@ -54,9 +54,8 @@ This section describes how to connect the gateway into your host computer and ne
 
 - Connecting a gateway – USB port
 
-1. ![8b31c155afe62f45b80003d34058b3d](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image005.gif
-2. Connect one end of the USB cable to the USB port on the laptop or desktop
-3. Connect the other end of USB cable to the USB port on the gateway.
+1. Connect one end of the USB cable to the USB port on the laptop or desktop
+2. Connect the other end of USB cable to the USB port on the gateway.
 
 ![image-20240106171514020](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240106171514020.png)
 
@@ -120,11 +119,11 @@ The firmware will be generated to location: rockdev/pack/AIO-3588Q_xxxxxx.img
 
 The following testing are done by the UI.
 
-### 5.1 Test Wi-Fi as AP
+## 5.1 Test Wi-Fi as AP
 
  ![image-20240106171820877](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240106171820877.png)
 
-### 5.2 Test LTE
+## 5.2 Test LTE
 
 ![image-20240106171831667](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240106171831667.png)
 
@@ -136,7 +135,7 @@ The following testing are done by the UI.
 
 ![image-20240106173946205](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240106173946205.png)
 
-### 5.3 Test LED
+## 5.3 Test LED
 
 ```
 control wifi led
@@ -150,7 +149,7 @@ control wifi led
 # echo 0 > /sys/class/leds/pwr_led/brightness //off
 ```
 
-### 5.4 Test I2C
+## 5.4 Test I2C
 
  ```
  # i2cdetect -y 0
@@ -278,11 +277,11 @@ Port: /dev/ttyS1
 
 
 
-## **7.1** **Upgrade Tool**
+## **7.1** Upgrade Tool
 
 Upgrade tool：AndroidTool_Release_v2.69
 
-## **7.2** **Go into Upgrade Mode**
+## **7.2** Go into Upgrade Mode
 
 1. Connect the OTG port to the burning computer USB port, it's also act as 5V power supply
 2. Press the factory reset button and hold on, then plugin power when you see 
