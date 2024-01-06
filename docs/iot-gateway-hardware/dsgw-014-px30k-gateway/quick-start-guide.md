@@ -1,5 +1,6 @@
 # Quick Start Guide 
 # 1 Introduction
+
 This Quick Start Guide explains the basics: how to connect and set up your target on the network; how to install the SDK; and how to build the firmware images.
 The Linux Software Developer’s Kit (SDK) is an embedded hardware and software suite that
 enables Linux developers to create applications on Dusun’s DSGW-014 gateway.
@@ -19,6 +20,8 @@ SDRAM: 2GB
 ## 2.2 Interface
 
 ![DSGW-014-QSG-interface](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-014-QSG-interface.png)
+
+
 
 # 3 Target Setup
 
@@ -43,7 +46,11 @@ PIN in board for serial connection:   TP45:GND TP46: RX   TP47: TX
 
 
 Figure3-2. Connecting a PCBA via Serial-USB tool
+
+
+
 # 4 Compile the Environment to Build
+
 Please use ubuntu 18.04 .iso image to setup your build environment. You can use a virtual machine or a physical PC to install ubuntu 18.04.
 ## 4.1 Virtual Machine
 It is recommended that novice users use virtual machines, install ubuntu 18.04 to the virtual machine, and leave enough disk space (at least 100G) for the virtual machine.
@@ -51,7 +58,10 @@ It is recommended that novice users use virtual machines, install ubuntu 18.04 t
 ## 4.2 Ubuntu PC Compile the Environment to Build
 The use of physical machine compilation users can use a ubuntu PC.
 
+
+
 # 5 SDK Acquisition and Preparation
+
 ## 5.1 Download the source code from the Dusun FTP
 The source package name will be px30_linux-*.tar.gz, get it from Dusun FTP.
 
@@ -81,6 +91,7 @@ $ cd px30_linux
 
 
 # 6 Code Compilation
+
 ## 6.1 Getting started, global Compilation
 ### 6.1.1 Start Compiling
 
@@ -181,7 +192,10 @@ $ ./build.sh -U
 
 This command making output/*.img scatter firmware packaging builds in the directory update-linux.img
 
+
+
 # 7 More about  system and hardware
+
 If you use configuration of system and hardware peripherals,please refer to the following
 ## 7.1 Test hardware components
 The following testing are done under the system.
@@ -472,6 +486,7 @@ echo 5000 > /dev/cpuctl/mygroup/cpu.cfs_period_us
 ```
 
 # 8 Image Upgrade
+
 ## 8.1 Upgrade Tool
 Upgrade tool：AndroidTool_Release_v2.69
 
@@ -511,7 +526,8 @@ use the upgrade tool, must first exe DriverInstall.exe in DriverAssitant_v4.91
 
  ![DSGW-014-QSG-upgrade-3](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-014-QSG-upgrade-3.png)
 
-# 9.Read firmware image from gateway
+# 9 Read firmware image from gateway
+
 Steps for read firmware image from the gateway by Serial is shared below.
 
 1. Restart to recovery mode bootm2recovery.sh
