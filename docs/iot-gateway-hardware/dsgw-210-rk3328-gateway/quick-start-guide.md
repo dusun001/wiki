@@ -38,7 +38,10 @@ SDRAM: 2GB
 
 
 
+
+
 # 3 Target Setup
+
 
 This section describes how to connect the gateway into your host computer and network.
 
@@ -71,6 +74,8 @@ PIN in board for serial connection: TP1100: RX TP1101:TX
 |      | ![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image006.jpg) |
 
 Figure3-2. Connecting a PCBA via Serial-USB tool
+
+
 
 # 4 Compile the Environment to Build
 
