@@ -4,30 +4,21 @@
 
 This Quick Start Guide explains the basics: how to connect and set up your target on the network; how to install the SDK; and how to build the firmware images. The Linux Software Developer’s Kit (SDK) is an embedded hardware and software suite that enables Linux developers to create applications on Dusun’s DSOM-090M gateway. and leveraging existing open source software, the SDK simplifies the process of adding custom applications. Device drivers, GNU toolchain, Pre- defined configuration profiles, and sample applications are all in included.
 
-# **2.** **Gateway I****nformation**
+# **2.** Gateway Information
 
 ## 2.1  Basic information
 
 - Embedded MIPS1004Kc(880 MHz) with 32 KB I-Cache and 32 KB D-Cache for each core 16-bit DDR2/3 up to 256/512 Mbytes
 
 - SPI, NAND Flash, SDXC
-
 - 1x USB 3.0, 2x USB 2.0, 3x PCle host
-
 - 5-port 10/100/1000 SW/PHY and one RGMIl
-
 - Green
-
-​		-Intelligent Clock Scaling (exclusive)
-
-​		-DDRII/Il1: ODT off,Self-refresh mode
-
+- Intelligent Clock Scaling (exclusive)
+- DDRII/Il1: ODT off,Self-refresh mode
 - I2C, I2S, SPI, PCM, UART,JTAG,MDC, MDIO, GPIO,SPDIF-TX
-
 - Hardware NAT with IPv6 and 2 Gbps wired speed
-
 - Firmware: Linux 2.6 SDK, eCOS with IPv6
-
 - RGMll iNIC Driver: Linux 2.4/2.6
 
 # **3.** **Target Setup**
@@ -48,7 +39,7 @@ This Quick Start Guide explains the basics: how to connect and set up your targe
 2. Connect the other end of network cable to the network port on the gateway. 
 3. SSH login gateway  ip address，username is root passwd is admin.
 
-# **4.** **Compile the Environment to Build**
+# 4.Compile the Environment to Build
 
 Please use ubuntu 18.04 .iso image to setup your build environment. You can use a virtual machine or a physical PC to install ubuntu 18.04.
 
@@ -60,12 +51,11 @@ It is recommended that novice users use virtual machines, install ubuntu 18.04 t
 
 The use of physical machine compilation users can use a ubuntu PC.
 
-# **5.** **SDK Acquisition** **a****nd Preparation**
+# 5.SDK Acquisition and Preparation
 
 ## 5.1 Download the source code from the Dusun FTP
 
 The source package name will be openwrt_MT7621.tar.gz, get it from Dusun FTP.
-
 openwrt_MT7621.tar.gz
 
 ## 5.2 Code Compression Package Check
@@ -92,11 +82,8 @@ $ cd 7621_test/
 ## 6.1 Getting started
 
 We have improved the compilation script so that you only need to execute the command ". /all_files/shell/release_all.sh"
-
 The first time you run the script ". /all_files/shell/release_all.sh", which will create the environment needed to compile
-
 Next, extract some of the required configuration
-
 Compile the extracted file again
 
  ```       
@@ -157,9 +144,7 @@ Unpacking the file we can get the fw.bin file
 ![image-20240108194549853](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240108194549853.png) 
 
 We can now upgrade our image via tftp and web upgrade
-
 Install the ftp software, set the output directory and other configurations
-
 The tftp tool can be downloaded from this connection
 
 [Downloads TFTP_SERVER](https://dusunprj.oss-us-west-1.aliyuncs.com/tftp_server.rar)
@@ -177,21 +162,14 @@ Connect the RK3568 board serial port to the PC via a USB to UART Bridge.
  ![image-20240108194705460](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240108194705460.png)
 
 Use Putty or other Terminal software as your console tool,
-
 SERIAL CONSOLE SETTINGS:
-
 - 115200/8N1
-
 - Baud: 115200
-
 - Data Bits: 8
-
 - Parity Bit: No
-
 - Stop Bit: 1
 
 Power UP the board, you can see the boot log on console:
-
 Here we enter 2, 2: Load system code then write to Flash via TFTP.
 
  ![image-20240108194728148](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240108194728148.png)
@@ -205,7 +183,6 @@ You can download fw.bin from here for testing
  ![image-20240108194735559](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240108194735559.png)
 
 In addition, there is an option for web upgrade
-
 If you use dusun's code, you can access the web interface through the IP of the gateway
 
  ![image-20240108195048353](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240108195048353.png)
@@ -271,11 +248,6 @@ You can view the network port configuration by plugging and unplugging the netwo
 ![image-20240108195347006](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240108195347006.png) 
 
 Run the command "switch vlan dump" to view the 
-
 Portmap
 
  ![image-20240108195357119](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240108195357119.png)
-
- 
-
- 
