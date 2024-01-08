@@ -340,7 +340,7 @@ Package the firmware, and the generated complete firmware will be saved to the r
  ./build.sh updateing        
  ```
 
-### 4.7 Partition description
+## 4.7 Partition description
 
 ### 4.7.1 Partition table
 
