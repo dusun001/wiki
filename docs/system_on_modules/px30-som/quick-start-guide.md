@@ -437,15 +437,15 @@ hwclock -s #Restore the linux system clock to the RTC register value, usually th
 
 hwclock -s
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image001.png)
+![clip_image-hwclock-h](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image-hwclock-h.png)
 
 ## 7.8 Power down to save data to flash
 
 Since the system uses ext4 file system, it is easy to save data and ensure no data loss after power failure. The If we copy a song from a USB stick to the /root directory
 
-![文本框: cp /udisk/muyangqu.mp3 /  ](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image001.png) 
-
- 
+```
+cp /udisk/muyangqu.mp3 /
+```
 
 Rebooting the board, we find that the song we just copied still exists in the root directory, which means that the data was not lost after the power failure. data was not lost after power down.
 
