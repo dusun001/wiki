@@ -762,7 +762,7 @@ root@dsgw211:~# pppd call dial
  expect (READY)
 ```
 
-## 9.9 EnOeacn
+## 9.8 EnOeacn
 
 download the Enoeacn Gateway test bin and run it
 
