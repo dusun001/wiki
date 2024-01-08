@@ -476,7 +476,7 @@ see the example has one function in the button script - firts is the long presse
 
 ```
 root@DSI0177:~# cat /etc/rc.button/BTN_1 
- \#!/bin/sh
+ #!/bin/sh
 
  . /lib/functions.sh
  . /lib/functions/leds.sh
@@ -509,7 +509,7 @@ root@DSI0177:~# cat /etc/rc.button/BTN_1
          led_timer pwrled 200 200
          led_timer errled 200 200
          logger "FACTORY RESET"
-         \#jffs2reset -y && reboot &
+         #jffs2reset -y && reboot &
          firstboot -y && reboot &
  }
 ```
