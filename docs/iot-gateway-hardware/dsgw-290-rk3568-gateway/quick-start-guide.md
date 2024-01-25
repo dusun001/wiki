@@ -138,11 +138,11 @@ Unzip the compression package
 
 Copy the root file system to the specified path
 
-             ```  
-             $ cd workdir/rk356x_linux_release_20211019    
-             $ mkdir ubuntu_rootfs    
-             $ cp /*path*/*to*/ubuntu.img ./ubuntu_rootfs/
-             ```
+```  
+$ cd workdir/rk356x_linux_release_20211019    
+$ mkdir ubuntu_rootfs    
+$ cp /*path*/*to*/ubuntu.img ./ubuntu_rootfs/
+```
 
 Change  the bulidconfig
 
@@ -254,9 +254,9 @@ You may need to build the images separately, especially when you focus on single
 
 ### 6.2.6 Final Image Packaging
 
-       ```
-       $ ./build.sh updateimg
-       ```
+```
+$ ./build.sh updateimg
+```
 
 This command making rockdev/*.img scatter firmware packaging builds in the directory update.img
 
@@ -512,24 +512,24 @@ Burning the OT-RCP and ensure that it can run normally.
 
 **Clone source code :**
 
-  ```
-  #cd you_thread_path/ot-br-posix
-  #git init
-  #git clone https://github.com/openthread/ot-br-posix
-  ```
+```
+#cd you_thread_path/ot-br-posix
+#git init
+#git clone https://github.com/openthread/ot-br-posix
+```
 
 **If need support web:**
 
-  ```   
-  #cd you_thread_pathot-br-posix    
-  #WEB_GUI=1 ./script/bootstrap       
-  ```
+```   
+#cd you_thread_pathot-br-posix    
+#WEB_GUI=1 ./script/bootstrap       
+```
 
 **Build** (INFRA_IF_NAME is based on your Ethernet network on your system, it may be eth1 or other; and if you are using wifi-network, INFRA_IF_NAME may be wlan0 or other; set WEB_GUI  value to 1 if you need web, or 0):
 
-     ```
-     #INFRA_IF_NAME=eth0  WEB_GUI=1 ./script/setup             
-     ```
+```
+#INFRA_IF_NAME=eth0  WEB_GUI=1 ./script/setup             
+```
 
 **Building success:**
 
@@ -549,10 +549,10 @@ The default path of configure file :
 
 The content is like:
 
-     ```
-     OTBR_AGENT_OPTS="-I wpan0 -B eth0 spinel+hdlc+uart:///dev/ttyACM0 trel://OTBR_INFRA_IF_NAME"
-     OTBR_NO_AUTO_ATTACH=0
-     ```
+```
+OTBR_AGENT_OPTS="-I wpan0 -B eth0 spinel+hdlc+uart:///dev/ttyACM0 trel://OTBR_INFRA_IF_NAME"
+OTBR_NO_AUTO_ATTACH=0
+```
 
 The **eth0** is same to before.
 
@@ -564,29 +564,29 @@ The otbr-agent will connect OT-RCP automatically after rebooting.
 
 ### 8.5.5 Start/Stop/Status otbr
 
-     ```
-     #sudo systemctl start otbr-agent.service    
-     #sudo systemctl status otbr-agent.service    
-     #sudo systemctl stop otbr-agent.service   
-     ```
+```
+#sudo systemctl start otbr-agent.service    
+#sudo systemctl status otbr-agent.service    
+#sudo systemctl stop otbr-agent.service   
+```
 
 ### 8.5.6 Log
 
-     ```
-     # tail -f /var/log/syslog | grep otbr             
-     ```
+```
+# tail -f /var/log/syslog | grep otbr             
+```
 
 ### 8.5.7 Debug thread-network with ot-ctl
 
- ```
- #sudo ot-ctl
- >
- >state
- leader
- Done
- >help
- ......
- ```
+```
+#sudo ot-ctl
+>
+>state
+leader
+Done
+>help
+......
+```
 
 Other command about ot-ctl, you can input help to learn.
 
@@ -608,32 +608,32 @@ SUB-G  interface is /dev/ttyS9.
 
 Exec command:  microcom -s 115200 -p /dev/ttyS9
 
-     ```
-     #microcom -s 115200 -p /dev/ttyS9
-     Type the escape character to get to the prompt.
-     > help
-     _________________________________
-     ____Application_Configuration____
-     setEventConfig      Control RAIL events.
-                         [uint32] eventsMask<31:0>
-                         [uint32] eventsValues<31:0>
-                         [uint32opt] eventsMask<63:32>
-                         [uint32opt] eventsValues<63:32>
-     resetCounters       Resets the TX and RX counters.
-     setPeripheralEnable Control LEDs and LCD peripherals.
-                         [uint8] [0=Disable] 1=Enable
-     setNotifications    Control asynchronous status prints (rxPacket,txEnd,txError).
-                         [uint8] 0=Disable [1=Enable]
-     getLogLevels        Show whether notifications or peripherals are enabled.
-     getVersion          Get version information.
-     getVersionVerbose   Get verbose version information.
-     setPtiProtocol      Set PTI protocol for Network Analyzer.
-                         [uint8] 0=Custom 2=Thread 3=BLE 4=Connect 5=Zigbee 6=Z-Wave
-     getPti              Get PTI configuration.
-     setPrintingEnable   Control all printing in RAILtest, except CLI.
-                         [uint8] 0=Disable [1=Enable]
-     
-     ```
+```
+#microcom -s 115200 -p /dev/ttyS9
+Type the escape character to get to the prompt.
+> help
+_________________________________
+____Application_Configuration____
+setEventConfig      Control RAIL events.
+                    [uint32] eventsMask<31:0>
+                    [uint32] eventsValues<31:0>
+                    [uint32opt] eventsMask<63:32>
+                    [uint32opt] eventsValues<63:32>
+resetCounters       Resets the TX and RX counters.
+setPeripheralEnable Control LEDs and LCD peripherals.
+                    [uint8] [0=Disable] 1=Enable
+setNotifications    Control asynchronous status prints (rxPacket,txEnd,txError).
+                    [uint8] 0=Disable [1=Enable]
+getLogLevels        Show whether notifications or peripherals are enabled.
+getVersion          Get version information.
+getVersionVerbose   Get verbose version information.
+setPtiProtocol      Set PTI protocol for Network Analyzer.
+                    [uint8] 0=Custom 2=Thread 3=BLE 4=Connect 5=Zigbee 6=Z-Wave
+getPti              Get PTI configuration.
+setPrintingEnable   Control all printing in RAILtest, except CLI.
+                    [uint8] 0=Disable [1=Enable]
+
+```
 
 ## 8.8 LTE
 
@@ -655,39 +655,39 @@ Print general mmcli help message:
  To acquire more device information and status use the --modem command and identifier value.
  mmcli --modem=0
 
-     ```
-     root@firefly:~# mmcli --scan-modems
-     successfully requested to scan devices
-     root@firefly:~# mmcli --list-modems
-         /org/freedesktop/ModemManager1/Modem/0 [Quectel] EG95
-     root@firefly:~# mmcli --modem=0
-       -----------------------------
-       General  |              path: /org/freedesktop/ModemManager1/Modem/0
-                |         device id: 3740231b64713ea188d5d50035fb1f39705abeea
-       -----------------------------
-       Hardware |      manufacturer: Quectel
-                |             model: EG95
-                | firmware revision: EG95EXGAR08A02M1G
-                |         supported: gsm-umts, lte
-                |           current: gsm-umts, lte
-                |      equipment id: 864004046663164
-       -----------------------------
-       System   |            device: /sys/devices/platform/fd880000.usb/usb2/2-1
-                |           drivers: qmi_wwan_q, option
-                |            plugin: quectel
-                |      primary port: ttyUSB2
-                |             ports: ttyUSB0 (qcdm), ttyUSB1 (gps), ttyUSB2 (at), ttyUSB3 (at),
-                |                    wwan0 (net)
-       -----------------------------
-       Status   |             state: failed
-                |     failed reason: sim-missing
-                |       power state: on
-                |    signal quality: 0% (cached)
-       -----------------------------
-       Modes    |         supported: allowed: 2g, 3g, 4g; preferred: none
-                |           current: allowed: any; preferred: none
-       -----------------------------
-     ```
+```
+root@firefly:~# mmcli --scan-modems
+successfully requested to scan devices
+root@firefly:~# mmcli --list-modems
+     /org/freedesktop/ModemManager1/Modem/0 [Quectel] EG95
+root@firefly:~# mmcli --modem=0
+     -----------------------------
+     General  |              path: /org/freedesktop/ModemManager1/Modem/0
+               |         device id: 3740231b64713ea188d5d50035fb1f39705abeea
+     -----------------------------
+     Hardware |      manufacturer: Quectel
+               |             model: EG95
+               | firmware revision: EG95EXGAR08A02M1G
+               |         supported: gsm-umts, lte
+               |           current: gsm-umts, lte
+               |      equipment id: 864004046663164
+     -----------------------------
+     System   |            device: /sys/devices/platform/fd880000.usb/usb2/2-1
+               |           drivers: qmi_wwan_q, option
+               |            plugin: quectel
+               |      primary port: ttyUSB2
+               |             ports: ttyUSB0 (qcdm), ttyUSB1 (gps), ttyUSB2 (at), ttyUSB3 (at),
+               |                    wwan0 (net)
+     -----------------------------
+     Status   |             state: failed
+               |     failed reason: sim-missing
+               |       power state: on
+               |    signal quality: 0% (cached)
+     -----------------------------
+     Modes    |         supported: allowed: 2g, 3g, 4g; preferred: none
+               |           current: allowed: any; preferred: none
+     -----------------------------
+```
 
 
 
@@ -701,30 +701,30 @@ Access to HDMI can display the desktop system.
 
 Codec can be show by command: arecord -l 
 
- ```
- #arecord -l      
- **** List of CAPTURE Hardware Devices ****
- card 1: rockchiprk809co [rockchip,rk809-codec], device 0: fe410000.i2s-rk817-hifi rk817-hifi-0 [fe410000.i2s-rk817-hifi rk817-hifi-0]
-   Subdevices: 1/1
-   Subdevice #0: subdevice #0
- ```
+```
+#arecord -l      
+**** List of CAPTURE Hardware Devices ****
+card 1: rockchiprk809co [rockchip,rk809-codec], device 0: fe410000.i2s-rk817-hifi rk817-hifi-0 [fe410000.i2s-rk817-hifi rk817-hifi-0]
+Subdevices: 1/1
+Subdevice #0: subdevice #0
+```
 
   Sound can be  recording and play 
 
-     ```
-     #arecord -Dhw:1,0 -d 10 -f cd -r 44100 -c 2 -t wav test.wav
-     #aplay test.wav
-     ```
+```
+#arecord -Dhw:1,0 -d 10 -f cd -r 44100 -c 2 -t wav test.wav
+#aplay test.wav
+```
 
 ## 9.3 Sata
 
 If you use a SSD,the following operations are required
 
-     ```
-     #fdisk  -l 
-     #mkfs.ext4  /dev/nvme0n1
-     #mount /dev/nvme0n1  /mnt
-     ```
+```
+#fdisk  -l 
+#mkfs.ext4  /dev/nvme0n1
+#mount /dev/nvme0n1  /mnt
+```
 
 ## 9.4 Beeper
 
@@ -734,10 +734,10 @@ Open beeper: echo 0 > /sys/class/leds/firefly\:beeper/brightness
 
 Close beeper: echo 1 > /sys/class/leds/firefly\:beeper/brightness
 
-     ```
-     #echo 1 >  /sys/class/leds/firefly\:beeper/brightness
-     #echo 0 >  /sys/class/leds/firefly\:beeper/brightness
-     ```
+```
+#echo 1 >  /sys/class/leds/firefly\:beeper/brightness
+#echo 0 >  /sys/class/leds/firefly\:beeper/brightness
+```
 
 # 10. Image Upgrade
 
@@ -750,9 +750,9 @@ Upgrade tool：AndroidTool_Release_v2.84.
 1. Connect the OTG port to the burning computer USB port, it's also act as 12V power supply
 2. Press "reboot loader" when ssh login:
 
-     ```
-     root@dusun:~# reboot loader
-     ```
+```
+root@dusun:~# reboot loader
+```
 
 3. system  reboot the board into LOADER mode, for a complete "update.img" upgrade.
 
