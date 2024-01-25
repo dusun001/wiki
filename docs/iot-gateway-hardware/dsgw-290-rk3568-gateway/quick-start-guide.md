@@ -178,7 +178,7 @@ $ vi device/rockchip/rk356x/firefly-rk3568-ubuntu.mk
 	export RK_ROOTFS_IMG=ubuntu_rootfs/linaro-rootfs.img 
 ```
 
-###  6.1.3 Start Compiling
+###  6.1.2 Start Compiling
 
 Build a complete directory of firmware files: rockdev/pack/AIO-3568J_Rk356x*.img and other separate images, AIO-3568J_Rk356x*.img includes all firmware for full upgrade.
 
@@ -190,7 +190,7 @@ The build will take a long time, please wait patiently.
 
 After AIO-3568J_Rk356x*.img is built, burn it to the board according to **chapter 7**.
 
-6.1.4 Run The Image on the board
+### 6.1.3 Run The Image on the board
 
 Connect the RK3568 board serial port to the PC via a USB to UART Bridge.
 
@@ -212,7 +212,7 @@ There is no default password for system login.
 
 ## 6.2 Compiled Each Image Part Separately
 
-## 6.2.1 The build system and the image structure
+### 6.2.1 The build system and the image structure
 
 The AIO-3568J_Rk356x*.img is composed of several parts. Main parts are uboot.img, boot.img, recovery.img, rootfs.img.
 
@@ -283,7 +283,7 @@ root@dusun:~# apt-get install     microcom
 
 
 
-## 8.1 Zigbee
+## 7.1 Zigbee
 
 Zigbee interface is /dev/ttyS3.
 
@@ -350,7 +350,7 @@ Exec command: AmberGwZ3 -n1 -p /dev/ttyS3 -b115200 -d
  Ezsp Config: set zll group addresses to 0x0000:Success: set
  ```
 
-## 8.2 Z-Wave
+## 7.2 Z-Wave
 
 Z-Wave interface is /dev/ttyS4 .
 
@@ -412,7 +412,7 @@ Default is 0x00: EU
 
 0x20 – Japan      0x21 - Korea
 
-## 8.3 BLE
+## 7.3 BLE
 
 BLE interface is /dev/ttyS7.
 
@@ -444,7 +444,7 @@ Exec command:  bul -d /dev/ttyS7 -b115200
  2023-02-16T07:57:56.512 [DBG] bul::__sl_bt_host_handle_command_noresponse()  ==[sl_bt_system_reset]==, 5
  ```
 
-## 8.4 LoRaWAN
+## 7.4 LoRaWAN
 
 Choose the correct interface for LoRaWAN, for example /dev/spidev1.0.
 
@@ -454,7 +454,7 @@ The configuration file for it is in **/root/sx1302_hal/packet_forwarder/global_c
 root@dusun:~#/root/packet_forwarder/lora_pkt_fwd -c /root/packet_forwarder/global_conf.json
 ```
 
-## 8.5 Thread
+## 7.5 Thread
 
 *Note:* 
 
@@ -462,14 +462,14 @@ root@dusun:~#/root/packet_forwarder/lora_pkt_fwd -c /root/packet_forwarder/globa
 
 2、The thread here is based on the OpenThread .
 
-### 8.5.1 What you need to prepare
+### 7.5.1 What you need to prepare
 
 If you want to run with thread-network correctly, the following steps should be care:
 
 1) a thread module on the board which has been flashed the OT-RCP firmware;
 2) build OTBR and its operating environment;
 
-### 8.5.2 Build OT-RCP
+### 7.5.2 Build OT-RCP
 
 The OT-RCP is a application running on the thread module, which may contain bootloader.
 
@@ -477,7 +477,7 @@ How to build OT-RCP based on the module brand and model you choose, please refer
 
 Burning the OT-RCP and ensure that it can run normally.
 
-### 8.5.3 Build OTBR
+### 7.5.3 Build OTBR
 
 **Install dependence:**
 
@@ -541,7 +541,7 @@ You will find Executable program:
 
 **ot-ctl:** *you_thread_path/ot-br-posix/build/otbr/third_party/openthread/repo/src/posix/*
 
-### 8.5.4 Configure otbr
+### 7.5.4 Configure otbr
 
 The default path of configure file :
 
@@ -562,7 +562,7 @@ Note:  *After modifying, reboot your gateway !!!*
 
 The otbr-agent will connect OT-RCP automatically after rebooting.
 
-### 8.5.5 Start/Stop/Status otbr
+### 7.5.5 Start/Stop/Status otbr
 
 ```
 #sudo systemctl start otbr-agent.service    
@@ -570,13 +570,13 @@ The otbr-agent will connect OT-RCP automatically after rebooting.
 #sudo systemctl stop otbr-agent.service   
 ```
 
-### 8.5.6 Log
+### 7.5.6 Log
 
 ```
 # tail -f /var/log/syslog | grep otbr             
 ```
 
-### 8.5.7 Debug thread-network with ot-ctl
+### 7.5.7 Debug thread-network with ot-ctl
 
 ```
 #sudo ot-ctl
@@ -590,7 +590,7 @@ Done
 
 Other command about ot-ctl, you can input help to learn.
 
-## 8.6 WIFI
+## 7.6 WIFI
 
 WIFI is used by desktop system. wifi supports sta and ap modes.
 
@@ -602,7 +602,7 @@ WIFI is used by desktop system. wifi supports sta and ap modes.
 
  ![image-20240125132604408](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240125132604408.png)
 
-## 8.7 SUB-G
+## 7.7 SUB-G
 
 SUB-G  interface is /dev/ttyS9.
 
@@ -635,7 +635,7 @@ setPrintingEnable   Control all printing in RAILtest, except CLI.
 
 ```
 
-## 8.8 LTE
+## 7.8 LTE
 
 LTE used by ModemManager.
 
@@ -691,13 +691,13 @@ root@firefly:~# mmcli --modem=0
 
 
 
-# 9. Hardware interface development 
+# 8. Hardware interface development 
 
-## 9.1 HDMI
+## 8.1 HDMI
 
 Access to HDMI can display the desktop system.
 
-## 9.2 Headphone
+## 8.2 Headphone
 
 Codec can be show by command: arecord -l 
 
@@ -716,7 +716,7 @@ Subdevice #0: subdevice #0
 #aplay test.wav
 ```
 
-## 9.3 Sata
+## 8.3 Sata
 
 If you use a SSD,the following operations are required
 
@@ -726,7 +726,7 @@ If you use a SSD,the following operations are required
 #mount /dev/nvme0n1  /mnt
 ```
 
-## 9.4 Beeper
+## 8.4 Beeper
 
 Beeper can be open and close. 
 
@@ -739,13 +739,13 @@ Close beeper: echo 1 > /sys/class/leds/firefly\:beeper/brightness
 #echo 0 >  /sys/class/leds/firefly\:beeper/brightness
 ```
 
-# 10. Image Upgrade
+# 9. Image Upgrade
 
-## 10.1 Upgrade Tool
+## 9.1 Upgrade Tool
 
 Upgrade tool：AndroidTool_Release_v2.84.
 
-## 10.2 Go into Upgrade Mode
+## 9.2 Go into Upgrade Mode
 
 1. Connect the OTG port to the burning computer USB port, it's also act as 12V power supply
 2. Press "reboot loader" when ssh login:
@@ -758,11 +758,11 @@ root@dusun:~# reboot loader
 
 ![image-20240125133936212](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240125133936212.png)
 
-## 10.3 The Entire Package of Firmware "XXX*.img" Upgrade
+## 9.3 The Entire Package of Firmware "XXX*.img" Upgrade
 
  ![image-20240125133942022](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240125133942022.png)
 
-## 10.4 Upgrade the Firmware Separately
+## 9.4 Upgrade the Firmware Separately
 
  ![image-20240125133947890](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240125133947890.png)
 
