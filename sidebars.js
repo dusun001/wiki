@@ -329,6 +329,46 @@ const sidebars = {
         },
         {
           type: "category",
+          label: "DSGW-095 RK3328 Gateway",
+          link: {
+            type: "doc",
+            id: "iot-gateway-hardware/dsgw-095 rk3328 gateway/overview",
+          },
+          items: [
+            {
+              type: "doc",
+              id: "iot-gateway-hardware/dsgw-095 rk3328 gateway/specification",
+              label: "Specification",
+            },
+            {
+              type: "doc",
+              id: "iot-gateway-hardware/dsgw-095 rk3328 gateway/user-manual",
+              label: "User Manual",
+            },
+            {
+              type: "doc",
+              id: "iot-gateway-hardware/dsgw-095 rk3328 gateway/quick-start-guide",
+              label: "Quick Start Guide",
+            },
+            // {
+            //   type: "doc",
+            //   id: "iot-gateway-hardware/dsgw-095 rk3328 gateway/gui-operating-guide",
+            //   label: "GUI Operating Guide",
+            // },
+            {
+              type: "doc",
+              id: "iot-gateway-hardware/dsgw-095 rk3328 gateway/faqs",
+              label: "FAQS",
+            },
+            // {
+            //   type: "doc",
+            //   id: "iot-gateway-hardware/dsgw-095 rk3328 gateway/release-note",
+            //   label: "Release Note",
+            // },
+          ],
+        },
+        {
+          type: "category",
           label: "DSGW-201 MT7621A Gateway",
           link: {
             type: "doc",
