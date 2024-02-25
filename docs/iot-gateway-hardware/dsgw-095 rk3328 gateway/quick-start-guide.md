@@ -20,13 +20,13 @@ This section describes the baseboard’s basic resource infomation and interface
 - Zigbee: EFR32MG1B232F256GM32
 - Z-wave: ZGM130S037HGN
 - Bluetooth: EFR32BG21A020F768IM32
--	Ethernet (10M/100M)  
+- Ethernet (10M/100M)  
 - DEBUG UART  
--	KEY 
--	OTG-USB (Type-C)  
--	TF card  
--	SIM Card 
-- eMMC: 8GB
+- KEY 
+- OTG-USB (Type-C)  
+- TF card  
+- SIM Card 
+- eMMC: 32GB
 - SDRAM: 2GB
 ### 2.2 Interface 
 <img src="https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-095.4195.png" alt="DSGW-095.4195" width="400">
