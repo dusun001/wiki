@@ -29,22 +29,17 @@ This section describes the baseboard’s basic resource infomation and interface
 - eMMC: 32GB
 - SDRAM: 2GB
 ### 2.2 Interface 
-<img src="https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-095.4195.png" alt="DSGW-095.4195" width="400">
-
-<img src="https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-095.4196.png"
-alt="DSGW-095.4196" width="400">
-
-<img src="https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-095.4200.png"
-alt="DSGW-095.4200" width="400">
-
-<img src="https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-095.4202.png"
-alt="DSGW-095.4202" width="400">
-
+![20240225184724](https://dusunprj.oss-us-west-1.aliyuncs.com/20240225184724.png)
+![20240225184746](https://dusunprj.oss-us-west-1.aliyuncs.com/20240225184746.png)
+![20240225184823](https://dusunprj.oss-us-west-1.aliyuncs.com/20240225184823.png)
+![20240225184858](https://dusunprj.oss-us-west-1.aliyuncs.com/20240225184858.png)
+![20240225184946](https://dusunprj.oss-us-west-1.aliyuncs.com/20240225184946.png)
 Front:
 ![20240222181208](https://dusunprj.oss-us-west-1.aliyuncs.com/20240222181208.png)
 
 Opposite:
 ![20240222181748](https://dusunprj.oss-us-west-1.aliyuncs.com/20240222181748.png)
+
 ## 3. Debug Setup 
 This section describes how to connect the board into your host computer and network to debug for development. 
 ### 3.1 Power  
@@ -718,18 +713,16 @@ root@DUSUN:~/bletest/test# ./build/test /dev/ttyS1 115200 -C
 ##  11.  Read firmware image from gateway
 
 Steps for read firmware image from the gateway by Serial is shared  below 
-````
 
-1. Restart to recovery mode bootm2recovery.sh
+**1.**   Restart to recovery mode bootm2recovery.sh
 
-2. Killall dsupdateimg
+**2.**   Killall dsupdateimg
 
-3. mount /dev/mmcblk0 /f
+**3.**   mount /dev/mmcblk0 /f
 
-4. dd if=/dev/mmcblk2p7 of=/f/rootfs.img bs=10M
+**4.**   dd if=/dev/mmcblk2p7 of=/f/rootfs.img bs=10M
 
-5. Restart to normal Debian mode again, copy /f/rootfs.img to the serverand save.
-````
+**5.**   Restart to normal Debian mode again, copy /f/rootfs.img to the serverand save.
 
 Then You have the file system you need.
 
@@ -739,5 +732,4 @@ Then You have the file system you need.
 Please contact our sell to get more support. ####
 
         Tel:86-571-86769027/88810480
-        Website: www.dusuniot.com www.dusunremotes.com www.dusunlock.com
-
+        Website: www.dusuniot.com www.dusunremotes.com www.dusunlock.com 
