@@ -718,6 +718,7 @@ root@DUSUN:~/bletest/test# ./build/test /dev/ttyS1 115200 -C
 ##  11.  Read firmware image from gateway
 
 Steps for read firmware image from the gateway by Serial is shared  below 
+````
 
 1. Restart to recovery mode bootm2recovery.sh
 
@@ -728,6 +729,7 @@ Steps for read firmware image from the gateway by Serial is shared  below
 4. dd if=/dev/mmcblk2p7 of=/f/rootfs.img bs=10M
 
 5. Restart to normal Debian mode again, copy /f/rootfs.img to the serverand save.
+````
 
 Then You have the file system you need.
 
