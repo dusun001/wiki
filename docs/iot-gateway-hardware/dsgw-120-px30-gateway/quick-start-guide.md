@@ -77,5 +77,85 @@ Use the upgrade tool, must first exe DriverInstall.exe in DriverAssitant_v4.91
 
 ## 5.5 Upgrade the Firmware Separately
 
-Todo 
+ 
 
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/%E5%9B%BE%E7%89%871.png)
+ 
+
+# 6 Start up
+
+Plug in the USB, connect it to the USB port of the computer, and the system will start ADB after the device is started (about 1 minute)
+
+# 7 Install total control
+
+The software is in the current folder Total_Control_8_0_u10_install_x64.zip
+
+ 
+
+# 8 Open total control
+
+Open total control after system startup (be sure to open after system startup, otherwise close and restart), wait until total control apk is installed and click Connect
+
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/%E5%9B%BE%E7%89%872.png)
+
+ 
+
+ 
+
+# 9 Log in to the Android11 screen
+
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/%E5%9B%BE%E7%89%873.png)
+
+# 10 Configuration wifi
+
+1. Open configuration
+
+ 
+
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/%E5%9B%BE%E7%89%874.png)
+
+ 
+
+2. Network internet
+
+ 
+
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/%E5%9B%BE%E7%89%875.png)
+
+
+
+ 
+
+3. Connect network
+
+ 
+
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image027.gif)
+
+4. LTE
+
+ Plugin Sim Card，LTE will autodial
+
+5. Bluetooth
+
+1）Click connected Devices
+
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image029.jpg)
+
+2）Click Connection preferences
+
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image031.jpg)
+
+3）Click Bluetooth
+
+![image-20240106140334128](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240106140334128.png)
+
+ 
+
+4）Click Pair new device
+
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image035.jpg)
+
+ 
+
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image037.jpg)
