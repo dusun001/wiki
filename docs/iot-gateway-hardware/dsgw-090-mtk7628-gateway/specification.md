@@ -23,13 +23,13 @@
 | DSGW-090-4 | ●          | ●             | ●         |        |          |
 | DSGW-090-5 | ●          |               | ●         |        |          |
 
-**Category C (Built by Order , Lead Time More Than 8 Weeks , MOQ: 500 )**
+**Category C (Built by Order, Lead Time More Than 8 Weeks, MOQ: 500 )**
 
 | Model      | Wi-Fi 2.4G | Bluetooth 5.2 | Zigbee3.0 | Z-Wave | LTE Cat1 |
 | ---------- | ---------- | ------------- | --------- | ------ | -------- |
 | DSGW-090-1 | ●          |               | ●         | ●      | ●        |
 | DSGW-090-6 | ●          | ●             |           |        |          |
-
+| DSGW-090-6 | ●          | ●             |           |        |          |
 # **1. Product Introduction**
 
 ## **1.1 Purpose and Description**
