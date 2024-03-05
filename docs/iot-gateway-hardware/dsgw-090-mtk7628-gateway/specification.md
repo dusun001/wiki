@@ -30,6 +30,8 @@
 | DSGW-090-1 | ●          |               | ●         | ●      | ●        |
 | DSGW-090-6 | ●          | ●             |           |        |          |
 | DSGW-090-6 | ●          | ●             |           |        |          |
+| DSGW-090-7 | ●          | ●             |           |        | ●        |
+
 # **1. Product Introduction**
 
 ## **1.1 Purpose and Description**
