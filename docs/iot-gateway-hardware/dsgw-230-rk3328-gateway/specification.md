@@ -45,17 +45,17 @@ With its modular architecture, the DSGW-230 allows for extensive customization o
 
 ## **1.3.Hardware Block Diagram**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211315775.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/202403061749075.png)
 
 # **2. Mechanical Requirement**
 
 ## **2.1.  Drawings**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211318166.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/202403061750564.png)
 
 ## **2.1.  Interface **
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211319135.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/202403061750768.png)
 
 # **3.  Specification**
 
