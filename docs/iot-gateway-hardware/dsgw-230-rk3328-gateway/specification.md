@@ -53,7 +53,7 @@ With its modular architecture, the DSGW-230 allows for extensive customization o
 
 ![](https://dusunprj.oss-us-west-1.aliyuncs.com/202403061750564.png)
 
-## **2.1.  Interface **
+## **2.1.  Interface**
 
 ![](https://dusunprj.oss-us-west-1.aliyuncs.com/202403061750768.png)
 
