@@ -50,9 +50,9 @@ DSGW-092, based on ESP32, is designed for smart home systems, the intelligent se
 
 ## **2.1 Interface and Dimension**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211603118.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/202403071731608.png)
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211605430.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/202403071731733.png)
 
 # **3. Specification**
 
