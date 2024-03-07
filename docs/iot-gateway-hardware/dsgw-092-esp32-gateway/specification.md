@@ -38,15 +38,15 @@ DSGW-092, based on ESP32, is designed for smart home systems, the intelligent se
 * Supports LTE Cat M1
 * One WAN/LAN 100Mbps variable network port
 
-## **1.3 Product Feature Summary**
+## **1.3 Hardware Block Diagram**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211558341.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/202403071708825.png)
 
 # **2. Product Detail**
 
 ## **2.1 Drawings**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211601427-20231121160250185.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/202403071727982.png)
 
 ## **2.1 Interface and Dimension**
 
