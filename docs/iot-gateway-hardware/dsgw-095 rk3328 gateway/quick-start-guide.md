@@ -715,28 +715,15 @@ root@DUSUN:~/bletest/test# ./build/test /dev/ttyS1 115200 -C
   Page operation document instructions, please download
   DSGW-095-Web-Description-V1.1.docx
 
-##  11.  Read firmware image from gateway
-
-Steps for read firmware image from the gateway by Serial is shared  below 
-````
-
-1. Restart to recovery mode bootm2recovery.sh
-
-2. Killall dsupdateimg
-
-3. mount /dev/mmcblk0 /f
-
-4. dd if=/dev/mmcblk2p7 of=/f/rootfs.img bs=10M
-
-5. Restart to normal Debian mode again, copy /f/rootfs.img to the serverand save.
-````
-
-Then You have the file system you need.
 
 
-## 9. Support 
 
-Please contact our sell to get more support. ####
 
-        Tel:86-571-86769027/88810480
-        Website: www.dusuniot.com www.dusunremotes.com www.dusunlock.com
+
+
+
+
+
+
+
+

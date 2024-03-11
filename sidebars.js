@@ -960,31 +960,281 @@ const sidebars = {
               id: "system_on_modules/mt7628-som/quick-start-guide",
               label: "Quick Start Guide",
             },
-            {
-              type: "doc",
-              id: "system_on_modules/mt7628-som/hardware-development-guide",
-              label: "Hardware Development Guide",
-            },
-            {
-              type: "doc",
-              id: "system_on_modules/mt7628-som/chip-guidance",
-              label: "Chip Guidance",
-            },
-            {
-              type: "doc",
-              id: "system_on_modules/mt7628-som/deployment-guide",
-              label: "Deployment Guide",
-            },
+            //{
+              //type: "doc",
+              //id: "system_on_modules/mt7628-som/hardware-development-guide",
+              //label: "Hardware Development Guide",
+            //},
+            //{
+              //type: "doc",
+              //id: "system_on_modules/mt7628-som/chip-guidance",
+              //label: "Chip Guidance",
+            //},
+            //{
+              //type: "doc",
+              //id: "system_on_modules/mt7628-som/deployment-guide",
+              //label: "Deployment Guide",
+            //},
             {
               type: "doc",
               id: "system_on_modules/mt7628-som/faqs",
               label: "FAQS",
             },
+            //{
+              //type: "doc",
+              //id: "system_on_modules/mt7628-som/release-note",
+              //label: "Release Note",
+            //},
+          ]
+        },
+        {
+          type: "category",
+          label: "DSOM-070N(i.mx8 MINI)",
+          link: {
+            type: "doc",
+            id: "system_on_modules/dsom-070n(i.mx8 mini)/overview",
+          },
+          items: [
             {
               type: "doc",
-              id: "system_on_modules/mt7628-som/release-note",
-              label: "Release Note",
+              id: "system_on_modules/dsom-070n(i.mx8 mini)/specification",
+              label: "Specification",
             },
+            {
+              type: "doc",
+              id: "system_on_modules/dsom-070n(i.mx8 mini)/user-manual",
+              label: "User Manual",
+            },
+            {
+              type: "doc",
+              id: "system_on_modules/dsom-070n(i.mx8 mini)/quick-start-guide",
+              label: "Quick Start Guide",
+            },
+            //{
+              //type: "doc",
+              //id: "system_on_modules/dsom-070n(i.mx8 mini)/hardware-development-guide",
+              //label: "Hardware Development Guide",
+            //},
+            //{
+              //type: "doc",
+              //id: "system_on_modules/dsom-070n(i.mx8 mini)/chip-guidance",
+              //label: "Chip Guidance",
+            //},
+            //{
+              //type: "doc",
+              //id: "system_on_modules/dsom-070n(i.mx8 mini)/deployment-guide",
+              //label: "Deployment Guide",
+            //},
+            {
+              type: "doc",
+              id: "system_on_modules/dsom-070n(i.mx8 mini)/faqs",
+              label: "FAQS",
+            },
+            //{
+              //type: "doc",
+              //id: "system_on_modules/dsom-070n(i.mx8 mini)/release-note",
+              //label: "Release Note",
+            //},
+          ]
+        },
+        {
+          type: "category",
+          label: "DSOM-120R(RK3399)",
+          link: {
+            type: "doc",
+            id: "system_on_modules/dsom-120r(rk3399)/overview",
+          },
+          items: [
+            {
+              type: "doc",
+              id: "system_on_modules/dsom-120r(rk3399)/specification",
+              label: "Specification",
+            },
+            {
+              type: "doc",
+              id: "system_on_modules/dsom-120r(rk3399)/user-manual",
+              label: "User Manual",
+            },
+            {
+              type: "doc",
+              id: "system_on_modules/dsom-120r(rk3399)/quick-start-guide",
+              label: "Quick Start Guide",
+            },
+            //{
+              //type: "doc",
+              //id: "system_on_modules/dsom-120r(rk3399)/hardware-development-guide",
+              //label: "Hardware Development Guide",
+            //},
+            //{
+              //type: "doc",
+              //id: "system_on_modules/dsom-120r(rk3399)/chip-guidance",
+              //label: "Chip Guidance",
+            //},
+            //{
+              //type: "doc",
+              //id: "system_on_modules/dsom-120r(rk3399)/deployment-guide",
+              //label: "Deployment Guide",
+            //},
+            {
+              type: "doc",
+              id: "system_on_modules/dsom-120r(rk3399)/faqs",
+              label: "FAQS",
+            },
+            //{
+              //type: "doc",
+              //id: "system_on_modules/dsom-120r(rk3399)/release-note",
+              //label: "Release Note",
+            //},
+          ]
+        },
+        {
+          type: "category",
+          label: "DSOM-121R(RK3399J)",
+          link: {
+            type: "doc",
+            id: "system_on_modules/dsom-121r(rk3399j)/overview",
+          },
+          items: [
+            {
+              type: "doc",
+              id: "system_on_modules/dsom-121r(rk3399j)/specification",
+              label: "Specification",
+            },
+            {
+              type: "doc",
+              id: "system_on_modules/dsom-121r(rk3399j)/user-manual",
+              label: "User Manual",
+            },
+            {
+              type: "doc",
+              id: "system_on_modules/dsom-121r(rk3399j)/quick-start-guide",
+              label: "Quick Start Guide",
+            },
+            //{
+              //type: "doc",
+              //id: "system_on_modules/dsom-121r(rk3399j)/hardware-development-guide",
+              //label: "Hardware Development Guide",
+            //},
+            //{
+              //type: "doc",
+              //id: "system_on_modules/dsom-121r(rk3399j)/chip-guidance",
+              //label: "Chip Guidance",
+            //},
+            //{
+              //type: "doc",
+              //id: "system_on_modules/dsom-121r(rk3399j)/deployment-guide",
+              //label: "Deployment Guide",
+            //},
+            {
+              type: "doc",
+              id: "system_on_modules/dsom-121r(rk3399j)/faqs",
+              label: "FAQS",
+            },
+            //{
+              //type: "doc",
+              //id: "system_on_modules/dsom-121r(rk3399j)/release-note",
+              //label: "Release Note",
+            //},
+          ]
+        },
+        {
+          type: "category",
+          label: "DSOM-130N(i.mx8 PLUS)",
+          link: {
+            type: "doc",
+            id: "system_on_modules/dsom-130n(i.mx8 plus)/overview",
+          },
+          items: [
+            {
+              type: "doc",
+              id: "system_on_modules/dsom-130n(i.mx8 plus)/specification",
+              label: "Specification",
+            },
+            {
+              type: "doc",
+              id: "system_on_modules/dsom-130n(i.mx8 plus)/user-manual",
+              label: "User Manual",
+            },
+            {
+              type: "doc",
+              id: "system_on_modules/dsom-130n(i.mx8 plus)/quick-start-guide",
+              label: "Quick Start Guide",
+            },
+            //{
+              //type: "doc",
+              //id: "system_on_modules/dsom-130n(i.mx8 plus)/hardware-development-guide",
+              //label: "Hardware Development Guide",
+            //},
+            //{
+              //type: "doc",
+              //id: "system_on_modules/dsom-130n(i.mx8 plus)/chip-guidance",
+              //label: "Chip Guidance",
+            //},
+            //{
+              //type: "doc",
+              //id: "system_on_modules/dsom-130n(i.mx8 plus)/deployment-guide",
+              //label: "Deployment Guide",
+            //},
+            {
+              type: "doc",
+              id: "system_on_modules/dsom-130n(i.mx8 plus)/faqs",
+              label: "FAQS",
+            },
+            //{
+              //type: "doc",
+              //id: "system_on_modules/dsom-130n(i.mx8 plus)/release-note",
+              //label: "Release Note",
+            //},
+          ]
+        },
+        {
+          type: "category",
+          label: "DSOM-040R(RK3588)",
+          link: {
+            type: "doc",
+            id: "system_on_modules/dsom-040r(rk3588)/overview",
+          },
+          items: [
+            {
+              type: "doc",
+              id: "system_on_modules/dsom-040r(rk3588)/specification",
+              label: "Specification",
+            },
+            {
+              type: "doc",
+              id: "system_on_modules/dsom-040r(rk3588)/user-manual",
+              label: "User Manual",
+            },
+            {
+              type: "doc",
+              id: "system_on_modules/dsom-040r(rk3588)/quick-start-guide",
+              label: "Quick Start Guide",
+            },
+            //{
+              //type: "doc",
+              //id: "system_on_modules/dsom-040r(rk3588)/hardware-development-guide",
+              //label: "Hardware Development Guide",
+            //},
+            //{
+              //type: "doc",
+              //id: "system_on_modules/dsom-040r(rk3588)/chip-guidance",
+              //label: "Chip Guidance",
+            //},
+            //{
+              //type: "doc",
+              //id: "system_on_modules/dsom-040r(rk3588)/deployment-guide",
+              //label: "Deployment Guide",
+            //},
+            {
+              type: "doc",
+              id: "system_on_modules/dsom-040r(rk3588)/faqs",
+              label: "FAQS",
+            },
+            //{
+              //type: "doc",
+              //id: "system_on_modules/dsom-040r(rk3588)/release-note",
+              //label: "Release Note",
+            //},
           ]
         },
       ]
