@@ -79,8 +79,7 @@ Use the upgrade tool, must first exe DriverInstall.exe in DriverAssitant_v4.91
 
  
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image016.jpg)
-
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/%E5%9B%BE%E7%89%871.png)
  
 
 # 6 Start up
@@ -97,7 +96,7 @@ The software is in the current folder Total_Control_8_0_u10_install_x64.zip
 
 Open total control after system startup (be sure to open after system startup, otherwise close and restart), wait until total control apk is installed and click Connect
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image018.jpg)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/%E5%9B%BE%E7%89%872.png)
 
  
 
@@ -105,7 +104,7 @@ Open total control after system startup (be sure to open after system startup, o
 
 # 9 Log in to the Android11 screen
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image020.jpg)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/%E5%9B%BE%E7%89%873.png)
 
 # 10 Configuration wifi
 
@@ -113,7 +112,7 @@ Open total control after system startup (be sure to open after system startup, o
 
  
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image022.jpg)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/%E5%9B%BE%E7%89%874.png)
 
  
 
@@ -121,7 +120,7 @@ Open total control after system startup (be sure to open after system startup, o
 
  
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image024.jpg)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/%E5%9B%BE%E7%89%875.png)
 
 
 

@@ -1186,7 +1186,7 @@ const sidebars = {
               //label: "Release Note",
             //},
           ]
-        },
+        }, 
         {
           type: "category",
           label: "DSOM-040R(RK3588)",
@@ -1236,7 +1236,7 @@ const sidebars = {
               //label: "Release Note",
             //},
           ]
-        },
+        },  
       ]
     }
   ],

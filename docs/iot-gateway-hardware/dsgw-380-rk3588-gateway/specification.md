@@ -31,15 +31,15 @@ The rugged design with aluminum alloy structure, active fan cooling, rich I/O in
 - Featuring a fully industrial design, making it rugged and ready for harsh conditions
   
 ## 1.3. Hardware Block Diagram
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-380-Hardware-Block-Diagram.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/202403070926959.png)
 
 # 2. Mechanical Requirement 
 
 ## 2.1. Drawing and Dimension
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-380-Drawing-and-Interface.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/202403070936749.png)
 
 ## 2.2. Interface
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-380-Interface.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/202403070941479.png)
 
 # 3. Specification
 

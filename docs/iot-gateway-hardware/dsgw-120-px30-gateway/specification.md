@@ -39,17 +39,17 @@ Designed for easy installation using wall mounting, which provides a clean and s
 
 ## **1.3 Hardware Block Diagram**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/20231120152112.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/202403071748584.png)
 
 # 2. Mechanical Requirement
 
 ## 2.1   Drawings
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/20231120152254.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/202403071749809.png)
 
 ## 2.2   Dimension
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/20231120152510.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/202403071750436.png)
 
 # 3  Specification
 

@@ -25,15 +25,15 @@ Besides, the DSGW-014 offers local deployment with public LoRaWAN Network Servic
 - Support LTE Cat1/Cat M1
 
 ## 1.3. Hardware Block Diagram
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-014-Outdoor-LoRa-Gateway.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/202403061904824.png)
 
 # 2. Mechanical Requirement 
 
 ## 2.1. Drawing
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-014-Outdoor-LoRa-Gateway-Drawing.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/202403061905998.png)
 
 ## 2.2. Interface And Dimension
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-014-LoRa-Gateway-Interface.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/202403061906171.png)
 
 # 3. Specification
 

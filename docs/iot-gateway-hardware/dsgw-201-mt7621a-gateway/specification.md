@@ -1,10 +1,5 @@
 # **DSGW-201 Ceiling Router Gateway**
 
-<div style={{textAlign: 'center'}}>
-<button onClick={() => window.print()} style={{ display: 'inline-block', backgroundColor: '#F6940B', color: '#ffffff', padding: '10px 25px',cursor:'pointer', textDecoration: 'none', borderRadius: '4px' }}>Print</button>
-
-</div>
-
 # **Model List**
 
 **Category A ( In Stock, Lead Time: 1~2 Weeks )**
@@ -44,17 +39,17 @@ With its modular architecture, the DSGW-201 allows for extensive customization o
 
 ## **1.3.Hardware Block Diagram**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211742796.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/20240306172320.png)
 
 # **2. Mechanical Requirement**
 
 ## **2.1.  Drawings**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211743822.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/20240306172403.png)
 
 **2.2.  Interface and Dimension**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211744948.png)
+![image-20240306172442829](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240306172442829.png)
 
 # **3.  Specification**
 
@@ -203,3 +198,4 @@ With its modular architecture, the DSGW-201 allows for extensive customization o
 |  Environmental Testing  |            Yes             |
 |   Reliability Testing   |            Yes             |
 |      Certification      | FCC, CE, RoHS, RCM, IC, CB |
+
