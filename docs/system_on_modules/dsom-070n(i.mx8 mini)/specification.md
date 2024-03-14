@@ -1,8 +1,3 @@
-# Specification.md
-
-
-
-
 
 ## Hardware Specification
 
