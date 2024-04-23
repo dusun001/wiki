@@ -766,11 +766,11 @@ Upgrade tool：AndroidTool_Release_v2.69
 
 Upgrade driver：DriverAssitant_v4.91
 
- use the upgrade tool, must first exe DriverInstall.exe in DriverAssitant_v4.91
+Use the upgrade tool, must first exe DriverInstall.exe in DriverAssitant_v4.91
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image042.jpg)
+![image-20240423162443035](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/image-20240423162443035.png)
 
- 
+
 
 ## 9.2  Go into Upgrade Mode by ADB Switch
 
@@ -778,7 +778,7 @@ Upgrade driver：DriverAssitant_v4.91
 
 2.click ADB switch in AndroidTool
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image044.jpg)
+![image-20240423162524460](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/image-20240423162524460.png)
 
  
 
