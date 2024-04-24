@@ -233,6 +233,6 @@ The CDGW-006 seamlessly integrates with popular public platforms like ThingsBoar
 # 5. Software Requirement
 
 ## 5.1 Modbus2MQTT
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/CDGW-006-Modbus2MQTT.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/CDGW-006/modbus.jpg)
 
 CDGW-006 allows Modbus devices to publish data to an MQTT broker and subscribe to MQTT topics for control commands. This enables the integration of Modbus devices into IoT applications, as well as remote monitoring and control of industrial automation systems.
