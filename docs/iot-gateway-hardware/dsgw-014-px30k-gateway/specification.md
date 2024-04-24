@@ -30,7 +30,7 @@ Besides, the DSGW-014 offers local deployment with public LoRaWAN Network Servic
 # 2. Mechanical Requirement 
 
 ## 2.1. Drawing
-https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-014/%E5%9B%BE%E7%89%87%201.png
+![]([https://dusunprj.oss-us-west-1.aliyuncs.com/202403061906171.png](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-014/%E5%9B%BE%E7%89%87%201.png))
 
 ## 2.2. Interface And Dimension
 ![](https://dusunprj.oss-us-west-1.aliyuncs.com/202403061906171.png)
