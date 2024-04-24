@@ -166,17 +166,17 @@ The CDGW-006 seamlessly integrates with popular public platforms like ThingsBoar
 - Support the AWS IoT platform
 
 ## 1.3. Hardware Block Diagram 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/CDGW-006-Hardware-Block-Diagram.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/CDGW-006/%E5%9B%BE%E7%89%87%201.png)
 
 # 2. Mechanical Requirement 
 ## 2.1. Drawing
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/CDGW-006-Drawing.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/CDGW-006/draw.png)
 
 ## 2.2. Dimension
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/CDGW-006-Dimension.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/CDGW-006/dimen.png)
 
 ## 2.3. Installation(DIN)
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/CDGW-006-Installation-DIN.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/CDGW-006/dimen.jpg)
 
 # 3. Specification
 
