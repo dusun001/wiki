@@ -111,7 +111,7 @@ The DSGW-210 IoT gateway offers versatile connectivity options and edge computin
 
 ## **2.1.  Drawings**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/20231120111902.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/dusun-spec202404241048003.png)
 
 ![](https://dusunprj.oss-us-west-1.aliyuncs.com/20231120112038-20231120112126133.png)
 
