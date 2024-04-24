@@ -25,7 +25,7 @@ Besides, the DSGW-014 offers local deployment with public LoRaWAN Network Servic
 - Support LTE Cat1/Cat M1
 
 ## 1.3. Hardware Block Diagram
-https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-014/%E6%A1%86%E5%9B%BE.png
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/oss://dusunprj/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-014/%E5%9B%BE%E7%89%87%201.png)
 
 # 2. Mechanical Requirement 
 
