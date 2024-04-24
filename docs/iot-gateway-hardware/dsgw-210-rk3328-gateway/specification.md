@@ -105,21 +105,21 @@ The DSGW-210 IoT gateway offers versatile connectivity options and edge computin
 
 ## **1.3.Hardware Block Diagram**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/20231120111620-20231120112052118.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-210/%E5%9B%BE%E7%89%87%201.png)
 
 # **2. Mechanical Requirement**
 
 ## **2.1.  Drawings**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/dusun-spec202404241048003.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-210/drawing1.png)
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/20231120112038-20231120112126133.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-210/drawing2.png)
 
 ## **2.1.  Interface and Dimension**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/20231120112520.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-210/Inter%2BDimen.jpg)
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/20231120112659.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-210/Inter%2BDimen2.png)
 
 # **3.  Specification**
 
