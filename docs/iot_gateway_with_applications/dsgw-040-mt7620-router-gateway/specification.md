@@ -61,21 +61,21 @@ DSGW-040 is specifically designed for the IoT gateway developer to customize the
 
 ##  **1.3 Hardware Block Diagram**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311271032278.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-040/block.png)
 
 # **2. Mechanical Requirement**
 
 ## **2.1. Drawings**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311271032839.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-040/draw.jpg)
 
 ## **2.2. Dimension**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311271033734.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-040/dimen.png)
 
 ## **2.3. Interface**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20231127103353536.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-040/inter.png)
 
 ##  **2.4 What’s in the Box**
 
@@ -267,13 +267,13 @@ The gateway supports the MQTT protocol for integration
 
 ## 6**.1.  AP-01 Beacons for Indoor Guidance and Location**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311271133139.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-040/AP-01.jpg)
 
 Beacons attached to the assets to be tracked emit BLE signals, which the Smart Gateway receives installed within the building. The Gateway processes this data and sends it to a server via Wi-Fi or Ethernet. The positions of the assets are then displayed on a map, and motion statistics can be retrieved.
 
 ## **6.2.  AP-02 Smart Home IoT**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/20231127113439.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-040/AP-02.jpg)
 
 The Smart Gateway serves as the smart home’s brain, connecting wirelessly with a wide range of smart devices and enabling them to work together seamlessly.
 
@@ -299,7 +299,7 @@ With its versatile functionality, the Smart Gateway empowers you to manage your 
 
 ##  **6.3.  AP-03 Smart Healthcare**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/20231127113552.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-040/AP-03.jpg)
 
 Health and medical equipment can be connected to the cloud platform through the gateway, enabling the remote transmission of health and medical data. This allows doctors to provide medication guidance to patients with chronic diseases remotely.
 
@@ -309,26 +309,26 @@ Additionally, the gateway is equipped with Bluetooth roaming functionality. In l
 
 **FCC**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/20231127115023.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-040/FCC.jpg)
 
 **Zigbee**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/20231127115211.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-040/Zigbee.jpg)
 
 **FCC**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/20231127115502.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-040/FCC.jpg)
 
 **RoHS**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/20231127115314.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-040/RoHS.jpg)
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/20231127115336.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-040/Rohs2.jpg)
 
 **PTCRB**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/20231127115404.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-040/PTCRB.jpg)
 
 **BQB**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/20231127115431.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-040/BQB.jpg)
