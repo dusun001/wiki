@@ -42,17 +42,17 @@ The DSGW-211 is a versatile smart gateway designed for building automation, home
 
 ## **1.3. Hardware Block Diagram**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311271357165.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-211/block.png)
 
 # **2. Mechanical Requirement**
 
 ## **2.1 Drawing**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311271359292.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-211/draw.jpg)
 
 ## **2.2. Interface and Dimensions**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311271400938.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-211/inter.jpg)
 
 # **3. Specification**
 
