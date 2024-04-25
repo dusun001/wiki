@@ -108,21 +108,21 @@ The DSGW-210-HA is pre-installed with the Home Assistant Supervised. All of thos
 
 ## **1.5. Hardware Block Diagram**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311271509998.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-210HA/block.jpg)
 
 # **2. Mechanical Requirement**
 
 ## **2.1.  Drawings**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/20231120111902.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-210HA/draw1.png)
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/20231120112038-20231120112126133.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-210HA/draw2.png)
 
 ## **2.2.  Interface and Dimension**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/20231120112520.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-210HA/inter.jpg)
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/20231120112659.png)
+
 
 # **3.  Specification**
 
