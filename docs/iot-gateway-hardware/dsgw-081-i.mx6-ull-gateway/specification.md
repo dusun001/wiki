@@ -52,15 +52,15 @@ Moreover, the DSGW-081 is designed to support multiple wireless protocols, such 
 - Supports multiple wireless protocols: Zigbee 3.0, Bluetooth 5.2, Wi-Fi 2.4
 
 ## 1.3. Hardware Block Diagram
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-081-Hardware-Block-Diagram.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-081/block.png)
 
 # 2. Mechanical Requirement 
 
 ## 2.1. Drawing
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-081-Drawing.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-081/draw.jpg)
 
 ## 2.2. Dimension
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-081-Dimension.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-081/dimen.png)
 
 # 3. Specification
 
