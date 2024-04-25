@@ -46,19 +46,19 @@ Serving various industries such as smart homes, intelligent security, and pensio
 
 **1.3. Hardware Block Diagram**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211645896.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-030/%E6%A1%86%E5%9B%BE.png)
 
 # **2. Mechanical Requirement**
 
 ## **2.1 Drawing**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211647063.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-030/%E5%9B%BE%E7%89%87%201.jpg)
 
 ## **2.2. Interface and Dimensions**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211648831.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-030/inter.png)
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211649366.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-030/dimen.png)
 
 # **3. Specification**
 
@@ -221,13 +221,13 @@ The gateway supports the MQTT protocol for cloud connectivity.
 
 ## **6.1.  AP-01 Beacons for Indoor Guidance and Location**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211714229.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-030/AP-01.jpg)
 
 Beacons attached to the assets to be tracked emit BLE signals, which are received by the Smart Gateway installed within the building. The Gateway processes this data and sends it to a server via Wi-Fi or Ethernet. The positions of the assets are then displayed on a map, and motion statistics can be retrieved
 
 ## **6.2.  AP-02 Smart Home IoT**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211716826.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-030/AP-02.png)
 
 The Smart Gateway serves as the smart home’s brain, connecting wirelessly with a wide range of smart devices and enabling them to work together seamlessly.
 
@@ -243,7 +243,7 @@ With its versatile functionality, the Smart Gateway empowers you to manage your 
 
 **6.3.  AP-04 SIG Mesh**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211717924.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-030/AP-04.jpg)
 
 Bluetooth is emerging as a formidable contender to become the preeminent short-range technology for connecting edge nodes in a capillary network. Introducing mesh functionality to Bluetooth allows low-power sensors to communicate with remote capillary gateways, which can be incorporated in any Bluetooth-enabled handset.
 
@@ -277,24 +277,24 @@ In an effort to support standardization, validate implementation recommendations
 
 ## **Zigbee**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211722539.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-030/zigbee.jpg)
 
 ## **BQB**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211723939.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-030/BQB.jpg)
 
 ## **CE**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211725788.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-030/CE.jpg)
 
 ## **FCC**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211726629.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-030/FCC.jpg)
 
 ## **Canada IC**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211726783.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-030/IC.jpg)
 
 ## **KC**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211727203.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-030/KC.jpg)
