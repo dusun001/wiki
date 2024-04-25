@@ -189,6 +189,6 @@ Designed for easy installation using wall mounting, which provides a clean and s
 
 # **5. 1   Installation ( Wall Mounting)**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/20231120162033.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-120/Mount1.jpg)
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/20231120162103.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-120/Mount2.jpg)
