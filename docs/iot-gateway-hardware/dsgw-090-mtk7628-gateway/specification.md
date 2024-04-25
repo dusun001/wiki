@@ -51,19 +51,19 @@ The DSGW-090 is a Ceiling-Mounted Gateway utilized in smart home systems, the in
 
 ## **1.3  Hardware Block Diagram**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211505510.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-090/block.png)
 
 # **2.  Mechanical Requirement**
 
 ## **2.1.  Drawings**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211506183.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-090/draw.png)
 
 ## **2.2. Interface and Dimensions**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211507230.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-090/inter.png)
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311211508925.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-090/dimen.png)
 
 # **3. Specification**
 
