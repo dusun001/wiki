@@ -54,17 +54,17 @@ Further, with pre-integrated, comprehensive, and fully documented out-of-the-box
 
 ## **1.3  Hardware Block Diagram**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311212025504.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-021/block.png)
 
 # **2.  Mechanical Requirement**
 
 ## **2.1.  Drawings**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311212026649.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-021/draw.png)
 
 ## **2.2. Interface and Dimensions**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311212027886.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-021/dimen.jpg)
 
 # **3. Specification**
 
@@ -233,55 +233,57 @@ Further, with pre-integrated, comprehensive, and fully documented out-of-the-box
 
 ## **4.1 Login**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311251357700.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-021/login.jpg)
 
 ## **4.2  Modify the Password**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311251358048.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-021/modify.jpg)
 
 ## **4.3  Router Status**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311251359422.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-021/router.jpg)
 
 ## **4.4. Internet Setting**
 
-## ![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311251404322.png)**4.5. Wi-Fi Setting**
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-021/internet.jpg)
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311251405103.png)
+## **4.5. Wi-Fi Setting**
+
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-021/wifi.jpg)
 
 ## **4.6. LAN Setting**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311251405033.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-021/lan.jpg)
 
 ## **4.7. Security Policy**
 
 ### **4.7.1.   MAC Filter**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311251423164.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-021/MAC.jpg)
 
 ### **4.7.2. Domain Name Filter**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311251427045.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-021/domain.jpg)
 
 ### **4.7.3. DMZ**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311251428486.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-021/DMZ.jpg)
 
 # **4.8. Advanced Setting**
 
 ### **4.8.1.   Firmware Update**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311251429483.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-021/firmware%20.jpg)
 
 ### **4.8.2.   Factory Setting**
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311251430306.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-021/factory.jpg)
 
 # **5. Development**
 
 ## 5.1. System Block Diagram
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/202311251431687.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW%EF%BC%88Spec%EF%BC%89/DSGW-021/system%20blockpng.png)
 
 Dusun provides an SDK that includes the OpenWRT system, drivers, and the wireless protocol stack.
 
