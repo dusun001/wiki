@@ -768,7 +768,7 @@ Upgrade driver：DriverAssitant_v4.91
 
  use the upgrade tool, must first exe DriverInstall.exe in DriverAssitant_v4.91
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image042.jpg)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/image-20240423162443035.png)
 
  
 
