@@ -19,7 +19,7 @@ eMMC: 16GB
 SDRAM: 2GB
 ## 2.2 Interface
 
-![DSGW-014-QSG-interface](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-014-QSG-interface.png)
+![DSGW-014-QSG-interface](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/014/DSGW-014-1.png)
 
 
 
@@ -35,14 +35,14 @@ This section describes how to connect the gateway into your host computer and ne
 1）	Connect one end of the USB cable to the USB port on the laptop or desktop
 2）	Connect the other end of USB cable to the USB port on the gateway.
 
-![DSGW-014-QSG-target-setup](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-014-QSG-target-setup.png)
+![DSGW-014-QSG-target-setup](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/014/DSGW-014-2.png)
 
 Figure3-1. Connecting a gateway via USB port
 - Connecting a PCBA board – Serial Port
 If you want to debug the gateway, you can open the shell, Connect the PC to the PCBA board via Serial to USB tool.
 PIN in board for serial connection:   TP45:GND TP46: RX   TP47: TX
 
-![DSGW-014-QSG-connect](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-014-QSG-connect.png)
+![DSGW-014-QSG-connect](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/014/DSGW-014-3.jpg)
 
 
 Figure3-2. Connecting a PCBA via Serial-USB tool
@@ -147,7 +147,7 @@ SERIAL CONSOLE SETTINGS:
 
 Power UP the board, you can see the boot log on console:
 
-![DSGW-014-QSG-boot-log](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-014-QSG-boot-log.png)
+![DSGW-014-QSG-boot-log](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/014/DSGW-014-4.png)
 
 
 There is  default password  (root) for  system login.
@@ -494,37 +494,37 @@ Upgrade driver：DriverAssitant_v4.91
 
 use the upgrade tool, must first exe DriverInstall.exe in DriverAssitant_v4.91
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image002.jpg)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/RKTools/rktools-1.png)
 
 ## 8.2 Go into Upgrade Mode by ADB Switch
 
 1. Connect the OTG port to the burning computer USB port, it's also act as POE power supply
 2. click ADB switch in  AndroidTool
 
-![DSGW-014-QSG-upgrade-1](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-014-QSG-upgrade-1.png)
+![DSGW-014-QSG-upgrade-1](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/RKTools/rktools-2.png)
 
 ## 8.3 Go into Upgrade Mode by Serial
 
 1. Connect the OTG port to the burning computer USB port, it's also act as POE power supply
 2. Press "Ctrl+C" when uboot is booting up, to enter uboot:
 
- ![DSGW-014-QSG-upgrade-serial-log](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-014-QSG-upgrade-serial-log.png)
+ ![DSGW-014-QSG-upgrade-serial-log](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/RKTools/rktools-3.png)
 
 3.uboot "rbrom" comand to reboot the board into maskrom mode, for a complete "update.img" upgrade.
 
-![DSGW-014-QSG-rbrom](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-014-QSG-rbrom.png)
+![DSGW-014-QSG-rbrom](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/RKTools/rktools-4.png)
 
 4."rockusb 0 mmc 0" command to reboot board to loader mode, for a partial firmware upgrade or a complete "update.img" upgrade.
 
-![DSGW-014-QSG-loader-mode](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-014-QSG-loader-mode.png)
+![DSGW-014-QSG-loader-mode](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/RKTools/rktools-5.png)
 
 ## 8.4 The Entire Package of Firmware "update-linux.img" Upgrade
 
- ![DSGW-014-QSG-upgrade-2](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-014-QSG-upgrade-2.png)
+ ![DSGW-014-QSG-upgrade-2](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/RKTools/rktools-6.png)
 
 ## 8.5 Upgrade the Firmware Separately
 
- ![DSGW-014-QSG-upgrade-3](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW-014-QSG-upgrade-3.png)
+ ![DSGW-014-QSG-upgrade-3](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/RKTools/rktools-7.png)
 
 # 9 Read firmware image from gateway
 
