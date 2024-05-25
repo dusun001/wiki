@@ -54,7 +54,7 @@ This section describes how to connect the gateway into your host computer and ne
 
 ## 3.2 Connecting a gateway – Network interface 
 
-![image-20240108153736958](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20240108153736958.png)
+![image-20240108153736958](https://dusunprj.oss-us-west-1.aliyuncs.com/DSOM/QSG/PX30/DSOM-PX30-1.png)
 
 1. Connect one end of the network cable to the network port on the laptop or desktop  
 2. Connect the other end of network cable to the network port on the gateway. 
@@ -103,7 +103,7 @@ source ./oe-init-build-env
 bitbake core-image-full-cmdline
 ```
 
-![image-20240108154044691](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240108154044691.png)
+![image-20240108154044691](https://dusunprj.oss-us-west-1.aliyuncs.com/DSOM/QSG/PX30/DSOM-PX30-2.png)
 
 ## 4.2 Ubuntu Compile the Environment to Build
 
@@ -279,11 +279,11 @@ The Rockchip platform hardware operates in several modes, and the firmware can o
 
 ## 5.4  RK development tool burn-in (AndroidTool)
 
-![image-20240108154209035](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240108154209035.png)
+![image-20240108154209035](https://dusunprj.oss-us-west-1.aliyuncs.com/DSOM/QSG/PX30/DSOM-PX30-3.png)
 
-![image-20240108154214863](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240108154214863.png)
+![image-20240108154214863](https://dusunprj.oss-us-west-1.aliyuncs.com/DSOM/QSG/PX30/DSOM-PX30-4.png)
 
-![image-20240108154223136](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240108154223136.png)
+![image-20240108154223136](https://dusunprj.oss-us-west-1.aliyuncs.com/DSOM/QSG/PX30/DSOM-PX30-5.png)
 
 AndroidTool tool "Download Image" selection box is applicable to single image file  download, enter loader mode and tap Click the select button behind the path to choose  the specific image file, pay attention to the checkbox on the left side, click execute to  update after you have chosen it.  
 
@@ -307,7 +307,7 @@ Download SDK DSOM-020R-XXX.tar.gz  First download the image that we provide.
 
 ## 7.1 RTC TEST
 
-![image-20240108154337186](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240108154337186.png)
+![image-20240108154337186](https://dusunprj.oss-us-west-1.aliyuncs.com/DSOM/QSG/PX30/DSOM-PX30-6.png)
 
 ## 7.2 Key TEST
 
@@ -361,7 +361,7 @@ int main() {
 
 Compile key test command: gcc key.c -o key -lpthread
 
-![image-20240108154613608](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240108154613608.png)
+![image-20240108154613608](https://dusunprj.oss-us-west-1.aliyuncs.com/DSOM/QSG/PX30/DSOM-PX30-7.png)
 
 ## 7.3 UART
 
@@ -375,7 +375,7 @@ Enter the command minicom-s to enter the serial debug UART3
 minicom-s 
 ```
 
-![image-20240108154654457](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240108154654457.png)
+![image-20240108154654457](https://dusunprj.oss-us-west-1.aliyuncs.com/DSOM/QSG/PX30/DSOM-PX30-8.png)
 
 ## 7.4 Mounted TF card
 
@@ -391,7 +391,7 @@ mount /dev/mmcblk1p1 /sdcard
 
 Check the contents of the /scard directory, which is the contents of our TF card, as shown in the following image 
 
-![image-20240108154755509](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240108154755509.png)
+![image-20240108154755509](https://dusunprj.oss-us-west-1.aliyuncs.com/DSOM/QSG/PX30/DSOM-PX30-9.png)
 
 ## 7.5 Mounting a USB drive
 
@@ -437,7 +437,7 @@ hwclock -s #Restore the linux system clock to the RTC register value, usually th
 
 hwclock -s
 
-![clip_image-hwclock-h](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image-hwclock-h.png)
+![clip_image-hwclock-h](https://dusunprj.oss-us-west-1.aliyuncs.com/DSOM/QSG/PX30/DSOM-PX30-10.png)
 
 ## 7.8 Power down to save data to flash
 
@@ -474,7 +474,7 @@ echo 0 > /sys/class/gpio/gpio13/value
 ifconfig eth0
 ```
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image005.png)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSOM/QSG/PX30/DSOM-PX30-11.png)
 
  
 
@@ -484,7 +484,7 @@ ifconfig eth0
 
 Presence of three programmable LEDs that can be operated according to IO ports
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image006.png)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSOM/QSG/PX30/DSOM-PX30-12.png)
 
 # 8.Others
 
