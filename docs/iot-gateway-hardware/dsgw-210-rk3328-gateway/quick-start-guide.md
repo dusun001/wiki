@@ -778,7 +778,7 @@ Upgrade driver：DriverAssitant_v4.91
 
 2.click ADB switch in AndroidTool
 
-![]([https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image044.jpg](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/image-20240423162524460.png))
+![image-20240423162524460]([https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image044.jpg](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/image-20240423162524460.png))
 
 
 ## 9.3  Go into Upgrade Mode by Serial
