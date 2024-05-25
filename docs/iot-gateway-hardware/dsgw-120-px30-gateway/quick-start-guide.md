@@ -37,7 +37,8 @@ Upgrade driver：DriverAssitant_v4.91
 
 Use the upgrade tool, must first exe DriverInstall.exe in DriverAssitant_v4.91
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image002.jpg)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/RKTools/DriverInstall-exe.png)
+
 
  
 
@@ -46,7 +47,7 @@ Use the upgrade tool, must first exe DriverInstall.exe in DriverAssitant_v4.91
 1. Connect the OTG port to the burning computer USB port, it's also act as POE power supply
 2. click ADB switch in AndroidTool
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image004.jpg)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/RKTools/AndroidTool-switch-adb.png)
 
  
 
@@ -55,23 +56,23 @@ Use the upgrade tool, must first exe DriverInstall.exe in DriverAssitant_v4.91
 1. Connect the OTG port to the burning computer USB port, it's also act as 5V power supply
 2. Press "Ctrl+C" when uboot is booting up, to enter uboot:
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image006.jpg)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/RKTools/enter-uboot.png)
 
 
 
 3. comand to reboot the board into maskrom mode, for a complete "update.img" upgrade.
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image009.jpg)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/RKTools/uboot-rbrom.png)
 
 4."rockusb 0 mmc 0" command to reboot board to loader mode, for a partial firmware upgrade or a complete "update.img" upgrade.
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image011.jpg)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/RKTools/loader.png)
 
 ## 5.4 The Entire Package of Firmware "update.img" Upgrade
 
  
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image013.jpg)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/RKTools/RKDevTool-update.png)
 
 
 
@@ -79,7 +80,7 @@ Use the upgrade tool, must first exe DriverInstall.exe in DriverAssitant_v4.91
 
  
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/%E5%9B%BE%E7%89%871.png)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/RKTools/RKDevTool-update-2.png)
  
 
 # 6 Start up
@@ -96,7 +97,7 @@ The software is in the current folder Total_Control_8_0_u10_install_x64.zip
 
 Open total control after system startup (be sure to open after system startup, otherwise close and restart), wait until total control apk is installed and click Connect
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/%E5%9B%BE%E7%89%872.png)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/120/8-1.png)
 
  
 
@@ -104,7 +105,7 @@ Open total control after system startup (be sure to open after system startup, o
 
 # 9 Log in to the Android11 screen
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/%E5%9B%BE%E7%89%873.png)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/120/home.jpg)
 
 # 10 Configuration wifi
 
@@ -112,25 +113,20 @@ Open total control after system startup (be sure to open after system startup, o
 
  
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/%E5%9B%BE%E7%89%874.png)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/120/wifi.jpg)
 
  
 
 2. Network internet
 
- 
+ ![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/120/Network.jpg)
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/%E5%9B%BE%E7%89%875.png)
-
-
-
- 
 
 3. Connect network
 
  
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image027.gif)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/120/Connect-network.png)
 
 4. LTE
 
@@ -140,22 +136,22 @@ Open total control after system startup (be sure to open after system startup, o
 
 1）Click connected Devices
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image029.jpg)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/120/bluetooth-connected.jpg)
 
 2）Click Connection preferences
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image031.jpg)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/120/bluetooth-preferences.jpg)
 
 3）Click Bluetooth
 
-![image-20240106140334128](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240106140334128.png)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/120/bluetooth-config-1.png)
 
- 
+
 
 4）Click Pair new device
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image035.jpg)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/120/bluetooth-config-pair.jpg)
 
  
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image037.jpg)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/120/bluetooth-config-pair-1.jpg)
