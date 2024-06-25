@@ -798,15 +798,22 @@ Upgrade driver：DriverAssitant_v4.91
 
 ![image-20240105182414469](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105182414469.png)
 
-## 9.4  The Entire Package of Firmware "update.img" Upgrade
+
+## 9.4  Go into Upgrade Mode by button
+Press and hold the RST button to power on gateway，wait the gateway led light changes from red to green,release the button immediately.
+
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20240625111438.png)
+
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20240625111810.png)
+
+
+## 9.5  The Entire Package of Firmware "update.img" Upgrade
 
 ![image-20240105182455755](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105182455755.png) 
 
 
 
-
-
-## 9.5  Upgrade the Firmware Separately
+## 9.6  Upgrade the Firmware Separately
 
  ![image-20240105182507304](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105182507304.png)
 
