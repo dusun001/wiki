@@ -210,7 +210,7 @@ SERIAL CONSOLE SETTINGS:
 
 Power UP the board, you can see the boot log on console:
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image017.jpg)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/210/6-1-4-1.png)
 
 ## 6.2  Compiled Each Image Part Separately
 
