@@ -726,6 +726,21 @@ const sidebars = {
             // },
           ],
         },
+        {
+          type: "category",
+          label: "DSGK-061-VNC Smart Gateway",
+          link: {
+            type: "doc",
+            id: "iot_gateway_with_applications/dsgk-061-vnc-smart-gateway/overview",
+          },
+          items: [
+            {
+              type: "doc",
+              id: "iot_gateway_with_applications/dsgk-061-vnc-smart-gateway/specification",
+              label: "Specification",
+            },
+          ],
+        },
       ]
     },
     {
