@@ -739,6 +739,26 @@ const sidebars = {
               id: "iot_gateway_with_applications/dsgk-061-vnc-smart-gateway/specification",
               label: "Specification",
             },
+           {
+              type: "doc",
+              id: "iot_gateway_with_applications/dsgk-061-vnc-smart-gateway/user-manual",
+              label: "User Manual",
+            },
+            {
+              type: "doc",
+              id: "iot_gateway_with_applications/dsgk-061-vnc-smart-gateway/quick-start-guide",
+              label: "Quick Start Guide",
+            },
+            {
+              type: "doc",
+              id: "iot_gateway_with_applications/dsgk-061-vnc-smart-gateway/faqs",
+              label: "FAQS",
+            },
+            {
+              type: "doc",
+              id: "iot_gateway_with_applications/dsgk-061-vnc-smart-gateway/release-note",
+              label: "Release Note",
+            },
           ],
         },
       ]
