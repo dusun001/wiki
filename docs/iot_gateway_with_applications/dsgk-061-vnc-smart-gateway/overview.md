@@ -54,9 +54,7 @@ DSGK-061 is an Intelligent control gateway, and its application is control of fi
 
 <div class="custom-links">
   <a href="https://wiki.dusuniot.com/iot_gateway_with_applications/dsgk-061-vnc-smart-gateway/specification">Specification</a>
-  <a href="https://wiki.dusuniot.com/iot_gateway_with_applications/dsgk-061-vnc-smart-gateway/user-manual">User Manual</a>
   <a href="https://wiki.dusuniot.com/iot_gateway_with_applications/dsgk-061-vnc-smart-gateway/quick-start-guide">Quick Start Guide</a>
-  <a href="https://wiki.dusuniot.com/iot_gateway_with_applications/dsgk-061-vnc-smart-gateway/faqs">FAQs</a> 
 </div>
 
 
