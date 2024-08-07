@@ -27,7 +27,7 @@ tags:
 DSGK-061 is an Intelligent control gateway, and its application is control of field devices. This gateway supports the collection and control of field devices through wired network ports, RS-232 and other interfaces, and screen projection interaction through HDMI (display resolution 1024*768). The product also has USB, Bluetooth, and WiFi interfaces to complete the overall business functions.It can be used in industrial control, retail, and warehousing , etc. 
 
 <div style={{ display: 'flex', justifyContent: 'center' }}>
-  <a href="https://www.dusuniot.com/product/dsgw-021-4g-lte-wifi-router-gateway/" style={{ display: 'inline-block', backgroundColor: '#F6940B', color: '#ffffff', padding: '10px 20px', textDecoration: 'none', borderRadius: '4px' }}>Buy Now</a>
+  <a href="https://www.dusuniot.com/product/dsgk-061-smart-vnc-edge-computing-ai-box-gateway/" style={{ display: 'inline-block', backgroundColor: '#F6940B', color: '#ffffff', padding: '10px 20px', textDecoration: 'none', borderRadius: '4px' }}>Buy Now</a>
 </div>
 
 ***
@@ -64,7 +64,7 @@ DSGK-061 is an Intelligent control gateway, and its application is control of fi
 
 | Firmware | Resources |
 |-----|-----|
-| I.MX 6ULL Firmware Packaging | [Download](https://drive.google.com/drive/folders/1KjZKMThnZdrkzsDBMEEFoPuZJoZXzLWg?usp=drive_link) |
+| Firmware Packaging | [Download](https://drive.google.com/drive/folders/1KjZKMThnZdrkzsDBMEEFoPuZJoZXzLWg?usp=drive_link) |
 | SDK | [Download](https://drive.google.com/drive/folders/1pNOGndMT8uwCB8cre6UcJjWkK4bQZ0iW?usp=drive_link) |
 
 | Tools | Resources |
