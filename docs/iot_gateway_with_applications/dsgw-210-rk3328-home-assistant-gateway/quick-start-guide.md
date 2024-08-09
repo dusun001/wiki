@@ -518,6 +518,61 @@ close(sys_reset_gpio_pin); return 0;
 
 ```
 
+### 7.1.7 Test Bluetooth HFP
+
+Device plays the role of AG, (as a gateway (source), acting as an audio player)
+
+- Control the Bluetooth module serial port through HCI interface，enter the following command to create an HCI interface 
+```
+rtk_hciattach -n -s 115200 /dev/ttyS0 rtk_h5 &
+```
+- manual start Bluealsa
+```
+bluealsa -p a2dp-source -p a2dp-sink -p hfp-hf -p hfp-ag -p hsp-hs -p hsp-ag &
+```
+- Connect Bluetooth speaker through Bluez  ‘bluetoothctl’
+```
+# bluetoothctl
+//power on Bluetooth module
+[bluetooth]# power on
+//scaning
+[bluetooth]# scan on
+// “41:42:26:61:C3:1F” is speaker MAC
+[bluetooth]# pair 41:42:26:61:C3:1F
+[bluetooth]# trust 41:42:26:61:C3:1F
+[bluetooth]# connect 41:42:26:61:C3:1F
+[bluetooth]# quit
+```
+If it was already connected last time, just execute directly next time.
+```
+bluetoothctl connect 41:42:26:61:C3:1F
+```
+
+- After connecting the Bluetooth devices, one should be able to see the connected sound cards via Bluetooth ( the DEV address is the Bluetooth address of the device connected to the module and not the address of the Bluetooth controller of the module): Please check if the audio is not occupied by PulseAudio
+```
+#：bluealsa-aplay -l
+List of PLAYBACK Bluetooth Devices *
+hci1: 41:42:26:61:C3:1F [MINISO-A109], trusted audio-card
+SCO (CVSD): S16_LE 1 channel 8000 Hz
+A2DP (SBC): S16_LE 2 channels 48000 Hz
+List of CAPTURE Bluetooth Devices *
+hci1: 41:42:26:61:C3:1F [MINISO-A109], trusted audio-card
+SCO (CVSD): S16_LE 1 channel 8000 Hz
+```
+Now you can test the hfp protocol by recording and playing commands:
+
+- Playing command 
+```
+aplay -D bluealsa:DEV=41:42:26:61:C3:1F,PROFILE=sco /path/to/test-16bit-8k.wav	
+```
+
+- Recording command
+```
+arecord -D bluealsa:DEV=41:42:26:61:C3:1F,PROFILE=sco /tmp/rec.wav -c  1 -r 8000 -f S16_LE
+```
+BlueALSA is a backend that combines the ALSA (Advanced Linux Sound Architecture) API with the BlueZ Linux Bluetooth protocol stack. It allows the use of audio devices connected via Bluetooth without needing PipeWire or PulseAudio, though with restricted audio processing features.
+
+
 ## 7.2  How to make menuconfig in buildroot 
 
 Normal mode buildroot rootfs config file: 
