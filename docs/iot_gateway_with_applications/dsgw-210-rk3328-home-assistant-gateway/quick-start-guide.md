@@ -262,7 +262,7 @@ If you use buildroot rootfs, some Dusun test scripts/tools are already installed
 
 The following testing are done under the buildrootsystem.
 
-## 7.1.1  Test Wi-Fi as AP
+### 7.1.1  Test Wi-Fi as AP
 
 The "ds_conf_ap.sh" script is for setting up Wi-Fi AP, SSID is "dsap", password is "12345678".
 
@@ -300,7 +300,7 @@ UP LOOPBACK RUNNING MTU:65536 Metric:1
 
 ```
 
-## 7.1.2  Test Wi-Fi as STA
+### 7.1.2  Test Wi-Fi as STA
 
 Config /etc/wpa_supplicant.conf
 
@@ -328,7 +328,7 @@ Rx invalid nwid:0 Rx invalid crypt:0 Rx invalid frag:0 Tx excessive retries:0 In
 #
  ```
 
-## 7.1.3  Test LTE
+### 7.1.3  Test LTE
 
 bg96_dial.sh is used for LTE dial.
 
@@ -427,7 +427,7 @@ pppcmd /dev/ttyUSBx "AT+QGPS=1" #Read GPS data:
 
 
 
-## 7.1.4  Test LED
+### 7.1.4  Test LED
 
  ```
 # dsled
@@ -444,7 +444,7 @@ For detailed I2C command, please refer to [link-dsled.zi](https://drive.google.c
 
  
 
-## 7.1.5  Test I2C
+### 7.1.5  Test I2C
 
  ```
 # i2cdetect -y 0
@@ -461,7 +461,7 @@ For detailed I2C command, please refer to [link-dsled.zi](https://drive.google.c
 
 Actually LED controlled is I2C interface.
 
-## 7.1.6  Test key
+### 7.1.6  Test key
 
  ```
 #include <unistd.h> #include <stdio.h> #include <linux/input.h> #include <stdlib.h> #include <sys/types.h> #include <sys/stat.h> #include <fcntl.h> #include <pthread.h>
