@@ -67,7 +67,7 @@ DSGW-210 RK3328 Gateway Hub stands as Dusun IoT's most popular gateway hub produ
 | Debian SDK | [Download](https://drive.google.com/file/d/1i_vDZ-LLWvsb8IMXVAE1BYTFEv45zVBv/view) |
 | Debian Image Firmware Packaging | [Download](https://drive.google.com/file/d/1NHFqo69C4M7LMB_wy1WnekQidKmkKJZh/view) |
 | Zigbee Module Firmware | [Download](https://drive.google.com/file/d/1YFGbySkt5w2zO-OeXImsmlc0yeIfWEZo/view) |
-| BLE Module Firmware | [Download](https://drive.google.com/file/d/1pgRD1HGzs7i4HddnRKersce7xTfSrBY_/view) |
+| BLE Module Firmware | [Download](https://drive.google.com/file/d/1zMin7xmcUo4SV_qivZtZWKSDh2iUFrRu/view?usp=share_link) |
 | Z-Wave Module Firmware | [Download](https://drive.google.com/file/d/1pgRD1HGzs7i4HddnRKersce7xTfSrBY_/view) |
 
 | Programming Languages | Resources |
@@ -89,7 +89,7 @@ DSGW-210 RK3328 Gateway Hub stands as Dusun IoT's most popular gateway hub produ
 |-----|-----|
 | Quick Start Guide | [Download](https://drive.google.com/file/d/1Vh_KMz24UfC93CNsCdVUoOhZd3UFcR1V/view) |
 | Ubuntu SDK | [Download](https://drive.google.com/file/d/1NmUuKUEguMVxOQfWGyjAQtACm5HgV5Dx/view) |
-| Ubuntu Image Firmware Packaging | [Download](https://drive.google.com/file/d/1i1gZl6JOMwTnBoJEWrPr00nOgEiZ2pRQ/view) |
+| Ubuntu Image Firmware Packaging | [Download](https://drive.google.com/drive/folders/1qdEA9ryuSzCCiHqFdZlin3veGpPFGazi?usp=drive_link) |
 | Zigbee Module Firmware | [Download](https://drive.google.com/file/d/1YFGbySkt5w2zO-OeXImsmlc0yeIfWEZo/view) |
 | BLE Module Firmware | [Download](https://drive.google.com/file/d/1zMin7xmcUo4SV_qivZtZWKSDh2iUFrRu/view) |
 | Z-Wave Module Firmware | [Download](https://drive.google.com/file/d/1pgRD1HGzs7i4HddnRKersce7xTfSrBY_/view) |
@@ -103,10 +103,10 @@ DSGW-210 RK3328 Gateway Hub stands as Dusun IoT's most popular gateway hub produ
 |-----|-----|
 | Node-RED | [Download](https://drive.google.com/file/d/1Hb4lVlJ9k5jm-WhZIMHAsRS7bBKGI4P6/view) |
 | Docker | [Download](https://drive.google.com/file/d/1mGEHJ3N1FglVTqszyc9VMidxtmaXthoS/view) |
-| BLE2MQTT | [Download](https://drive.google.com/file/d/1KptreJ1ia3MCavzLcpWJiclR_h7vtcCM/view) |
-| Zigbee2MQTT | [Download](https://drive.google.com/file/d/1dC-1jHkZxDA0hMAxHlBIxipioy-BF-iS/view) |
-| OpenZWave | [Download](https://drive.google.com/file/d/1qD8t4uYPQ3-wVSHexO_gPP2ym0ecmEgU/view) |
-| OpenThread Border Router | [Download](https://drive.google.com/file/d/1roK7tqAJO1-1PvFuKcUTJpnwSYSPF6cu/view) |
+| BLE2MQTT | [Download](https://drive.google.com/file/d/1NyJ5ZdK4Zbf16InJdSDMx7AJGn-c-C-h/view?usp=drive_link) |
+| Zigbee2MQTT | [Download](https://drive.google.com/file/d/1xgiub_aLpIqcDnmmB88ThmBbaYRn5NsX/view?usp=drive_link) |
+| OpenZWave | [Download](https://drive.google.com/file/d/1qD8t4uYPQ3-wVSHexO_gPP2ym0ecmEgU/view?usp=share_link) |
+| OpenThread Border Router | [Download](https://drive.google.com/file/d/1roK7tqAJO1-1PvFuKcUTJpnwSYSPF6cu/view?usp=share_link) |
 | Matter | [Download](https://drive.google.com/file/d/1WwF56rzXkdl56KA5jM1ITGyeY7rOeHCU/view?usp=share_link) |
 
 ## Technical Support and Product Discussion
