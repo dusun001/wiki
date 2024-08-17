@@ -3,7 +3,6 @@
 <div style="text-align: center;">
     <a href="javascript:window.print()" style="background-color: orange; color: black; border: none; padding: 10px 40px; font-size: 16px; text-decoration: none; display: inline-block; cursor: pointer;">Print</a>
 </div>
-# 1. Product Introduction
 
 ## **1.1. Purpose and Description**
 
