@@ -373,7 +373,7 @@ root@DSGW351:~# ls /dev/sd*
 root@DSGW351:~# mount /dev/sda4  /mnt;
 ```
 
-## 7.5 BLE
+## 7.6 BLE
 
 - ble port
 
@@ -398,7 +398,7 @@ root        8833  0.0  0.0   2900   684 pts/0    S+   09:45   0:00 grep bul
 ```
 
 
-## 7.6 SUBG
+## 7.7 SUBG
 - minicom setting
 
 
@@ -411,7 +411,7 @@ root        8833  0.0  0.0   2900   684 pts/0    S+   09:45   0:00 grep bul
 ![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSOM-130N/7-2.png)
 
 
-## 7.5 CANx2
+## 7.8 CANx2
 this board hard two can devices `can0` and `can1`
 
 - can set
@@ -435,7 +435,7 @@ cansend can0 5A1#11.22.33.44.55.66.77.88 2>/dev/null
 ```
 
 
-## 7.6 Audio
+## 7.9 Audio
 
 - play
 
@@ -444,7 +444,7 @@ cansend can0 5A1#11.22.33.44.55.66.77.88 2>/dev/null
 ```
 
 
-## 7.7 TFCard
+## 7.10 TFCard
 
 - tfcard mmc device
 
@@ -461,7 +461,7 @@ mount /dev/mmcblk1p1 /mnt/
 
 
 
-## 7.9 Wifi
+## 7.11 Wifi
 
 - wifi device
 
@@ -528,7 +528,7 @@ Kind=bridge
 ```
 
 
-## 7.13 LTE
+## 7.12 LTE
 
 - plug in lte module
 
@@ -556,7 +556,7 @@ echo 0 > /sys/class/leds/ltepwr/brightness
 echo 0 > /sys/class/leds/lterst/brightness
 ```
 
-## 7.14 MIPI-CSI-1(xc7160)
+## 7.13 MIPI-CSI-1(xc7160)
 
 ```shell
 v4l2-ctl -d /dev/video1 --set-fmt-video=width=640,height=480,pixelformat=YUYV --stream-mmap=3 --stream-skip=3 --stream-count=100 --stream-to=out1.yuv
