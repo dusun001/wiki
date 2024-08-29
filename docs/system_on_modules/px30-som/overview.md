@@ -41,7 +41,6 @@ This RK3308 SoM’s operation temperature is -20-85°C and powered by industrial
   <a href="https://wiki.dusuniot.com/system_on_modules/px30-som/quick-start-guide">Quick Start Guide</a>
   <a href="https://wiki.dusuniot.com/system_on_modules/px30-som/faqs">FAQs</a> 
 </div>
- 
 ### Other Documents That May Help You  
 
 | Coreboard Development | Resources |
