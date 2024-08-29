@@ -46,8 +46,8 @@ This RK3308 SoM’s operation temperature is -20-85°C and powered by industrial
 
 | Coreboard Development | Resources |
 |-----|-----|
-| PX30K SDK | [Download](https://drive.google.com/file/d/15dt-vH7CjP9zQie0q4lsEwe6DD6HNd4S/view) |
-| Firmware Image | [Download](https://drive.google.com/file/d/15dt-vH7CjP9zQie0q4lsEwe6DD6HNd4S/view) |
+| PX30K SDK | [Download](https://drive.google.com/drive/folders/1mJNpeUDsk28eHfvM6OKVxMrhIThijb2k?usp=drive_link) |
+| Firmware Image | [Download](https://drive.google.com/file/d/1Ooxzu7ACW7kYUsEqAy21ubp-ihP11kPy/view?usp=sharing) |
 
 | Carrier Board Development | Resources |
 |-----|-----|
