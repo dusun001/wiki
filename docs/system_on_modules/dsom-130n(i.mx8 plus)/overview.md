@@ -3,7 +3,7 @@ description: The DSOM-130N NXP i.MX 8M Plus SoM (System on Module) is a powerful
 title: DSOM-130N NXP i.MX 8m plus SoM System on Module
 ---
 
-# DSOM-130N **i.MX8M Plus **SoM  
+# DSOM-130N i.MX8M Plus SoM  
 
 ![](https://dusunprj.oss-us-west-1.aliyuncs.com/oss://dusunprj/DSOM/spec/DSOM-130N/dsom-130n-nxp-imx8m-plus.jpg)
 
