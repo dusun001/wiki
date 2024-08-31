@@ -1,7 +1,7 @@
 # DSOM-130N i.MX8M Plus SoM
 
-<div style="text-align: center;">
-    <a href="javascript:window.print()" style="background-color: orange; color: black; border: none; padding: 10px 40px; font-size: 16px; text-decoration: none; display: inline-block; cursor: pointer;">Print</a>
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+  <a href="javascript:window.print()" style={{ display: 'inline-block', backgroundColor: 'orange', color: 'black', padding: '10px 40px', textDecoration: 'none', border: 'none', fontsize: '16px', cursor: 'pointer' }}>Print</a>
 </div>
 
 ## **1.1. Purpose and Description**
@@ -69,7 +69,7 @@ For more information on i.MX8M Plus, please visit the NXP official website: http
 | Item                | Parameter                                                    |
 | ------------------- | ------------------------------------------------------------ |
 | CPU                 | Quad Cortex®-A53 processors operation  operating up to 1.6GHz Cortex®-M7 CPU operating up to 800 MHz |
-| GPU                 | • GC7000UL with OpenCL and Vulkan support • 2 shaders<br>• 166 million triangles/sec<br>• 1.0 giga pixel/sec<br>• 16 GFLOPs 32-bit<br>• Supports OpenGL ES 1.1, 2.0, 3.0, OpenCL 1.2, Vulkan<br>• Core clock frequency of 1000 MHz<br>• Shader clock frequency of 1000 MHz<br>• GC520L for 2D acceleration<br>• Render target compatibility between 3D and 2D GPU (super tile status buffer) |
+| GPU                 | • GC7000UL with OpenCL and Vulkan support • 2 shaders<br/>• 166 million triangles/sec<br/>• 1.0 giga pixel/sec<br/>• 16 GFLOPs 32-bit<br/>• Supports OpenGL ES 1.1, 2.0, 3.0, OpenCL 1.2, Vulkan<br/>• Core clock frequency of 1000 MHz<br/>• Shader clock frequency of 1000 MHz<br/>• GC520L for 2D acceleration<br/>• Render target compatibility between 3D and 2D GPU (super tile status buffer) |
 | VPU                 | Video Decode<br/>• 1080p60 HEVC/H.265 Main, Main 10 (up to level 5.1) <br/>• 1080p60 VP9 Profile 0, 2<br/>• 1080p60 VP8<br/>• 1080p60 AVC/H.264 Baseline, Main, High decoder Video Encode<br/>• 1080p60 AVC/H.264 encoder<br/>• 1080p60 HEVC/H.265 encoder |
 | RAM                 | 2GB (1GB/4GB optional)                                       |
 | NPU                 | 2.3 TOP/s Neural Network performance<br/> • Keyword detect, noise reduction, beamforming<br/> • Speech recognition (i.e. Deep Speech 2)<br/> • Image recognition (i.e. ResNet-50) |
