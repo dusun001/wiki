@@ -1177,47 +1177,47 @@ const sidebars = {
           label: "DSOM-130N(i.mx8 PLUS)",
           link: {
             type: "doc",
-            id: "system_on_modules/dsom-130n(i.mx8 plus)/overview",
+            id: "system_on_modules/dsom-130n/overview",
           },
           items: [
             {
               type: "doc",
-              id: "system_on_modules/dsom-130n(i.mx8 plus)/specification",
+              id: "system_on_modules/dsom-130n/specification",
               label: "Specification",
             },
             {
               type: "doc",
-              id: "system_on_modules/dsom-130n(i.mx8 plus)/user-manual",
+              id: "system_on_modules/dsom-130n/user-manual",
               label: "User Manual",
             },
             {
               type: "doc",
-              id: "system_on_modules/dsom-130n(i.mx8 plus)/quick-start-guide",
+              id: "system_on_modules/dsom-130n/quick-start-guide",
               label: "Quick Start Guide",
             },
             //{
               //type: "doc",
-              //id: "system_on_modules/dsom-130n(i.mx8 plus)/hardware-development-guide",
+              //id: "system_on_modules/dsom-130n/hardware-development-guide",
               //label: "Hardware Development Guide",
             //},
             //{
               //type: "doc",
-              //id: "system_on_modules/dsom-130n(i.mx8 plus)/chip-guidance",
+              //id: "system_on_modules/dsom-130n/chip-guidance",
               //label: "Chip Guidance",
             //},
             //{
               //type: "doc",
-              //id: "system_on_modules/dsom-130n(i.mx8 plus)/deployment-guide",
+              //id: "system_on_modules/dsom-130n/deployment-guide",
               //label: "Deployment Guide",
             //},
             {
               type: "doc",
-              id: "system_on_modules/dsom-130n(i.mx8 plus)/faqs",
+              id: "system_on_modules/dsom-130n/faqs",
               label: "FAQS",
             },
             //{
               //type: "doc",
-              //id: "system_on_modules/dsom-130n(i.mx8 plus)/release-note",
+              //id: "system_on_modules/dsom-130n/release-note",
               //label: "Release Note",
             //},
           ]
