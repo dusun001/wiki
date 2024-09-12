@@ -64,11 +64,13 @@ DSGW-210 RK3328 Gateway Hub stands as Dusun IoT's most popular gateway hub produ
 
 | Firmware | Resources |
 |-----|-----|
-| Debian SDK | [Download](https://drive.google.com/file/d/1i_vDZ-LLWvsb8IMXVAE1BYTFEv45zVBv/view) |
-| Debian Image Firmware Packaging | [Download](https://drive.google.com/file/d/1NHFqo69C4M7LMB_wy1WnekQidKmkKJZh/view) |
-| Zigbee Module Firmware | [Download](https://drive.google.com/file/d/1YFGbySkt5w2zO-OeXImsmlc0yeIfWEZo/view) |
+| Debian SDK | [Download](https://drive.google.com/drive/folders/1BTBTFN-EfzABMj5DRjcnBYSW4D-X0wJ1?usp=drive_link) |
+| Debian Image Firmware Packaging | [Download](https://drive.google.com/file/d/1syrxEJWBEs3wl8ocxHyiqF9Yo9u-AaRi/view?usp=sharing) |
+| ZigbeeMG21 Module Firmware | [Download](https://drive.google.com/file/d/1ILfY9-T2ubq8tUuaUBZ-G97LNknIR-d3/view?usp=sharing) |
+| ZigbeeMG1B Module Firmware | [Download](https://drive.google.com/file/d/1R0qGpKQHA_lWcEGCmuiCaP4qXywnf-M1/view?usp=sharing) |
 | BLE Module Firmware | [Download](https://drive.google.com/file/d/1zMin7xmcUo4SV_qivZtZWKSDh2iUFrRu/view?usp=share_link) |
-| Z-Wave Module Firmware | [Download](https://drive.google.com/file/d/1pgRD1HGzs7i4HddnRKersce7xTfSrBY_/view) |
+| Z-Wave700 Module Firmware | [Download](https://drive.google.com/file/d/1pgRD1HGzs7i4HddnRKersce7xTfSrBY_/view?usp=share_link) |
+| Z-Wave800 Module Firmware | [Download](https://drive.google.com/file/d/1EsSlYPoo3sobR2fjGW-7dpIRZty6pToG/view?usp=drive_link) |
 
 | Programming Languages | Resources |
 |-----|-----|
