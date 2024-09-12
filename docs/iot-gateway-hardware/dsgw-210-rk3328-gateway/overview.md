@@ -82,7 +82,7 @@ DSGW-210 RK3328 Gateway Hub stands as Dusun IoT's most popular gateway hub produ
 | Yocto OS Development | Resources |
 |-----|-----|
 | Quick Start Guide | [Download](https://drive.google.com/file/d/1-Eb8vysihFd4Vq7PoG1w-WhNfGnEShmB/view) |
-| Yocto SDK | [Download](https://drive.google.com/file/d/1bo5MGGB9T4G6ZWIdrJEQFyuMCsOYKMO8/view) |
+| Yocto SDK | [Download](https://drive.google.com/drive/folders/1TymEF829YSkei4qF8vgwncKAfOEmGXqp?usp=drive_link) |
 | Yocto Imgae Firmware Packaging | [Download](https://drive.google.com/file/d/1YFGbySkt5w2zO-OeXImsmlc0yeIfWEZo/view) |
 | BLE Module Firmware | [Download](https://drive.google.com/file/d/1zMin7xmcUo4SV_qivZtZWKSDh2iUFrRu/view) |
 | Z-Wave Module Firmware | [Download](https://drive.google.com/file/d/1pgRD1HGzs7i4HddnRKersce7xTfSrBY_/view) |
@@ -90,7 +90,7 @@ DSGW-210 RK3328 Gateway Hub stands as Dusun IoT's most popular gateway hub produ
 | Ubuntu OS Development | Resources |
 |-----|-----|
 | Quick Start Guide | [Download](https://drive.google.com/file/d/1Vh_KMz24UfC93CNsCdVUoOhZd3UFcR1V/view) |
-| Ubuntu SDK | [Download](https://drive.google.com/file/d/1NmUuKUEguMVxOQfWGyjAQtACm5HgV5Dx/view) |
+| Ubuntu SDK | [Download](https://drive.google.com/drive/folders/1zgNtyGiBXEopOR3cmQlftPcxrf50Fucx?usp=drive_link) |
 | Ubuntu Image Firmware Packaging | [Download](https://drive.google.com/drive/folders/1qdEA9ryuSzCCiHqFdZlin3veGpPFGazi?usp=drive_link) |
 | Zigbee Module Firmware | [Download](https://drive.google.com/file/d/1YFGbySkt5w2zO-OeXImsmlc0yeIfWEZo/view) |
 | BLE Module Firmware | [Download](https://drive.google.com/file/d/1zMin7xmcUo4SV_qivZtZWKSDh2iUFrRu/view) |
