@@ -375,7 +375,7 @@ root@DSI0177:~# /tmp/tools/test.sh
 
 - Bluetooth  
 
-![image-20240105173615528](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/8-1-9.png)
+![image-20240105173615528](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105173615528.png)
 
 - Zigbee  
 
