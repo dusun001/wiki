@@ -375,53 +375,53 @@ root@DSI0177:~# /tmp/tools/test.sh
 
 - Bluetooth  
 
-![image-20240105173615528](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105173615528.png)
+![image-20240105173615528](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/8-1-9.png)
 
 - Zigbee  
 
-![image-20240105173624894](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105173624894.png)
+![image-20240105173624894](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/8-1-10.png)
 
 - Zwave
 
- ![image-20240105173630789](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105173630789.png)
+ ![image-20240105173630789](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/8-1-11.png)
 
 - Region Setting
 
-![image-20240105173647186](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105173647186.png)
+![image-20240105173647186](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/8-1-12.png)
 
  
 
 - LTE
 
- ![image-20240105173714849](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105173714849.png)
+ ![image-20240105173714849](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/8-1-13.png)
 
-- Log Setting Page  
+- Logo Setting Page  
 
-![image-20240105173726326](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105173726326.png)
+![image-20240105173726326](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/8-1-14.png)
 
 - System Setting Page  
 
-![image-20240105173737316](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105173737316.png)
+![image-20240105173737316](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/8-1-15.png)
 
 - System Administrator Setting page  
 
-![image-20240105173746612](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105173746612.png)
+![image-20240105173746612](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/8-1-16.png)
 
 - System Network Diagnostics Page
 
-![image-20240105173755473](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105173755473.png)  
+![image-20240105173755473](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/8-1-17.png)  
 
 - System Upgrade Page  
 
-![image-20240105173803379](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105173803379.png)
+![image-20240105173803379](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/8-1-18.png)
 
 - Reboot Page  
 
-![image-20240105173815669](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105173815669.png)
+![image-20240105173815669](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/8-1-19.png)
 
 - Logout Page  
 
-![image-20240105173822327](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105173822327.png)
+![image-20240105173822327](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/8-1-20.png)
 
 # 9. Application Layer Development
 
@@ -591,13 +591,13 @@ NCP Development
 
 - User can obtained the zigbee module¡¯s NCP program in simplicity studio, the module number is EFR32MG1B232F256G    
 
-![image-20240105174027207](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105174027207.png)
+![image-20240105174027207](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/9-5-1.png)
 
-![image-20240105174037294](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105174037294.png)
+![image-20240105174037294](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/9-5-2.png)
 
 For detailed information to flash image to the zigbee module, please refer to document ZIGBEE MODULE FLASH FIRMWAREv1.0 For SDK to develop program in gateway, please refer to document API Reference for EmberZNet PC Host. It can be found in the ss5¡¯s directory of C:\SiliconLabs\SimplicityStudio\v4_3\developer\sdks\gecko_sdk_suite\v2.7\protocol\zigbee\documentation  
 
-![image-20240105174049307](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105174049307.png)
+![image-20240105174049307](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/9-5-3.png)
 
 ## 9.6 Bluetooth
 
@@ -609,7 +609,7 @@ NcP Development
 
 User can obtained the ble module¡¯s NCP program in simplicity studio, the module number is ERF32BG21  
 
-![image-20240105174109603](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105174109603.png)
+![image-20240105174109603](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/9-6-1.png)
 
 Find the correct BLE module in simplicity studio, then follow the same guide in section 10
 
@@ -623,7 +623,7 @@ NCP Development
 
 User can obtained the Z-Wave module¡¯s NCP program in simplicity studio, and acquire the Z-Wave sdk in siliconlabs for further development .
 
-![image-20240105174153108](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105174153108.png)
+![image-20240105174153108](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/9-7-1.png)
 
 Find the correct Z-Wave module in simplicity studio, then follow the same guide in section 10
 
