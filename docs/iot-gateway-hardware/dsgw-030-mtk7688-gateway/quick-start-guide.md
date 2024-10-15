@@ -29,7 +29,7 @@ This section describes the gateway’s basic resource infomation and interfaces.
 
 ## 2.2 Interface
 
-  ![image-20240105172143030](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105172143030.png)                   
+  ![image-20240105172143030](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/2-2-1.png)                   
 
 # 3. Debug Setup
 
@@ -49,17 +49,17 @@ This section describes how to connect the gateway into your host computer and ne
 
 Connect gateway to a router for login  
 
-![image-20240105172210916](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105172210916.png)
+![image-20240105172210916](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/3-2-1.png)
 
 ## 3.3 Debug Uart Connect
 
 - Before you set up your development test bed, please connect the PCB serial port to your develop PC via USB-to-serial bridge.
 
-![image-20240105172229211](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105172229211.png)
+![image-20240105172229211](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/3-3-1.png)
 
   PCB serial port on Gateway
 
-![image-20240105172307348](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105172307348.png)
+![image-20240105172307348](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/3-3-2.png)
 
 USB-to-serial bridge. Serial port setting:
 
@@ -137,27 +137,27 @@ To Firmware The Program, you must use the spi flash programer to program the spi
 
 - Remove spi flash on the board.  
 
-![image-20240105172527294](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105172527294.png)
+![image-20240105172527294](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/5-1-1.png)
 
 - put it the to the spi flash programer(you may select correct spi flash type).
 
- ![image-20240105172540030](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105172540030.png)
+ ![image-20240105172540030](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/5-1-2.png)
 
-![image-20240105172557137](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105172557137.png)
+![image-20240105172557137](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/5-1-3.png)
 
 - select the corrent flash.bin and import it. please contact our sell to get the flash.bin  
 
-![image-20240105172608125](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105172608125.png)
+![image-20240105172608125](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/5-1-4.png)
 
 - press the auto program to program the flash.
 
- ![image-20240105172630238](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105172630238.png)
+ ![image-20240105172630238](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/5-1-5.png)
 
-![image-20240105172640757](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105172640757.png)
+![image-20240105172640757](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/5-1-6.png)
 
-![image-20240105172648988](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105172648988.png)
+![image-20240105172648988](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/5-1-7.png)
 
-![image-20240105172655621](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105172655621.png)
+![image-20240105172655621](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/5-1-8.png)
 
 - Re weld the spi flash to the board.
 
@@ -169,33 +169,33 @@ To Firmware The Program, you must use the spi flash programer to program the spi
 
 - Press and hold the small hole button on the gateway to power on.
 
-![image-20240105172738153](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105172738153.png)
+![image-20240105172738153](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/5-2-1.png)
 
 - Connect the gateway and computer directly with a network cable, and set the IP address of the computer to 192.168.0.222.
 
-![image-20240105172753151](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105172753151.png) 
+![image-20240105172753151](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/5-2-2.png) 
 
 - Enter 192.168.0.250 in the browser to open the uboot upgrade page  
 
-![image-20240105172828845](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105172828845.png)
+![image-20240105172828845](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/5-2-3.png)
 
 ### 5.2.3 System Web Upgrade
 
 - Browser input gateway IP address, account root, password root  
 
-![image-20240105172838884](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105172838884.png)
+![image-20240105172838884](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/5-2-4.png)
 
 - Enter Advance->Backup And Flash Firmware
 
-![image-20240105172851665](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105172851665.png)
+![image-20240105172851665](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/5-2-5.png)
 
 - Select fw.bin Upgrade the firmware for upgrading (fw.bin here is the upgraded firmware compiled earlier)      
 
-![image-20240105172905305](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105172905305.png)
+![image-20240105172905305](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/5-2-6.png)
 
-![image-20240105172926096](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105172926096.png)
+![image-20240105172926096](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/5-2-7.png)
 
-![image-20240105172936770](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105172936770.png)
+![image-20240105172936770](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/5-2-8.png)
 
 ### 5.2.4 System Command Upgrade
 
@@ -217,11 +217,11 @@ sysupgrade -n -F /tmp/openwrt-ramips-mt76x8-DSI0177-squashfs-sysupgrade.bin
 
 - connect uart serial tool to the board’s debug uart port  
 
-![image-20240105173046603](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105173046603.png)
+![image-20240105173046603](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/6-1-1.pngg)
 
 - config the serial tools’s uart config  
 
-![image-20240105173150816](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105173150816.png)
+![image-20240105173150816](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/6-1-2.png)
 
 - power on the gateway
 
@@ -264,7 +264,7 @@ root@DSI0177:~#
 
 - config the ssh connection parameters  
 
-![image-20240105173311131](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105173311131.png)
+![image-20240105173311131](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/6-2-1.png)
 
 - connect success
 
@@ -343,35 +343,35 @@ root@DSI0177:~# /tmp/tools/test.sh
 
 - login in use user(root) and password(root)  
 
-![image-20240105173440643](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105173440643.png)
+![image-20240105173440643](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/8-1-1.png)
 
 - Home Page  
 
-![image-20240105173513884](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105173513884.png)
+![image-20240105173513884](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/8-1-2.png)
 
 - Wan Setting Page  
 
-![image-20240105173523488](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105173523488.png)
+![image-20240105173523488](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/8-1-3.png)
 
 - Lan Setting Page  
 
-![image-20240105173531965](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105173531965.png)
+![image-20240105173531965](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/8-1-4.png)
 
 - Wifi Setting Page  
 
-![image-20240105173539987](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105173539987.png)
+![image-20240105173539987](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/8-1-5.png)
 
 - Cloud Mqtt Config Page  
 
-![image-20240105173552005](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105173552005.png)
+![image-20240105173552005](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/8-1-6.png)
 
 - Cloud Azure Config Page  
 
-![image-20240105173600948](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20240105173600948.png)
+![image-20240105173600948](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/8-1-7.png)
 
 - Cloud Aws Mqtt Config Page 
 
-![image-20240105173607386](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20240105173607386.png) 
+![image-20240105173607386](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-030/8-1-8.png) 
 
 - Bluetooth  
 
