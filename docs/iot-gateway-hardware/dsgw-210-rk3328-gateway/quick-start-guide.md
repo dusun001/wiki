@@ -30,7 +30,7 @@ SDRAM: 2GB
 
 ## 2.2  Interface
 
- ![image-20240106094940310](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240106094940310.png)
+ ![image-20240106094940310](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/210/2-2-1.png)
 
 
 
@@ -51,7 +51,7 @@ This section describes how to connect the gateway into your host computer and ne
 
 ​	1） Connect one end of the USB cable to the USB port on the laptop or desktop 2） Connect the other end of USB cable to the USB port on the gateway.
 
-![image-20240106095018033](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240106095018033.png)
+![image-20240106095018033](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/210/3-1.png)
 
 Figure3-1. Connecting a gateway via USB port
 
@@ -61,7 +61,7 @@ If you want to debug the gateway, you can open the shell, Connect the PC to the 
 
 PIN in board for serial connection: TP1100: RX TP1101:TX
 
-![image-20240106095033064](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240106095033064.png)
+![image-20240106095033064](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/210/3-2.png)
 
 Figure3-2. Connecting a PCBA via Serial-USB tool
 
@@ -440,7 +440,7 @@ pppcmd /dev/ttyUSBx "AT+QGPS=1" #Read GPS data:
  
  ```
 
-For detailed I2C command, please refer to [link-dsled.zi](https://drive.google.com/file/d/1K2PPT-S3dGXYDnrZC_SgGDrmdDB9coWf/view?usp=share_link)p  
+For detailed I2C command, please refer to [link-dsled.zi](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/210/7-2-1.png)  
 
  
 
@@ -537,7 +537,7 @@ buildroot/configs/rockchip_rk3328_recovery_defconfig
 
 If you want to change buildroot configure, here are the steps:
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/clip_image031.jpg)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/210/7-2-1.png)
 
 buildroot make menuconfig
 
@@ -585,7 +585,7 @@ You can check the battery status of gateway indirectory
 
 /sys/class/power_supply/bq27546-0/
 
-![image-20240105181526168](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105181526168.png)
+![image-20240105181526168](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/210/7-5-1.png)
 
 # 8 Wireless development (Zigbee, Z-Wave, BLE, LoRaWAN)
 
@@ -768,7 +768,7 @@ Upgrade driver：DriverAssitant_v4.91
 
  use the upgrade tool, must first exe DriverInstall.exe in DriverAssitant_v4.91
 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/image-20240423162443035.png)
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/210/9-1-1.png)
 
  
 
@@ -778,7 +778,7 @@ Upgrade driver：DriverAssitant_v4.91
 
 2.click ADB switch in AndroidTool
 
-![image-20240423162524460](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/image-20240423162524460.png)
+![image-20240423162524460](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/210/9-2-1.png)
 
 
 ## 9.3  Go into Upgrade Mode by Serial
@@ -786,36 +786,36 @@ Upgrade driver：DriverAssitant_v4.91
 1. Connect the OTG port to the burning computer USB port, it's also act as 5V power supply
 2. Press "Ctrl+C" when uboot is booting up, to enter uboot
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105182305531.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/210/9-3-1.png)
 
 3.uboot "rbrom" comand to reboot the board into maskrom mode, for a complete "update.img" upgrade
 
- ![image-20240105182402001](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105182402001.png)
+ ![image-20240105182402001](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/210/9-3-2.png)
 
 
 
 4."rockusb 0 mmc 0" command to reboot board to loader mode, for a partial firmware.
 
-![image-20240105182414469](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105182414469.png)
+![image-20240105182414469](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/210/9-3-3.png)
 
 
 ## 9.4  Go into Upgrade Mode by button
 Press and hold the RST button to power on gateway，wait the gateway led light changes from red to green,release the button immediately.
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20240625111438.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/210/9-4-1.png)
 
-![](https://dusunprj.oss-us-west-1.aliyuncs.com/%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20240625111810.png)
+![](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/210/9-4-2.png)
 
 
 ## 9.5  The Entire Package of Firmware "update.img" Upgrade
 
-![image-20240105182455755](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105182455755.png) 
+![image-20240105182455755](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/210/9-5-1.png) 
 
 
 
 ## 9.6  Upgrade the Firmware Separately
 
- ![image-20240105182507304](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240105182507304.png)
+ ![image-20240105182507304](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/210/9-6-1.png)
 
 
 
