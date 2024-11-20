@@ -1,7 +1,7 @@
 # DSOM-170N  i.MX9352  SoM
 
-<div style="text-align: center;">
-    <a href="javascript:window.print()" style="background-color: orange; color: black; border: none; padding: 10px 40px; font-size: 16px; text-decoration: none; display: inline-block; cursor: pointer;">Print</a>
+<div style={{ display: 'flex', justifyContent: 'center' }}>
+  <a href="javascript:window.print()" style={{ display: 'inline-block', backgroundColor: 'orange', color: 'black', padding: '10px 40px', textDecoration: 'none', border: 'none', fontsize: '16px', cursor: 'pointer' }}>Print</a>
 </div>
 
 # 1. Product Introduction
