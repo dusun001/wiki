@@ -201,13 +201,6 @@ Build a complete directory of firmware files: rockdev/update.img andother separa
 The build will take a long time, please waitpatiently.
 After update.img is built, burn it to the board according to **chapter 7**.
 
-During the initial compilation, you may encounter the following error: 
-![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/210/6-1-3-1.png)
-This is caused by the absence of the compilation toolchain in the environment, simply using the compilation toolchain within the SDK will resolve this.
-```
-$ export PATH=$PATH:`pwd`/buildroot/output/rockchip_rk3328/host/usr/bin/
-```
-
 ## 6.1.4  Run The Image on the board
 
 Connect the RK3328 board serial port to the PC via a USB to UART Bridge. Use Putty or other Terminal software as your consoletool,
