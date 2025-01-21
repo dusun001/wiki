@@ -129,6 +129,12 @@ Please input num:
 
 We strongly recommend you to build and run the system with buildroot rootfs to get familiar with the hardware and build environment, when you get started.After you tried buildroot system, you can try ubuntu and debian system.
 
+**Note:** Based on the 5.10 SDK, compiling with the default configuration rockchip_defconfig is sufficient. If you need to compile a pre-built file system, set the environment variable RK_ROOTFS_SYSTEM:
+ ```
+export RK_ROOTFS_SYSTEM=debian
+ ```
+Otherwise, you will obtain a file system built with Buildroot.
+
 ## 6.1.2  Prepare the Root File System base
 
 This section is for building ubuntu or debian file system. If you want to build the
@@ -180,6 +186,11 @@ g++ patchelf chrpath gawk texinfo chrpath diffstat binfmt-support python3  pytho
 g++-multilib unzip device-tree-compiler ncurses-dev
  ```
 
+Before the initial compilation, perform a cleanall operation.
+```
+$ ./build.sh cleanall
+```
+
 Build a complete directory of firmware
 
 ```
@@ -187,10 +198,15 @@ $ ./build.sh
 ```
 
 Build a complete directory of firmware files: rockdev/update.img andother separate images, update.img includes all firmware for fullupgrade.
-
 The build will take a long time, please waitpatiently.
-
 After update.img is built, burn it to the board according to **chapter 7**.
+
+During the initial compilation, you may encounter the following error: 
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/210/6-1-3-1.png)
+This is caused by the absence of the compilation toolchain in the environment, simply using the compilation toolchain within the SDK will resolve this.
+```
+$ export PATH=$PATH:`pwd`/buildroot/output/rockchip_rk3328/host/usr/bin/
+```
 
 ## 6.1.4  Run The Image on the board
 
