@@ -81,34 +81,50 @@ The use of physical machine compilation users can use a ubuntu PC.
 
 # 5 SDK Acquisition and Preparation
 
-## 5.1  Download the source code from the Dusun FTP
+The SDK versions for different chip platforms of Dusun need to be separately applied to the corresponding business end. For example, your company has already received the SDK for RK3288, and now a new project requires the SDK for RK3328. We need to contact the corresponding business end of Dusun for business confirmation, and the business end will assist in the application. After the process approval, the technical department can open the information to your company
+**Attention：**
+The SDK code management released by Dusun follows Google's REPO method, and it is not recommended for users to delete the SDK's REPO and GIT version records.
 
-The source package name will be 3328-linux-*.tar.gz, get it from Dusun FTP.
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/210/5-1.png)
 
-## 5.2  Code Compression Package Check
+## 5.1  Server key generation
 
-The next step can be taken only after generating the MD5 value of the sourcecompression package and comparing the MD5 value of the MD5 .txt text to confirm that the MD5 value is the same, and if the MD5 value is not the same, the energy code pack is damaged,please download it again.
+1.Enter in the server command line：ssh-keygen -t rsa -C "xxxx@xxxx.com" 
+2.Press enter four times, do not enter anything
+3.Send ~/.ssh/id_rsa.pub file to Dusun
+![img](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/210/5-1-1.png)
 
- ```
- $ md5sum rk3328-linux-*.tar.gz
- ```
 
+## 5.2 Git Config
 ```
-MD5.txt
-59898bab9e4e6afcda9f8086c5fc3c67  rk3328-linux.tar.gz
+Enter in the server command line
+1.git config --global user.email "You@example.com" 
+2.git config --global user.name "Your Name"
 ```
 
-## 5.3  The Source Compression Package is Unzipped
+## 5.3Downloads SDK
+### 5.3.1 Get Repo
+```
+mkdir -p ~/work/project/
+cd ~/work/project/
+git clone ssh://git@roombanker.x3322.net:2223/dusun_repo.git
+```
 
-Copy the source code to the corresponding directory and unzip the sourcecode compression package.
+### 5.3.2 Add Environment Variable
+```
+#Add repo to server environment variables
+sudo cp -f ~/work/dusun_repo/repo /usr/bin/repo
+sudo chmod +x /usr/bin/repo
+```
 
- ```
- $ sudo -i
- $ mkdir workdir
- $ cd workdir
- $ tar -zxvf /path/to/rk3328-linux-*.tar.gz
- $ cd rk3328-linux
- ```
+### 5.3.3 Get Code
+```
+mkdir -p ~/work/project/dev
+cd ~/work/project/dev
+../dusun_repo/repo init  -u ssh://git@roombanker.x3322.net:2223/rk3328_linux510/manifests_first.git  -m linux.xml -b dev --no-repo-verify
+.repo/repo/repo sync -c -j8
+.repo/repo/repo start dev --all
+```    
 
 # 6 Code Compilation
 
