@@ -610,11 +610,22 @@ If you want to copy them to ubuntu or debian rootfs, you can modify the
 
 ## 7.5  Battery
 
-You can check the battery status of gateway in directory
+- You can check the battery status of gateway in directory
+```
+ls /sys/class/power_supply/bq27546-0/
+```
+ ![image-20240106133900480](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/210/7-5-1.png)
 
-/sys/class/power_supply/bq27546-0/
-
- ![image-20240106133900480](https://dusunprj.oss-us-west-1.aliyuncs.com/image-20240106133900480.png)
+- Modify overshoot protection parameters
+```
+i2cset -f  -y 0 0x55 0x26 0x19a0 w  //6000mah
+i2cset -f  -y 0 0x55 0x00 0x0041 w  //6000mah
+```
+- Set to the startup program upon startup
+```
+echo "i2cset -f  -y 0 0x55 0x26 0x19a0 w" >> /etc/init.d/rcS
+echo "i2cset -f  -y 0 0x55 0x00 0x0041 w" >> /etc/init.d/rcS
+```
 
 # 8 Wireless development (Zigbee, Z-Wave, BLE, LoRaWAN)
 
