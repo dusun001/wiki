@@ -622,6 +622,11 @@ ls /sys/class/power_supply/bq27546-0/
 ```
 ![image-20240105181526168](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/210/7-5-1.png)
 
+- Set to the startup program upon startup（5000mah）
+```
+echo "i2cset -f  -y 0 0x55 0x26 0x16a8 w" >> /etc/init.d/rcS
+echo "i2cset -f  -y 0 0x55 0x00 0x0041 w" >> /etc/init.d/rcS
+```
 
 - Set to the startup program upon startup（6000mah）
 ```
