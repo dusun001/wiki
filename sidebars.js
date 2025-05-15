@@ -587,7 +587,7 @@ const sidebars = {
       items: [
         {
           type: "category",
-          label: "DSGW-210 RK3328 Home Assistant Gateway",
+          label: "DSGW-210-RK3328 Home Assistant Gateway",
           link: {
             type: "doc",
             id: "iot_gateway_with_applications/dsgw-210-rk3328-home-assistant-gateway/overview",
