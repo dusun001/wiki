@@ -290,6 +290,10 @@ const sidebars = {
         {
           type: "category",
           label: "DSGW-091 RK3308 Gateway",
+          link: {
+            type: "doc",
+            id: "iot-gateway-hardware/dsgw-091-rk3308-gateway/overview",
+          },
           items: [
             {
               type: "doc",
