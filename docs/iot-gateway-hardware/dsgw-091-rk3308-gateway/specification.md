@@ -140,12 +140,23 @@ Wireless protocol option including Bluetooth, Wi-Fi, Ethernet, USB, ZigBee, Z-wa
 - Range: 100 meters maximum, open filed
 - Default Frequency: 916MHz(Different country with different frequency)
 
-### **3.2.4 LoRa Performance**
+### **3.2.5 LoRa Performance**
 
+- Frequency band support: EU868,US915
+- TX power up to 20dBm
+- Frequency band support: RU864,IN865,EU868,US915,AU915,KR920,AS923
+- TX power upto 27dBm,RX sensitivitydown to -139dBm@SF12,BW125kHz
+- Range: 10KM maximum,open field
+- Protocol:V1.0 Class A/Class B/Class C and V1.0.2 Class A/Class B/ClassC
+- LoRa antenna gain: 3/5dBi optional
+- Lora Antenna Type:
+- Omnidirectional
+- Lora working mode:Full/half-duplex(optional)
 
-### **3.2.5 Ethernet Performance**
+### **3.2.6 Ethernet Performance**
 
 - 10/100Mbps
+<br />
 
 # **4. QA Requirement**
 

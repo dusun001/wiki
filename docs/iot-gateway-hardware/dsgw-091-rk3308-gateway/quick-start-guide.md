@@ -6,11 +6,11 @@ This Quick Start Guide explains the basics:
 - how to connect and set up your target on the network; 
 - how to install the SDK;  
 - how to build the firmware images;
-The Linux Software Developer’s Kit (SDK) is an embedded hardware and software suite that enables Linux developers to create applications on Dusun’s DSGW-091 gateway.
+<br />
+The Linux Software Developer’s Kit (SDK) is an embedded hardware and software suite that enables Linux developers to create applications on Dusun’s DSGW-091 gateway.<br />
 Base on the 4.4 Linux kernel, and leveraging existing open source software, the SDK simplifies the process of adding custom applications. Device drivers, GNU toolchain, Pre-defined configuration profiles, and sample applications are all in included.
 
 # 2. Gateway Information
-
 
 ## 2.1 Basic information
 
@@ -31,20 +31,20 @@ Base on the 4.4 Linux kernel, and leveraging existing open source software, the 
 # 3. Debug Setup
 
 This section describes how to connect the gateway into your host computer and network.
-- Connecting a gateway (Power)
-1.Make sure that the power adapter is 5V/3A.
-2.Select the appropriate power plug adaptor for your geographical location. Insert it into the slot on the Universal Power Supply; then plug the power supply into an outlet.
-3.Connect the output plug of the power supply to the gateway
+- Connecting a gateway (Power)<br />
+1.Make sure that the power adapter is 5V/3A.<br />
+2.Select the appropriate power plug adaptor for your geographical location. Insert it into the slot on the Universal Power Supply; then plug the power supply into an outlet.<br />
+3.Connect the output plug of the power supply to the gateway<br />
 <br />
 
-- Connecting a gateway (USB port)
-1.Connect one end of the USB cable to the USB port on the laptop or desktop
-2.Connect the other end of USB cable to the USB port on the gateway.
+- Connecting a gateway (USB port)<br />
+1.Connect one end of the USB cable to the USB port on the laptop or desktop<br />
+2.Connect the other end of USB cable to the USB port on the gateway.<br />
 ![qsg-1](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-091/qsg-1.png)
 <br />
 
-- Connecting a PCBA board (Serial Port)
-If you want to debug the gateway, you can open the shell, Connect the PC to the PCBA board via Serial to USB tool.
+- Connecting a PCBA board (Serial Port)<br />
+If you want to debug the gateway, you can open the shell, Connect the PC to the PCBA board via Serial to USB tool.<br />
 ![qsg-2](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-091/qsg-2.png)
 <br />
 
@@ -62,16 +62,20 @@ The use of physical machine compilation users can use a ubuntu PC.
 
 # 5.SDK Acquisition and Preparation
 ## 5.1Download the source code from the Dusun FTP
+
 The source package name will be DSGW_091_SDK.tar.gz, get it from Dusun FTP.
 
 ## 5.2Code Compression Package Check
+
 The next step can be taken only after generating the MD5 value of the source compression package and comparing the MD5 value of the MD5 .txt text to confirm that the MD5 value is the same, and if the MD5 value is not the same, the energy code pack is damaged, please download it again.
+
 ```
 $ md5sum DSGW_091_SDK*.tar.gz
 ```
 
 ## 5.3The Source Compression Package is Unzipped
 Copy the source code to the corresponding directory and unzip the source code compression package.
+
 ```
 $ sudo -i
 $ mkdir workdir
