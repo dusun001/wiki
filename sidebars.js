@@ -289,6 +289,27 @@ const sidebars = {
         },
         {
           type: "category",
+          label: "DSGW-091 RK3308 Gateway",
+          items: [
+            {
+              type: "doc",
+              id: "iot-gateway-hardware/dsgw-091-rk3308-gateway/specification",
+              label: "Specification",
+            },
+            {
+              type: "doc",
+              id: "iot-gateway-hardware/dsgw-091-rk3308-gateway/quick-start-guide",
+              label: "Quick Start Guide",
+            },
+            {
+              type: "doc",
+              id: "iot-gateway-hardware/dsgw-091-rk3308-gateway/faqs",
+              label: "FAQS",
+            },
+          ],
+        },
+        {
+          type: "category",
           label: "DSGW-092 ESP32 Gateway",
           link: {
             type: "doc",
