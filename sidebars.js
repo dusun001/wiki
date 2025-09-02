@@ -632,7 +632,7 @@ const sidebars = {
             {
               type: "doc",
               id: "iot_gateway_with_applications/dsgw-210-rk3328-home-assistant-gateway/user-manual-haos",
-              label: "User Manual",
+              label: "User Manual For HA OS",
             },
             {
               type: "doc",
