@@ -68,7 +68,6 @@ DSGW-092, based on ESP32, is designed for smart home systems, the intelligent se
 | Indicator   LEDs      | Green   LED: Power LED normally on when powered on     Red   LED: BLE/Zigbee LED flash when the signal comes     Blue   LED: Wi-Fi LED normally on after connecting to network for 1-2 sec |
 | Antenna               | LTE   FPC Antenna, Zigbee or Bluetooth PCB Antenna           |
 | SIM                   | 1 * Micro SIM slot                                           |
-| Ethernet              | 1   * 10/100Mbps WAN/LAN variable                            |
 | Reset                 | Factory reset button. To reset the Gateway to its   original factory settings, press and hold it for more than 10 seconds |      |
 | Wireless   protocol   | Wi-Fi   2.4G, Zigbee3.0 OR Bluetooth 5.2                     |
 | Installation method   | Flat, Ceiling                                                |
