@@ -162,12 +162,7 @@ Click "Search networks" for wlan1, select your Wi-Fi network, enter the passwo
 ### 3.6 LTE
 After powering off the gateway, insert the SIM card. Then power on the gateway — LTE will automatically initiate dial-up.
 
-# 4 LED  Indicator Description
-- Red：No network connection，or system starting up.
-- Blue：Network connected.
-- Green：DNS unreachable.
-
-# 5 Battery Operations
+# 4 Battery Operations
 Ture off battery: <br />
 1.Press and hold the function key for over 5 seconds, then release to turn off the battery.<br />
 2.Double-press the function key to turn off the battery immediately.<br />
