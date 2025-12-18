@@ -798,18 +798,6 @@ const sidebars = {
             type: "doc",
             id: "iot_gateway_with_applications/dsgw-510-rk3399-knx-smart-gateway/overview",
           },
-          items: [
-            {
-              type: "doc",
-              id: "iot_gateway_with_applications/dsgw-510-rk3399-knx-smart-gateway/specification",
-              label: "Specification",
-            },
-            {
-              type: "doc",
-              id: "iot_gateway_with_applications/dsgw-510-rk3399-knx-smart-gateway/quick-start-guide",
-              label: "Quick Start Guide",
-            },
-          ],
         },
       ]
     },
