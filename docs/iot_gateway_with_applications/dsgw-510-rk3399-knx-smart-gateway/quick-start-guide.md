@@ -18,18 +18,18 @@ This section describes the baseboard’s basic resource infomation and interface
 | **Category**             | **Specifications**                                                  |
 | :----------------------- | :------------------------------------------------------------------ |
 | Master                   | RK3399,  dual-core Cortex-A72 andquad-core Cortex-A53               |
-| DDR                      | D4GB                                                                |
-| RAM                      | 32GB                                                                |
+| RAM                      | 4GB                                                                 |
+| Flash                    | 32GB                                                                |
 | SYSTEM                   | Debian 12                                                           |
 | WIFI                     | BL-M8821CU1 Modules                                                 |
 | ZIGBEE/ZWAVE             | USB Type-C 5V/3A                                                    |
-| LTE                      |  EC25EUX                                                            |
+| LTE                      | EC25EUX                                                             |
 | Ethernet                 | 2-way，1000M                                                        |
 | RS485                    | 2-way                                                               |
 | RS232                    | 1-way                                                               |
 | RS232                    | 1-way                                                               |
 | MBUS                     | 1-way                                                               |
-| KNX                      | 1). Power & battery LED 2).  Wireless LED 3）LTE indicator          |
+| KNX                      | 1)Power & battery LED<br /> 2)Wireless LED<br />    3）LTE indicator|
 | USB                      | 3-way，2*USB3.0 TYPEA、1*Micro PRO  ( 1-way USB3.0 TYPEA and Micro PRO Multiplex one USB2.0 bus, default is Micro PRO)                                                 |
 | HDMI                     | 1-way                                                               |
 | KEY                      | 2-way ，1*USER KEY、1*RESET KEY                                     |
