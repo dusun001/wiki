@@ -66,31 +66,30 @@ Back:<br />
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/6.png)
 
 # 3.Instructions
-Debug Setup This section describes how to connect the board into your host computer and network to debug for development. 
-
+Debug Setup This section describes how to connect the board into your host computer and network to debug for development. <br />
 ## 3.1Equipment preparation
-- A DSGW-510 industrial control board.
-- A power adapter with a range of 6~30V. 
-- A monitor or TV with an HDMI port and an HDMI cable.
-- 100M/1000M Ethernet cable and router.
-- USB wireless/wired mouse/keyboard.
+- A DSGW-510 industrial control board. <br />
+- A power adapter with a range of 6~30V.  <br />
+- A monitor or TV with an HDMI port and an HDMI cable. <br />
+- 100M/1000M Ethernet cable and router. <br />
+- USB wireless/wired mouse/keyboard. <br />
 
 ## 3.2 Power on
-- Make sure that the power adapter is 12V/2A. 
-- Select the appropriate power plug adaptor for your geographical location. Insert it into the slot on the Universal Power Supply; then plug the power supply into an outlet. 
-- Connect the power output plug to the industrial control board, and the power indicator light will turn on.
+- Make sure that the power adapter is 12V/2A.  <br />
+- Select the appropriate power plug adaptor for your geographical location. Insert it into the slot on the Universal Power Supply; then plug the power supply into an outlet.  <br />
+- Connect the power output plug to the industrial control board, and the power indicator light will turn on. <br />
 
 ## 3.3 Download Tools
 
 Down1oad RK Driver Assistant DriverAssitant-RKDriver Assistant and the flashing tool RKDevTool.<br />
-Install the USB driver using the RK Driver Assistant. No need to connect the device during this process. After installation, restart your computer.
+Install the USB driver using the RK Driver Assistant. No need to connect the device during this process. After installation, restart your computer. <br />
 
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/7.png)
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/8.png)
 
 ## 3.4 Debug Uart Connect 
-- Before you set up your development test bed, please connect the PCB serial port to your develop PC via USB-to-serial bridge. 
-- PCB serial port on Gateway
+- Before you set up your development test bed, please connect the PCB serial port to your develop PC via USB-to-serial bridge.  <br />
+- PCB serial port on Gateway <br />
 
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/9.png)
 
@@ -104,16 +103,16 @@ Hardware flow control: None <br />
 
 
 # 4.SDK Download And Compile 
-This section describes how to download the sdk and compile it. 
+This section describes how to download the sdk and compile it. <br /> 
 ## 4.1SDK Envirment Prepare 
-Compilation environment: Linux system Ubuntu20.04 
+Compilation environment: Linux system Ubuntu20.04  <br />
 
 ## 4.2 SDK Download 
-- Get the source code from Dusun FTP server uncompress it under your work directory. For example: download DSGW-510-DB-SDK 
+- Get the source code from Dusun FTP server uncompress it under your work directory. For example: download DSGW-510-DB-SDK  <br />
 ```
 https://drive.google.com/drive/folders/1flUGzsSwJH01Cj-7s0VlzsiAKQZoxifD?usp=drive_link
 ```
-- After downloading, copy it to the Linux server
+- After downloading, copy it to the Linux server <br />
 ```
 #Create a new SDK working directory
 $ mkdir  -p ~/work_dir/dsgw510
@@ -128,21 +127,21 @@ $ cd dsgw510 && ls
 
 ## 4.3 SDK Compile 	
 environment & compilation: <br />
-- Compile All, One-click firmware generation
+- Compile All, One-click firmware generation <br />
 ```
 $ ./build.sh
 ```
 Compilation is complete and the firmware path is generated.
 
-- Compile the uboot separately
+- Compile the uboot separately <br />
 ```
 $ ./build.sh uboot
 ```
-- Compile the kernel separately
+- Compile the kernel separately <br />
 ```
 $ ./build.sh kernel
 ```
-- Image packaging to generate firmware 
+- Image packaging to generate firmware  <br />
 ```
 $ ./build.sh updateimg
 ```
@@ -158,18 +157,18 @@ recovery.img is the recovery partition firmware<br />
 $ ls -l output/update/Image/
 ```
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/12.png)
-If the compilation fails, please according to the error information, their own Baidu or google to solve or view the compilation error common problems document, really can not solve the problem, you can record the complete error information, through technical communication group consultation.
+If the compilation fails, please according to the error information, their own Baidu or google to solve or view the compilation error common problems document, really can not solve the problem, you can record the complete error information, through technical communication group consultation. <br />
 
 # 5.Firmware Program And Upgrade 
 ## 5.1Firmware Program 
 
 USB OTG: <br />
-- Driver installation (burn mirror/ADB debugging) 
+- Driver installation (burn mirror/ADB debugging)  <br />
 1.Unzip driverAsSatant_v5.0 <br />
 2.Open driverinstall.exe <br />
 3.Click Drive Installation, and it will show that the installation driver is successful <br />
 
-- Mirror Upgrade Tool 
+- Mirror Upgrade Tool  <br />
 1.Unzip AndroidTool_Release_V3.31 <br />
 
 - Enter the upgrade mode <br />
@@ -194,72 +193,72 @@ Login Account：root  , password: root <br />
 
 ## 6.2 Login Through Network(SSH) 
 Username: root Password: root
-- config the ssh connection parameters 
+- config the ssh connection parameters <br />
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/18.png)
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/19.png)
-- connect success 
+- connect success  <br />
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/20.png)
 
 # 7.Application Layer Development 
 ## 7.1 I2C 
 the board has two i2c bus 
-- i2cdetect 
+- i2cdetect  <br />
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/21.png)
-- i2cdump 
+- i2cdump  <br />
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/22.png)
-- i2cget 
+- i2cget  <br />
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/23.png)
 
 ## 7.2 GPIO 
-- see the gpios used by kernel 
+- see the gpios used by kernel <br />
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/24.png)
-- gpio export N is the gpio number. 
+- gpio export N is the gpio number.  <br />
 ```
 $ echo N > /sys/class/gpio/export 
 ```
-- gpio out on/off 
+- gpio out on/off  <br />
 ```
 $ echo out > /sys/class/gpio/gpioN/direction 
 $ echo 1 > /sys/class/gpio/gpioN/value 
 $ echo 0 > /sys/class/gpio/gpioN/value 
 ```
-- gpio in 
+- gpio in  <br />
 ```
 $ echo in > /sys/class/gpio/gpioN/direction 
 ```
 ## 7.3 UART
-The board has one uart used by user ttyS 
+The board has one uart used by user ttyS  <br />
 ```
-- install minicom 
+- install minicom  <br />
 ```
 $ apt-get update; apt-get install minicom 
-- Configure UART using minicom
+- Configure UART using minicom <br />
 ```
 $ minicom -s 
 ```
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/25.png)
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/26.png)
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/27.png)
-- Short the UART rx and tx pins to test the continuity.Prees any key, it will receive any key in loopback mode 
+- Short the UART rx and tx pins to test the continuity.Prees any key, it will receive any key in loopback mode  <br />
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/28.png)
 
 ## 7.4 Kernel DTS Description 
-This Gateway’s dts file is the rk3399-evb-ind-lpddr4-linux.dts 
+This Gateway’s dts file is the rk3399-evb-ind-lpddr4-linux.dts  <br />
 
 # 8.External interface usage 
 ## 8.1 HDMI
-Plug in a USB keyboard and USB mouse, and connect the monitor and power adapter to the DSGW-510 development board. (When you power on the board for the first time, please wait patiently for a moment until the desktop is loaded. Do not unplug the power cord during this period.)
+Plug in a USB keyboard and USB mouse, and connect the monitor and power adapter to the DSGW-510 development board. (When you power on the board for the first time, please wait patiently for a moment until the desktop is loaded. Do not unplug the power cord during this period.) <br />
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/29.png)
 
 ## 8.2 Ethernet 
-This board has one wan port eth0 work as dhcp
+This board has one wan port eth0 work as dhcp <br />
 ```
 $ ifconfig
 ```
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/30.png)
 
 ## 8.3 DEBUG
-Connect USB-TYPE-C to the computer, refer to 6.1 Connection.
+Connect USB-TYPE-C to the computer, refer to 6.1 Connection. <br />
 ## 8.4 USB
 Plug in sub-devices such as mouse and keyboard, and you can test the function through the HDMI page.
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/31.png)
@@ -267,65 +266,64 @@ Plug in sub-devices such as mouse and keyboard, and you can test the function th
 ## 8.5 LTE-4G
 First confirm that the SIM card is inserted and use the shell script to dial.<br />
 
-- Start the LTE module
+- Start the LTE module <br />
 ```
 $ bg96_powerup.sh on
 ```
 
-- Send AT commands
+- Send AT commands <br />
 ```
 $ pppcmd /dev/ttyUSB3 AT+CPIN?
 ```
 
-- Automatic dialing
+- Automatic dialing <br />
 ```
 $ bg96_dial.sh
 ```
 
 ## 8.6RTC
-Test by powering off without intervening in the network and then powering on to see if the time is restored to the factory settings.
+Test by powering off without intervening in the network and then powering on to see if the time is restored to the factory settings. <br />
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/32.png)
 
 ## 8.7 LED
-Switch LED light.
+Switch LED light. <br />
 ```
 $ ls /sys/class/leds/
 ```
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/33.png)
 
 ## 8.8 RS485
-The uart device number used by RS485 is ttyCH343USB0 and ttyCH343USB3
+The uart device number used by RS485 is ttyCH343USB0 and ttyCH343USB3 <br />
 ## 8.9 RS232
-The uart device number used by RS232 is ttyCH343USB2
+The uart device number used by RS232 is ttyCH343USB2 <br />
 ## 8.10 MBUS
-The uart device number used by MBUS is /dev/ttyCH343USB1
+The uart device number used by MBUS is /dev/ttyCH343USB1 <br />
 ## 8.11 Zigbee/ Zwave
-The uart device number used by Zigbee/ Zwave is /dev/ttyS0
+The uart device number used by Zigbee/ Zwave is /dev/ttyS0 <br />
 ## 8.12 KNX
-KNX connects to sub-devices (KNXH1 and KNXG1). After sending a command, the program automatically determines whether it is normal. If normal, it returns "ok"; otherwise, it returns "FAIL".
-shell commands：test.sh knx_test
+KNX connects to sub-devices (KNXH1 and KNXG1). After sending a command, the program automatically determines whether it is normal. If normal, it returns "ok"; otherwise, it returns "FAIL". <br />shell commands：test.sh knx_test <br />
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/34.png)
 
 ## 8.13 CAN
-Set CAN parameters to enable and connect the CAN port to USBCANTool for testing.
+Set CAN parameters to enable and connect the CAN port to USBCANTool for testing. <br />
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/35.png)
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/36.png)
 
-## 8.14OTG 
-The OTG used to program the board. See Section 5.1
+## 8.14 OTG 
+The OTG used to program the board. See Section 5.1 <br />
 ## 8.15 RECOVERY 
-This Key Used to switch the board to MaskRom Mode. 
+This Key Used to switch the board to MaskRom Mode.  <br />
 ## 8.16 Key  RST 
-This Key used to reset the board. 
+This Key used to reset the board.  <br />
 ## 8.17 WIFI
-The board has one wifi mode BL-M8821CU1
-- ifconfig wlan0/wlan1 
+The board has one wifi mode BL-M8821CU1 <br />
+- ifconfig wlan0/wlan1  <br />
 ```
 $ ifconfig wlan0
 $ ifconfig wlan1
 ```
 
-- add supplicant config file
+- add supplicant config file <br />
 ```
 $ cat > /etc/wpa_supplicant.conf <<EOF
 ctrl_interface=/var/run/wpa_supplicant
@@ -341,25 +339,25 @@ network={
 EOF
 ```
 
-- add network interface
+- add network interface <br />
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/37.png)
 
-- up wlan1 
+- up wlan1  <br />
 ```
 $ ifconfig wlan1 up
 ```
-- scan 
+- scan  <br />
 ```
 $ wpa_cli -i wlan1 scan 
 OK 
 ```
-- scan results
+- scan results <br />
 ```
 $ wpa_cli -i wlan1 scan_result; 
 ```
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/38.png)
 
-- wpa_cli command to connect to WiFi 
+- wpa_cli command to connect to WiFi  <br />
 ```
 $ wpa_cli -i wlan1 add_network 
 $ wpa_cli -i wlan1 list_network 
@@ -378,7 +376,7 @@ $ wpa_cli -i wlan1 list_network network id/ssid/bssid/flags
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/39.png)
 
 
-- nmcli command to connect to WiFi 
+- nmcli command to connect to WiFi  <br />
 ```
 # View a list of available WiFi networks.
 $ nmcli device wifi list
@@ -386,13 +384,13 @@ $ nmcli device wifi list
 
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/40.png)
 
-Connect to WiFi (replace SSID and password).
+Connect to WiFi (replace SSID and password). <br />
 ```
 $nmcli device wifi connect "YourWiFiSSID" password "YourPassword"
 ```
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/41.png)
 
-Check the connection status .
+Check the connection status . <br />
 ```
 $ nmcli connection showCheck the connection status .
 ```
