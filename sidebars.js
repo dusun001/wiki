@@ -804,26 +804,11 @@ const sidebars = {
               id: "iot_gateway_with_applications/dsgw-510-rk3399-knx-smart-gateway/specification",
               label: "Specification",
             },
-            // {
-            //   type: "doc",
-            //   id: "iot_gateway_with_applications/dsgw-510-rk3399-knx-smart-gateway/user-manual",
-            //   label: "User Manual",
-            // },
             {
               type: "doc",
               id: "iot_gateway_with_applications/dsgw-510-rk3399-knx-smart-gateway/quick-start-guide",
               label: "Quick Start Guide",
             },
-            // {
-            //   type: "doc",
-            //   id: "iot_gateway_with_applications/dsgw-510-rk3399-knx-smart-gateway/faqs",
-            //   label: "FAQS",
-            // },
-            // {
-            //   type: "doc",
-            //   id: "iot_gateway_with_applications/dsgw-510-rk3399-knx-smart-gateway/release-note",
-            //   label: "Release Note",
-            // },
           ],
         },
       ]
