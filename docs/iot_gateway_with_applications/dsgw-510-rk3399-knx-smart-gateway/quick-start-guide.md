@@ -228,10 +228,12 @@ $ echo in > /sys/class/gpio/gpioN/direction
 ```
 ## 7.3 UART
 The board has one uart used by user ttyS  <br />
-```
-- install minicom  <br />
+
+- install minicom <br />
 ```
 $ apt-get update; apt-get install minicom 
+```
+
 - Configure UART using minicom <br />
 ```
 $ minicom -s 
@@ -281,7 +283,7 @@ $ pppcmd /dev/ttyUSB3 AT+CPIN?
 $ bg96_dial.sh
 ```
 
-## 8.6RTC
+## 8.6 RTC
 Test by powering off without intervening in the network and then powering on to see if the time is restored to the factory settings. <br />
 ![pic](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/DSGW-510-KNX/32.png)
 
