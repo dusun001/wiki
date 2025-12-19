@@ -57,7 +57,7 @@ DSGW-510 is a KNX data gateway that can be easily installed on rails. The produc
 
 | Firmware | Resources |
 |-----|-----|
-| Firmware Packaging | [Download](https://drive.google.com/drive/folders/1KjZKMThnZdrkzsDBMEEFoPuZJoZXzLWg?usp=drive_link) |
+| Firmware Packaging | [Download](https://drive.google.com/file/d/1G_IxDhretjQtGWTrMhP4Ep6ludzbb0-b/view?usp=drive_link) |
 | SDK Debian | [Download](https://drive.google.com/drive/folders/1flUGzsSwJH01Cj-7s0VlzsiAKQZoxifD) |
 
 | Tools | Resources |
