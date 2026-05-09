@@ -30,7 +30,8 @@
 | DSGW-230-16 | ●               | ●               | ●            | ●      |             | ●    | ●        | ●    |
 
 
-** Region List **
+**Region List** <br />
+
 | Type | Region       | Lora Frequency(MHZ) | LTE       |
 | -----| ------------ | ------------------- | ----------| 
 | -CN  | China        | CN470               | EG915U-CN | 
