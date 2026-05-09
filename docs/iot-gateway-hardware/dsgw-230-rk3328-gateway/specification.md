@@ -18,13 +18,27 @@
 
 | Model       | Wi-Fi   2.4G/5G | Bluetooth   5.2 | Zigbee   3.0 | Z-Wave | LoRa | LTE   Cat1 |
 | ----------- | --------------- | --------------- | ------------ | ------ | ---- | ---------- |
-| DSGW-230-11 | ●               | ●               | ●            | ●      | ●    | ●          |
+| DSGW-230-13 | ●               | ●               | ●            | ●      |      |            |
 
 **Category C (Built by Order , Lead Time More Than 8 Weeks , MOQ: 500 )**
 
-| Model       | Wi-Fi   2.4G/5G | Bluetooth   5.2 | Zigbee   3.0 | Z-Wave | LoRa | LTE   Cat1 |
-| ----------- | --------------- | --------------- | ------------ | ------ | ---- | ---------- |
-| DSGW-230-11 | ●               | ●               | ●            | ●      | ●    | ●          |
+| Model       | Wi-Fi   2.4G/5G | Bluetooth   5.2 | Zigbee   3.0 | Z-Wave | Tuya Zigbee | LoRa | LTE Cat1 | eSIM |
+| ----------- | --------------- | --------------- | ------------ | ------ | ----------- | ---- | -------- | ---- |
+| DSGW-230-12 | ●               | ●               |              |        |  ●          |      |          |      |
+| DSGW-230-14 | ●               | ●               | ●            | ●      |             |      | ●        |      |
+| DSGW-230-15 | ●               | ●               |              |        |             |      | ●        |      |
+| DSGW-230-16 | ●               | ●               | ●            | ●      |             | ●    | ●        | ●    |
+
+
+** Region List **
+| Type | Region       | Lora Frequency(MHZ) | LTE       |
+| -----| ------------ | ------------------- | ----------| 
+| -CN  | China        | CN470               | EG915U-CN | 
+| -EU  | Europe       | EU868               | EG91-EX   |
+| -US  | North America| US915               | EG91-NAX  |
+| -AU  | Australia    | AU915               | EG91-AUX  |
+| -KR  | Korea        | KR920               | EG916Q-GL |
+| -IN  | India        | IN865               | EG915U-CN |
 
 # **1. Product Introduction**
 
@@ -66,7 +80,7 @@ With its modular architecture, the DSGW-230 allows for extensive customization o
 | CPU                    | RK3328 Quad-core  Cortex A53                                 |
 | System                 | Debian 11                                                    |
 | RAM                    | 2GB                                                          |
-| eMMC                   | 32GB                                                         |
+| eMMC                   | 16GB                                                         |
 | SD card                | Up to  128GB                                                 |
 | Power  Supply          | DC  12V/1.5A                                                 |
 | Reset                  | Factory  reset button. To reset the Gateway to its original factory settings, press  and hold it for more than 10 seconds |
