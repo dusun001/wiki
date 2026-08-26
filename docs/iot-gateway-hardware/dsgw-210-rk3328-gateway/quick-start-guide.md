@@ -62,7 +62,7 @@ If you want to debug the gateway, you can open the shell, Connect the PC to the 
 PIN in board for serial connection: TP1100: RX TP1101:TX
 
 ![image-20240106095033064](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/210/3-2.png)
-
+![image-20240106095033064](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/QSG/210/3-3.png)
 Figure3-2. Connecting a PCBA via Serial-USB tool
 
 
