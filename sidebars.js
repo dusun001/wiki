@@ -394,6 +394,26 @@ const sidebars = {
         },
         {
           type: "category",
+          label: "DSGW-096 ESP32 Gateway",
+          link: {
+            type: "doc",
+            id: "iot-gateway-hardware/dsgw-096-esp32-gateway/overview",
+          },
+          items: [
+            {
+              type: "doc",
+              id: "iot-gateway-hardware/dsgw-096-esp32-gateway/specification",
+              label: "Specification",
+            },
+            {
+              type: "doc",
+              id: "iot-gateway-hardware/dsgw-096-esp32-gateway/quick-start-guide",
+              label: "Quick Start Guide",
+            },
+          ],
+        },
+        {
+          type: "category",
           label: "DSGW-201 MT7621A Gateway",
           link: {
             type: "doc",
