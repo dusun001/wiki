@@ -129,6 +129,26 @@ const sidebars = {
         },
         {
           type: "category",
+          label: "DSGW-212 RK3328 Gateway",
+          link: {
+            type: "doc",
+            id: "iot-gateway-hardware/dsgw-212-rk3328-gateway/overview",
+          },
+          items: [
+            {
+              type: "doc",
+              id: "iot-gateway-hardware/dsgw-212-rk3328-gateway/specification",
+              label: "Specification",
+            },
+            {
+              type: "doc",
+              id: "iot-gateway-hardware/dsgw-212-rk3328-gateway/quick-start-guide",
+              label: "Quick Start Guide",
+            },
+          ],
+        },
+        {
+          type: "category",
           label: "DSGW-230 RK3328 Gateway",
           link: {
             type: "doc",
