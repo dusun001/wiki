@@ -8,10 +8,9 @@
 
 ## **Model List**
 
-|   **Model**   | DDR  | eMMC | **Zigbee3.0** | **Z-Wave** | Ethernet |
-| :-----------: | :--: | :--: | :-----------: | :--------: | :------: |
-| DSGW-210-HA-1 | 2GB  | 32GB |       ●       |     ●      |    ●     |
-| DSGW-210-HA-2 | 2GB  | 64GB |       ●       |     ●      |    ●     |
+|   **Model**   | **Wifi 2.4G/5G**  | **Bluetooth5.2** | **Zigbee3.0** | LTE CatM1 | LTE Cat1 | Li Battery | LTE CatM4 |
+| :-----------: | :---------------: | :--------------: | :-----------: | :-------: | :------: |:---------: |:--------: |
+| DSGW-210-F-1  |       ●           |           ●      |       ●       |     ●     |          |      ●     |           |
 
 # **1. Product Introduction**
 
@@ -91,7 +90,7 @@ Now the user can install the Home Assistant in four official and supported ways:
 
 * Home Assistant Supervised
 
-The DSGW-210-HA is pre-installed with the Home Assistant Supervised. All of those four installations have some pros and Cons, and the comparison of them is listed in the following table:
+Home Assistant Supervised is no longer pre-installed on the DSGW-210-F-1-HA. The gateway now comes with Home Assistant OS pre-installed (Download HA OS frmware here: https://drive.google.com/file/d/1ENzvBPtRXLzBrBifuteMF51mdgUWQ1C0/view?pli=1). All of those four installations have some pros and Cons and the comparison about them is listed in the following table. <br />
 
 | Method          | OS   | Container | Core | Supervised |
 | --------------- | ---- | --------- | ---- | ---------- |
@@ -131,7 +130,7 @@ The DSGW-210-HA is pre-installed with the Home Assistant Supervised. All of thos
 | Category              | Specifications                                               |
 | --------------------- | ------------------------------------------------------------ |
 | CPU                   | RK3328 Quad-core Cortex A53                                  |
-| System                | Debian 11                                                    |
+| System                | Home Assistant OS                                            |
 | RAM                   | 2GB                                                          |
 | eMMC                  | 32GB/64GB                                                    |
 | Power Supply          | USB Type-C 5V/3A                                             |
