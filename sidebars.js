@@ -655,6 +655,17 @@ const sidebars = {
             },
           ],
         },
+        {
+          type: "category",
+          label: "DSGW-023 MT7621A Dual-band Wi-Fi Smart Gateway",
+          items: [
+            {
+              type: "doc",
+              id: "iot-gateway-hardware/dsgw-023-mt7621a-smart-gateway/specification",
+              label: "Specification",
+            },
+          ]
+        }
       ],
     },
     {
@@ -858,26 +869,6 @@ const sidebars = {
             {
               type: "doc",
               id: "iot_gateway_with_applications/dsgw-510-rk3399-knx-smart-gateway/quick-start-guide",
-              label: "Quick Start Guide",
-            }
-          ]
-        },
-        {
-          type: "category",
-          label: "DSGW-023 MT7621A Dual-band Wi-Fi Smart Gateway",
-          link: {
-            type: "doc",
-            id: "iot_gateway_with_applications/dsgw-023-mt7621a-smart-gateway/overview",
-          },
-          items: [
-            {
-              type: "doc",
-              id: "iot_gateway_with_applications/dsgw-023-mt7621a-smart-gateway/specification",
-              label: "Specification",
-            },
-            {
-              type: "doc",
-              id: "iot_gateway_with_applications/dsgw-023-mt7621a-smart-gateway/quick-start-guide",
               label: "Quick Start Guide",
             }
           ]
