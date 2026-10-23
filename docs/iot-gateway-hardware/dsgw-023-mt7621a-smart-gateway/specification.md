@@ -198,19 +198,19 @@ DUSUN develop IoT Application Software base on DSGW-023 ，if customer need the 
 
 | Picture | ![Embedded figure](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/Spec/DSGW-023/image10.png) | ![Embedded figure](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/Spec/DSGW-023/image11.png) | ![Embedded figure](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/Spec/DSGW-023/image12.png) | ![Embedded figure](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/Spec/DSGW-023/image13.jpeg) |  |
 | --- | --- | --- | --- | --- | --- |
-| Model | DSGW-023 | DSGW-021 | DSGW-201 | DSGW-075 |  |
-| System | OpenWRT | OpenWRT | OpenWRT | OpenWRT |  |
-| CPU | MT7621 | MT7628 | MT7621 | MT7628 |  |
-| RAM | 512MB | 128MB | 512MB | 128MB |  |
-| FLASH | 64MB | 16MB | 64MB | 16MB |  |
-| Storage | 8GB eMMC | / | 8GB eMMC | / |  |
+| Model | DSGW-023 | DSGW-021 | DSGW-201 | DSGW-075 |  
+| System | OpenWRT | OpenWRT | OpenWRT | OpenWRT |  
+| CPU | MT7621 | MT7628 | MT7621 | MT7628 |  
+| RAM | 512MB | 128MB | 512MB | 128MB |  
+| FLASH | 64MB | 16MB | 64MB | 16MB |  
+| Storage | 8GB eMMC | / | 8GB eMMC | / |  
 | Wi- Fi Frequency| 2.4G/5G | 2.4G | 2.4G/5G | 2.4G/5G |
 | Wi- Fi Frequency | 1200Mbps | 300Mbps | 1200Mbps | 1200Mbps |
-| Zigbee | ● | ● | ● | ● |  |
-| BLE | ● | ● | ● | ● |  |
-| Z-Wave | ● | ● | ● | ● |  |
-| LTE | ● | ● | ● |  |  |
-| Ethernet | 1000Mbps | 100Mbps | 1000Mbps | 100Mbps |  |
-| Installation | Flat ，Wall mounting | Flat ，Wall mounting | Ceiling | Plug |  |
-| Application | Router ，CPE | Router ，CPE | Router ，CPE | Repeater |  |
+| Zigbee | ● | ● | ● | ● |  
+| BLE | ● | ● | ● | ● |  
+| Z-Wave | ● | ● | ● | ● |  
+| LTE | ● | ● | ● |  |  
+| Ethernet | 1000Mbps | 100Mbps | 1000Mbps | 100Mbps |  
+| Installation | Flat ，Wall mounting | Flat ，Wall mounting | Ceiling | Plug |  
+| Application | Router ，CPE | Router ，CPE | Router ，CPE | Repeater |  
 
