@@ -156,10 +156,11 @@ DUSUN develop IoT Application Software base on DSGW-023 ，if customer need the 
 2. Build your compilation environment
 3. Refer to the development document "DSGW-023 SDK quick start guide".
 4. Build firmware with your own software function
-- Customers can implement routing function on the gateway
 
 
 ### 5.5 Software Feature
+
+**Customers can implement routing function on the gateway** <br />
 
 | Quality of Service | Prioritizes network traffic by device or application |
 | --- | --- |
