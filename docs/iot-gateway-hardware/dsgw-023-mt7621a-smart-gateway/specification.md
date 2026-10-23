@@ -110,24 +110,8 @@ DSGW-023 smart router gateway also can be a IoT gateway, it can support ZigBee, 
 
 ### 5.1 System block diagram
 
+![Embedded figure](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/Spec/DSGW-023/51.png)
 
-- N
-- Apply from DUSU
-- UBUS , Message Bus in OpenWrt … … ..
-- Ember GwZ3 Zigbee3.0 App
-- OpenWrt System
-- Zigbee3.0
-- Protocol Stack
-- Customization App
-- Drivers (I2C, UART, SPI, USB …..)
-- LTE Modem Management
-- Silicon lab BLE stack
-- Z-Wave Protocol
-- Z-Wave app
-- Beacon scanner
-- MQTT Client
-- Wi-Fi sniffer
-- DUSUN Provide
 
 Dusun provides SDK including the OpenWRT system, drivers and wireless protocol stack.
 
