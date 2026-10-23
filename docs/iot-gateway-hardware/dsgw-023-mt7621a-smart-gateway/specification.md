@@ -204,8 +204,8 @@ DUSUN develop IoT Application Software base on DSGW-023 ，if customer need the 
 | RAM | 512MB | 128MB | 512MB | 128MB |  |
 | FLASH | 64MB | 16MB | 64MB | 16MB |  |
 | Storage | 8GB eMMC | / | 8GB eMMC | / |  |
-| Wi- Fi | Frequency | 2.4G/5G | 2.4G | 2.4G/5G | 2.4G/5G |
-|  | Speed | 1200Mbps | 300Mbps | 1200Mbps | 1200Mbps |
+| Wi- Fi Frequency| 2.4G/5G | 2.4G | 2.4G/5G | 2.4G/5G |
+| Wi- Fi Frequency | 1200Mbps | 300Mbps | 1200Mbps | 1200Mbps |
 | Zigbee | ● | ● | ● | ● |  |
 | BLE | ● | ● | ● | ● |  |
 | Z-Wave | ● | ● | ● | ● |  |
