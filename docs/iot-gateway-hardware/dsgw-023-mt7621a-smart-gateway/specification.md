@@ -180,7 +180,7 @@ DUSUN develop IoT Application Software base on DSGW-023 ，if customer need the 
 
 ## 6. Related products
 
-| Picture | ![Embedded figure](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/Spec/DSGW-023/image10.png) | ![Embedded figure](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/Spec/DSGW-023/image11.png) | ![Embedded figure](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/Spec/DSGW-023/image12.png) | ![Embedded figure](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/Spec/DSGW-023/image13.jpeg) |  |
+| Picture | ![Embedded figure](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/Spec/DSGW-023/image10.png) | ![Embedded figure](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/Spec/DSGW-023/image11.png) | ![Embedded figure](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/Spec/DSGW-023/image12.png) | ![Embedded figure](https://dusunprj.oss-us-west-1.aliyuncs.com/DSGW/Spec/DSGW-023/image13.jpeg) |
 | --- | --- | --- | --- | --- | --- |
 | Model | DSGW-023 | DSGW-021 | DSGW-201 | DSGW-075 |  
 | System | OpenWRT | OpenWRT | OpenWRT | OpenWRT |  
