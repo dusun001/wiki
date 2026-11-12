@@ -1,4 +1,4 @@
-# Quick Start Guide(Debian11 or Debian9)
+# Quick Start Guide(Debian11)
 
 # 1   Introduction
 
