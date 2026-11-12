@@ -108,7 +108,12 @@ const sidebars = {
             {
               type: "doc",
               id: "iot-gateway-hardware/dsgw-210-rk3328-gateway/quick-start-guide",
-              label: "Quick Start Guide",
+              label: "Quick Start Guide(Debian11)",
+            },
+            {
+              type: "doc",
+              id: "iot-gateway-hardware/dsgw-210-rk3328-gateway/quick-start-guide-debian12",
+              label: "Quick Start Guide(Debian12)",
             },
             // {
             //   type: "doc",
